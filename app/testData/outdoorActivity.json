@@ -1,0 +1,23 @@
+[
+    {
+      "activity": "Jogging",
+      "description": "A light jog around the local park.",
+      "groupSuitability": "Suitable for individuals and couples",
+      "timeRequired": "60-90 min",
+      "image": "https://example.com/images/jogging.jpg"
+    },
+    {
+      "activity": "Cycling",
+      "description": "A cycling trip along the riverfront.",
+      "groupSuitability": "Suitable for small groups (2-3 people)",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/cycling.jpg"
+    },
+    {
+      "activity": "Outdoor Yoga",
+      "description": "A relaxing yoga session in the park.",
+      "groupSuitability": "Best for individuals or groups up to 4 people",
+      "timeRequired": "30-60 min",
+      "image": "https://example.com/images/yoga.jpg"
+    }
+  ]

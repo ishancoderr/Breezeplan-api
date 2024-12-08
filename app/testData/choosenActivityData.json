@@ -1,0 +1,38 @@
+{
+    "Cycling": {
+      "pathName": "Riverfront Trail",
+      "length": "5.0 km",
+      "lighting": "Moderately-lit",
+      "description": "A scenic cycling path along the river with moderate lighting.",
+      "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.521000,13.406000&travelmode=bicycling",
+      "safetyTips": [
+        "Wear a helmet and reflective gear.",
+        "Follow local cycling rules.",
+        "Stay hydrated during your ride."
+      ]
+    },
+    "Jogging": {
+      "pathName": "City Park Loop",
+      "length": "3.0 km",
+      "lighting": "Well-lit",
+      "description": "A jogging loop around the main city park with excellent lighting.",
+      "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.524000,13.410000&travelmode=walking",
+      "safetyTips": [
+        "Wear comfortable running shoes.",
+        "Stretch before and after jogging.",
+        "Carry a water bottle to stay hydrated."
+      ]
+    },
+    "Outdoor Yoga": {
+      "pathName": "Central Park Yoga Spot",
+      "length": "N/A",
+      "lighting": "Natural daylight",
+      "description": "A serene spot in the park ideal for yoga sessions.",
+      "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.520000,13.405000&travelmode=walking",
+      "safetyTips": [
+        "Bring your own yoga mat.",
+        "Stay aware of your surroundings.",
+        "Choose a shady spot if it's sunny."
+      ]
+    }
+  }
