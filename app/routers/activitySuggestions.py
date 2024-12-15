@@ -48,7 +48,6 @@ rl_agent = ReinforcementLearningAgent(actions)
 
 @router.post("/activitySuggestions")
 async def outdoor_activity_suggestions(request: SuggestionRequest):
-
     state = {
         "temperature": request.temperature,
         "humidity": request.humidity,
@@ -59,16 +58,38 @@ async def outdoor_activity_suggestions(request: SuggestionRequest):
         "timeRange": request.timeRange
     }
 
-    # Let the RL agent choose an action based on the state
-    suggested_action = rl_agent.choose_action(state)
+    # Encode the state for Q-table lookup
+    encoded_state = rl_agent.encode_state(state)
+    encoded_state_str = str(encoded_state)  # Convert to string for JSON compatibility
 
-    # Prepare response data for the suggested activity
-    suggestion_data = next((activity for activity in outdoorActivity if activity["activity"] == suggested_action), None)
+    # Load Q-table
+    q_table_file = os.path.join(os.path.dirname(__file__), "../testData/q_table.json")
+    try:
+        with open(q_table_file, "r") as file:
+            q_table = json.load(file)
+            print(q_table)
+    except FileNotFoundError:
+        raise HTTPException(status_code=500, detail="Q-table file not found.")
+    except json.JSONDecodeError:
+        raise HTTPException(status_code=500, detail="Failed to decode Q-table JSON file.")
+    print(encoded_state)
+    state_key = str((20.0, 50.0, 5.0, 0.0, (('male', 25), ('female', 23)), 'Intermediate', '90 min'))
+    # Get Q-values for the encoded state
+    q_values = q_table.get(state_key)
+    print(q_values)
+    if not q_values:
+        raise HTTPException(status_code=404, detail="No Q-values found for the given state.")
 
-    if not suggestion_data:
-        raise HTTPException(status_code=404, detail="No suitable activity found.")
+    # Sort activities by Q-values in descending order
+    sorted_activities = sorted(q_values.items(), key=lambda x: x[1], reverse=True)
+    top_3_activities = [activity[0] for activity in sorted_activities[:3]]
 
-    return JSONResponse(content={"success": True, "data": suggestion_data})
+    # Prepare response data for the top 3 activities
+    suggestions = [
+        activity for activity in outdoorActivity if activity["activity"] in top_3_activities
+    ]
+
+    return JSONResponse(content={"success": True, "data": suggestions})
 
 @router.post("/choosenActivityData")
 async def chosen_activity_data(request: ChosenActivityRequest):
