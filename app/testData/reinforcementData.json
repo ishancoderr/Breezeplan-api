@@ -1,0 +1,596 @@
+[
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Rock Climbing",
+        "timestamp": 1734284651.4612112
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Ziplining",
+        "timestamp": 1734284685.1362872
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Stand-up Paddleboarding",
+        "timestamp": 1734284698.5740314
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Fishing",
+        "timestamp": 1734284711.0534415
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Beach Volleyball",
+        "timestamp": 1734284999.4833748
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Fishing",
+        "timestamp": 1734285421.2956426
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Ziplining",
+        "timestamp": 1734285443.5185628
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Cycling",
+        "timestamp": 1734285450.4097657
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Horseback Riding",
+        "timestamp": 1734285679.395208
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Picnic",
+        "timestamp": 1734285681.7864487
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Ziplining",
+        "timestamp": 1734285684.2913203
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Picnic",
+        "timestamp": 1734285686.951626
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Frisbee",
+        "timestamp": 1734285689.5353405
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Fishing",
+        "timestamp": 1734285691.9308994
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Horseback Riding",
+        "timestamp": 1734285694.0573323
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Picnic",
+        "timestamp": 1734285696.2475607
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Jogging",
+        "timestamp": 1734285698.4379056
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Trail Running",
+        "timestamp": 1734285700.5144231
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Ziplining",
+        "timestamp": 1734285702.848754
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Cycling",
+        "timestamp": 1734285705.290256
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Geocaching",
+        "timestamp": 1734285709.6518786
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Frisbee",
+        "timestamp": 1734285711.9249828
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Fishing",
+        "timestamp": 1734285717.923509
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Stand-up Paddleboarding",
+        "timestamp": 1734285719.954501
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Outdoor Yoga",
+        "timestamp": 1734285721.858895
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Rock Climbing",
+        "timestamp": 1734285724.2318962
+    },
+    {
+        "encoded_state": [
+            20.0,
+            50.0,
+            5.0,
+            0.0,
+            [
+                [
+                    "male",
+                    25
+                ],
+                [
+                    "female",
+                    23
+                ]
+            ],
+            "Intermediate",
+            "90 min"
+        ],
+        "chosen_action": "Fishing",
+        "timestamp": 1734285726.7575116
+    }
+]

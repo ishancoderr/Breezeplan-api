@@ -26,7 +26,16 @@ class WeatherRoutes:
 
         if response.status_code == 200:
             forecast_data = response.json()
-            return forecast_data
+            transformed_output = {
+                "locationName": forecast_data["location"]["name"],  # Dynamically retrieve the location name
+                "longitude": f'{round(forecast_data["location"]["lon"] * 100000)} meters',
+                "latitude": f'{round(forecast_data["location"]["lat"] * 100000)} meters',
+                "temperature": f'{round(forecast_data["current"]["temp_c"])} Celsius',
+                "humidity": f'{forecast_data["current"]["humidity"]} %',
+                "windSpeed": f'{round(forecast_data["current"]["wind_kph"] / 3.6)} m/s',
+                "precipitation": f'{forecast_data["current"]["precip_mm"]} mm'
+            }
+            return transformed_output
         else:
             return {"error": f"Error: {response.status_code}, {response.text}"}
 
