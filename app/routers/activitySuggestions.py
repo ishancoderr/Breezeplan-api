@@ -5,6 +5,7 @@ from fastapi.responses import JSONResponse
 import json
 import os
 from app.services.reinforcementLearningAgent import ReinforcementLearningAgent
+from app.services.categorizer import UserInputCategorizer
 
 router = APIRouter(prefix="/suggestionEngine", tags=["suggestion"])
 
@@ -74,9 +75,24 @@ async def outdoor_activity_suggestions(request: SuggestionRequest):
         raise HTTPException(status_code=500, detail="Failed to decode Q-table JSON file.")
     print(encoded_state)
     state_key = str((20.0, 50.0, 5.0, 0.0, (('male', 25), ('female', 23)), 'Intermediate', '90 min'))
+    categorizer = UserInputCategorizer(
+        temperature=20.0,
+        humidity=45.0,
+        wind_speed=10.0,
+        precipitation=5.0,
+        fitness_level="Intermediate",
+        members=[("male", 25), ("female", 30)],
+        time_range="45 minutes",
+    )
+
+    encoded_key = await categorizer.get_encoded_key()
+    print(encoded_key)
+    print(q_table)
     # Get Q-values for the encoded state
-    q_values = q_table.get(state_key)
-    print(q_values)
+    encoded_key_str = str(encoded_key)
+    q_values = q_table.get(encoded_key_str)
+    return JSONResponse(q_values)
+    '''
     if not q_values:
         raise HTTPException(status_code=404, detail="No Q-values found for the given state.")
 
@@ -90,7 +106,7 @@ async def outdoor_activity_suggestions(request: SuggestionRequest):
     ]
 
     return JSONResponse(content={"success": True, "data": suggestions})
-
+'''
 @router.post("/choosenActivityData")
 async def chosen_activity_data(request: ChosenActivityRequest):
     activity = request.activity
@@ -123,3 +139,4 @@ async def chosen_activity_data(request: ChosenActivityRequest):
     }
 
     return JSONResponse(content={"success": True, "data": response})
+ 

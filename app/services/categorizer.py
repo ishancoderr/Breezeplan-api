@@ -12,33 +12,33 @@ class UserInputCategorizer:
         self.group_type = None
 
     async def categorize_temperature(self):
-        if self.temperature < 10:
+        if self.temperature < 10.0:
             return "Cold"
-        elif 10 <= self.temperature <= 25:
+        elif 10 <= self.temperature <= 25.0:
             return "Mild"
         else:
             return "Hot"
 
     async def categorize_humidity(self):
-        if self.humidity < 30:
+        if self.humidity < 30.0:
             return "Low"
-        elif 30 <= self.humidity <= 60:
+        elif 30 <= self.humidity <= 60.0:
             return "Moderate"
         else:
             return "High"
 
     async def categorize_wind_speed(self):
-        if self.wind_speed < 5:
+        if self.wind_speed < 5.0:
             return "Calm"
-        elif 5 <= self.wind_speed <= 15:
+        elif 5 <= self.wind_speed <= 15.0:
             return "Breezy"
         else:
             return "Windy"
 
     async def categorize_precipitation(self):
-        if self.precipitation == 0:
+        if self.precipitation == 0.0:
             return "No Precipitation"
-        elif self.precipitation < 10:
+        elif self.precipitation < 10.0:
             return "Light Rain"
         else:
             return "Heavy Rain"
@@ -55,7 +55,11 @@ class UserInputCategorizer:
             self.group_type = "Large Group"
 
         # Calculate age categories
+        print('members', self.members)
         ages = [member[1] for member in self.members]
+        gender = [member[0] for member in self.members]
+        gender_set = set(gender)
+        print(gender_set)
         age_mean = statistics.mean(ages)
         age_stdev = statistics.stdev(ages) if len(ages) > 1 else 0
 
