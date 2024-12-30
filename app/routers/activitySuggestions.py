@@ -6,12 +6,14 @@ import json
 import os
 from app.services.reinforcementLearningAgent import ReinforcementLearningAgent
 from app.services.categorizer import UserInputCategorizer
+from app.services.dataSaveService import DataSaveService
 
 router = APIRouter(prefix="/suggestionEngine", tags=["suggestion"])
 
 class Member(BaseModel):
     gender: str
     age: int
+    fitnessLevel: str
 
 class SuggestionRequest(BaseModel):
     longitude: float
@@ -20,9 +22,9 @@ class SuggestionRequest(BaseModel):
     humidity:float
     windSpeed:float
     precipitation:float
-    fitnessLevel: str
     members: List[Member]  
-    timeRange: str
+    timeRange: int
+    calories:int
 
 class ChosenActivityRequest(BaseModel):
     longitude: float
@@ -54,44 +56,35 @@ async def outdoor_activity_suggestions(request: SuggestionRequest):
         "humidity": request.humidity,
         "windSpeed": request.windSpeed,
         "precipitation": request.precipitation,
-        "members": tuple((member.gender, member.age) for member in request.members),
-        "fitnessLevel": request.fitnessLevel,
-        "timeRange": request.timeRange
+        "timeRange": request.timeRange,
+        "calories": request.calories,
+        "members": [
+        (member.gender, member.age, member.fitnessLevel) for member in request.members
+        ]
     }
-
-    # Encode the state for Q-table lookup
-    encoded_state = rl_agent.encode_state(state)
-    encoded_state_str = str(encoded_state)  # Convert to string for JSON compatibility
-
-    # Load Q-table
-    q_table_file = os.path.join(os.path.dirname(__file__), "../testData/q_table.json")
-    try:
-        with open(q_table_file, "r") as file:
-            q_table = json.load(file)
-            print(q_table)
-    except FileNotFoundError:
-        raise HTTPException(status_code=500, detail="Q-table file not found.")
-    except json.JSONDecodeError:
-        raise HTTPException(status_code=500, detail="Failed to decode Q-table JSON file.")
-    print(encoded_state)
-    state_key = str((20.0, 50.0, 5.0, 0.0, (('male', 25), ('female', 23)), 'Intermediate', '90 min'))
     categorizer = UserInputCategorizer(
-        temperature=20.0,
-        humidity=45.0,
-        wind_speed=10.0,
-        precipitation=5.0,
-        fitness_level="Intermediate",
-        members=[("male", 25), ("female", 30)],
-        time_range="45 minutes",
+        temperature=state['temperature'],
+        humidity=state['humidity'],
+        wind_speed=state['windSpeed'],
+        precipitation=state['precipitation'],
+        time_range=state['timeRange'],
+        calories=state['calories'],
+        members=state['members']
     )
 
-    encoded_key = await categorizer.get_encoded_key()
-    print(encoded_key)
-    print(q_table)
+    output_categorization_data = await categorizer.get_encoded_key()
+    print(output_categorization_data)
+    dataSaver = DataSaveService(
+                    output_categorization_data, 
+                    output_categorization_data[5],
+                    output_categorization_data[8]
+                    )
+    await dataSaver.save_to_json()
     # Get Q-values for the encoded state
-    encoded_key_str = str(encoded_key)
-    q_values = q_table.get(encoded_key_str)
-    return JSONResponse(q_values)
+    #encoded_key_str = str(encoded_key)
+    #q_values = q_table.get(encoded_key_str)
+    suc ='success'
+    return JSONResponse(content={"success": True, "data": suc})
     '''
     if not q_values:
         raise HTTPException(status_code=404, detail="No Q-values found for the given state.")
