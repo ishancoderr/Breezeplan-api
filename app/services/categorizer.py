@@ -13,11 +13,21 @@ class UserInputCategorizer:
         self.time_range = time_range
         self.group_type = None
 
+    async def categorize_calories(self):
+        if self.calories < 1000:
+            return "Low"
+        elif 1000 <= self.calories <= 2000:
+            return "Moderate"
+        else:
+            return "High"
+
     async def categorize_temperature(self):
         if self.temperature < 10.0:
             return "Cold"
-        elif 10 <= self.temperature <= 25.0:
+        elif 10 <= self.temperature < 20.0:
             return "Mild"
+        elif 20 <= self.temperature < 30.0:
+            return "Warm"
         else:
             return "Hot"
 
@@ -79,6 +89,8 @@ class UserInputCategorizer:
                 age_categories.add("Adult")
             else:
                 age_categories.add("Senior")
+        
+        age_categories = sorted(age_categories)
 
         male_max_age = max((member[1] for member in self.members if member[0] == 'male'), default=None)
         female_max_age = max((member[1] for member in self.members if member[0] == 'female'), default=None)
@@ -146,7 +158,7 @@ class UserInputCategorizer:
         precip_category = await self.categorize_precipitation()
         time_category = await self.categorize_time_range()
         group_type, dominant_age_group, age_categories, dominant_gender, lowest_fitness_level, mode_fitness_level = await self.encode_members()
-
+        calorie_category = await self.categorize_calories()
 
         return (
             temp_category,
@@ -159,6 +171,7 @@ class UserInputCategorizer:
             age_categories,
             dominant_gender,
             lowest_fitness_level,
-            mode_fitness_level
+            mode_fitness_level,
+            calorie_category
         )
 

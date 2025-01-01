@@ -4,6 +4,7 @@ from typing import List
 from fastapi.responses import JSONResponse
 import json
 import os
+import aiofiles
 from app.services.reinforcementLearningAgent import ReinforcementLearningAgent
 from app.services.categorizer import UserInputCategorizer
 from app.services.dataSaveService import DataSaveService
@@ -73,18 +74,39 @@ async def outdoor_activity_suggestions(request: SuggestionRequest):
     )
 
     output_categorization_data = await categorizer.get_encoded_key()
-    print(output_categorization_data)
     dataSaver = DataSaveService(
                     output_categorization_data, 
                     output_categorization_data[5],
-                    output_categorization_data[8]
+                    output_categorization_data[0]
                     )
-    await dataSaver.save_to_json()
+    out_hash = await dataSaver.output_hash()
+    file_name = await dataSaver.get_file_name(
+        output_categorization_data[5],
+        output_categorization_data[0]
+    )
+
+    file_path = f"data/{file_name}"
+    #await dataSaver.save_to_json()
+    if out_hash:
+        with open(file_path, mode='r') as file:
+            data = file.read()
+            json_data = json.loads(data)
+        if out_hash in json_data:
+            print(f"Hash {out_hash} found in {file_path}.")
+            output_values = json_data[out_hash].get("values", "No values found")
+            print(f"Output values: {output_values}")
+        else:
+            print(f"Hash {out_hash} not found in {file_path}. Saving data to JSON.")
+            await dataSaver.save_to_json()
+  
+    
+    
+
     # Get Q-values for the encoded state
     #encoded_key_str = str(encoded_key)
     #q_values = q_table.get(encoded_key_str)
     suc ='success'
-    return JSONResponse(content={"success": True, "data": suc})
+    #return JSONResponse(content={"success": True, "data": suc})
     '''
     if not q_values:
         raise HTTPException(status_code=404, detail="No Q-values found for the given state.")
