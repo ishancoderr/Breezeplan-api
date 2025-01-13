@@ -1,0 +1,26 @@
+{
+    "dacfe46e55e57228f1e61809fdc9610f": {
+        "key": [
+            "Cold",
+            "Moderate",
+            "Breezy",
+            "No Precipitation",
+            "Long",
+            "Small Group",
+            "Middle Aged",
+            [
+                "Adult",
+                "Senior",
+                "Young Adult"
+            ],
+            "Female",
+            "Intermediate",
+            "Intermediate",
+            "Low"
+        ],
+        "values": {
+            "Jogging": -1,
+            "Cycling": -1
+        }
+    }
+}

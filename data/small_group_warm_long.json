@@ -19,24 +19,24 @@
             "Low"
         ],
         "values": {
-            "Jogging": -2,
-            "Cycling": -2,
-            "Outdoor Yoga": -2,
-            "Hiking": -2,
-            "Rock Climbing": -2,
-            "Picnic": -2,
+            "Jogging": 5,
+            "Cycling": -1,
+            "Outdoor Yoga": 0,
+            "Hiking": -1,
+            "Rock Climbing": 0,
+            "Picnic": 0,
             "Beach Volleyball": -1,
-            "Kayaking": -1,
+            "Kayaking": 0,
             "Fishing": -1,
-            "Horseback Riding": -1,
-            "Stand-up Paddleboarding": -1,
-            "Soccer": -1,
-            "Trail Running": -1,
-            "Frisbee": -1,
-            "Skateboarding": -1,
-            "Geocaching": -1,
-            "Orienteering": -1,
-            "Ziplining": -1
+            "Horseback Riding": 0,
+            "Running": 0,
+            "Stand-Up Paddleboarding (SUP)": 0,
+            "Snowshoeing": 0,
+            "Cross-Country Skiing": -1,
+            "Swimming": 0,
+            "Team Sports": 0,
+            "Orienteering": 0,
+            "Birdwatching": -1
         }
     }
 }

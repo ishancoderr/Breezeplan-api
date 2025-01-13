@@ -3,8 +3,7 @@ from pydantic import BaseModel
 from typing import List
 from fastapi.responses import JSONResponse
 import json
-import os
-import aiofiles
+import time
 from app.services.reinforcementLearningAgent import ReinforcementLearningAgent
 from app.services.categorizer import UserInputCategorizer
 from app.services.dataSaveService import DataSaveService
@@ -30,11 +29,12 @@ class SuggestionRequest(BaseModel):
     calories:int
 
 class ChosenActivityRequest(BaseModel):
-    longitude: float
-    latitude: float
+    id: int
     activity: str
-    location: str
-    timeRange: str
+    tableHash: str
+    category: str
+
+
 
 user_feedback = {}
 
@@ -84,7 +84,8 @@ async def outdoor_activity_suggestions(request: SuggestionRequest):
     await dataSaver.create_file_if_not_exists("data", file_name)
     await dataSaver.create_file_if_not_exists("outdoor_activity_data", outdoor_file_path_for_method)
 
-
+    endPoint = "activitySuggestions"
+    file_name_without_extension = file_name.rstrip(".json")
     if out_hash:
         with open(file_path, mode='r') as file:
             data = file.read()
@@ -99,31 +100,85 @@ async def outdoor_activity_suggestions(request: SuggestionRequest):
             remaining = sorted_items[4:]
             additional_2 = remaining[:2]
             selected_names = [name for name, _ in top_4 + additional_2]
-            await rl_agent.update_q_value(selected_names,out_hash,file_path)
+            await rl_agent.update_q_value(selected_names,out_hash,file_path, endPoint)
             print(f"Selected names: {selected_names}")
             with open(outdoor_activity_path, "r") as file:
                 data = json.load(file)
                 output_values = [activity for activity in data if activity['activity'] in selected_names]
-                return { "success": True, "data": output_values }
+                for activity in output_values:
+                    activity['file_name'] = file_name_without_extension 
+                    activity['tableHash'] = out_hash
+                return {"success": True, "data": output_values}
         else:
             print(f"Hash {out_hash} not found in {file_path}. Saving data to JSON.")
             await dataSaver.save_to_json()
+            with open(file_path, mode='r') as file:
+                data = file.read()
+                json_data = json.loads(data)
             if out_hash in json_data:
                 print(f"Hash {out_hash} found in {file_path}.")
                 output_values = json_data[out_hash].get("values", "No values found")
                 items = sorted(output_values.items())
                 six_values = items[:6]
                 selected_names = [name for name, _ in six_values ]
-                await rl_agent.update_q_value(selected_names,out_hash,file_path)
+                await rl_agent.update_q_value(selected_names, out_hash, file_path, endPoint)
                 with open(outdoor_activity_path, "r") as file:
                     data = json.load(file)
-                    output_values = [activity for activity in data if activity['activity'] in selected_names]   
+                    output_values = [activity for activity in data if activity['activity'] in selected_names] 
+                    for activity in output_values:
+                        activity['file_name'] = file_name_without_extension 
+                        activity['tableHash'] = out_hash  
                     return { "success": True, "data": output_values }
+                
+            else: 
+                return {"success": False, "data": []}
+
+
+@router.post("/choosenActivityData")
+async def chosen_activity_data(request: ChosenActivityRequest):
+    selected_activity = request.activity
+    table_hash = request.tableHash
+    category = request.category
+    file_path = f"data/{category}.json"
+    endPoint = "choosenActivityData"
+    try:
+        await rl_agent.update_q_value([selected_activity], table_hash, file_path, endPoint)
+        return {"success": True, "message": f"Q-table updated for activity '{selected_activity}-{table_hash}'"}
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=f"Error updating Q-table: {str(e)}")   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     # Get Q-values for the encoded state
     #encoded_key_str = str(encoded_key)
     #q_values = q_table.get(encoded_key_str)
-    suc ='success'
+    #suc ='success'
     #return JSONResponse(content={"success": True, "data": suc})
     '''
     if not q_values:

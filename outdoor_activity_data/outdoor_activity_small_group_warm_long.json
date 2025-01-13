@@ -1,146 +1,362 @@
 [
-    {
-      "id":1,
-      "activity": "Jogging",
-      "description": "A light jog around the local park.",
-      "groupSuitability": "Suitable for individuals and couples",
-      "timeRequired": "60-90 min",
-      "image": "https://example.com/images/jogging.jpg"
-    },
-    {
-      "id":2,
-      "activity": "Cycling",
-      "description": "A cycling trip along the riverfront.",
-      "groupSuitability": "Suitable for small groups (2-3 people)",
-      "timeRequired": "60 min",
-      "image": "https://example.com/images/cycling.jpg"
-    },
-    {
-      "id":3,
-      "activity": "Outdoor Yoga",
-      "description": "A relaxing yoga session in the park.",
-      "groupSuitability": "Best for individuals or groups up to 4 people",
-      "timeRequired": "30-60 min",
-      "image": "https://example.com/images/yoga.jpg"
-    },
-    {
-      "id": 4,
-      "activity": "Hiking",
-      "description": "Explore scenic trails and enjoy nature at its best.",
-      "groupSuitability": "Suitable for individuals, pairs, or small groups",
-      "timeRequired": "2-5 hours",
-      "image": "https://example.com/images/hiking.jpg"
-    },
-    {
-      "id": 5,
-      "activity": "Rock Climbing",
-      "description": "Test your strength and endurance by climbing rocks or walls.",
-      "groupSuitability": "Best for small groups or pairs",
-      "timeRequired": "2-3 hours",
-      "image": "https://example.com/images/rock_climbing.jpg"
-    },
-    {
-      "id": 6,
-      "activity": "Picnic",
-      "description": "Relax and enjoy food outdoors in a local park.",
-      "groupSuitability": "Suitable for families and small groups",
-      "timeRequired": "1-3 hours",
-      "image": "https://example.com/images/picnic.jpg"
-    },
-    {
-      "id": 7,
-      "activity": "Beach Volleyball",
-      "description": "Enjoy an active game on the sand with friends.",
-      "groupSuitability": "Best for teams (4-6 people)",
-      "timeRequired": "1-2 hours",
-      "image": "https://example.com/images/volleyball.jpg"
-    },
-    {
-      "id": 8,
-      "activity": "Kayaking",
-      "description": "Paddle down rivers or lakes while enjoying the serenity of nature.",
-      "groupSuitability": "Suitable for pairs or small groups",
-      "timeRequired": "1-3 hours",
-      "image": "https://example.com/images/kayaking.jpg"
-    },
-    {
-      "id": 9,
-      "activity": "Fishing",
-      "description": "Relax by the water while trying to catch fish.",
-      "groupSuitability": "Suitable for individuals or small groups",
-      "timeRequired": "2-4 hours",
-      "image": "https://example.com/images/fishing.jpg"
-    },
-    {
-      "id": 10,
-      "activity": "Horseback Riding",
-      "description": "Explore trails on horseback for a unique outdoor experience.",
-      "groupSuitability": "Best for individuals or pairs",
-      "timeRequired": "1-2 hours",
-      "image": "https://example.com/images/horseback_riding.jpg"
-    },
-    {
-      "id": 11,
-      "activity": "Stand-up Paddleboarding",
-      "description": "Balance on a paddleboard while enjoying calm waters.",
-      "groupSuitability": "Suitable for individuals or pairs",
-      "timeRequired": "1-2 hours",
-      "image": "https://example.com/images/paddleboarding.jpg"
-    },
-    {
-      "id": 12,
-      "activity": "Soccer",
-      "description": "Play a fun, fast-paced game of soccer with friends or family.",
-      "groupSuitability": "Best for teams (6-12 people)",
-      "timeRequired": "1-2 hours",
-      "image": "https://example.com/images/soccer.jpg"
-    },
-    {
-      "id": 13,
-      "activity": "Trail Running",
-      "description": "Run on scenic nature trails, perfect for those looking to challenge themselves.",
-      "groupSuitability": "Suitable for individuals or small groups",
-      "timeRequired": "1-2 hours",
-      "image": "https://example.com/images/trail_running.jpg"
-    },
-    {
-      "id": 14,
-      "activity": "Frisbee",
-      "description": "Throw a frisbee back and forth in the park for a fun and easy game.",
-      "groupSuitability": "Suitable for pairs or small groups",
-      "timeRequired": "1 hour",
-      "image": "https://example.com/images/frisbee.jpg"
-    },
-    {
-      "id": 15,
-      "activity": "Skateboarding",
-      "description": "Roll around the park or skate park on a skateboard.",
-      "groupSuitability": "Suitable for individuals or small groups",
-      "timeRequired": "1-2 hours",
-      "image": "https://example.com/images/skateboarding.jpg"
-    },
-    {
-      "id": 16,
-      "activity": "Geocaching",
-      "description": "Embark on a treasure hunt using GPS to find hidden items.",
-      "groupSuitability": "Suitable for individuals or small groups",
-      "timeRequired": "2-3 hours",
-      "image": "https://example.com/images/geocaching.jpg"
-    },
-    {
-      "id": 17,
-      "activity": "Orienteering",
-      "description": "Navigate through natural terrain using a map and compass.",
-      "groupSuitability": "Best for individuals or pairs",
-      "timeRequired": "2-4 hours",
-      "image": "https://example.com/images/orienteering.jpg"
-    },
-    {
-      "id": 18,
-      "activity": "Ziplining",
-      "description": "Fly through the treetops on a thrilling zipline adventure.",
-      "groupSuitability": "Suitable for individuals or small groups",
-      "timeRequired": "30-60 min",
-      "image": "https://example.com/images/ziplining.jpg"
-    }
+      {
+        "id": 1,
+        "activity": "Jogging",
+        "description": "A light jog around the local park.",
+        "groupSuitability": "Suitable for individuals and couples",
+        "timeRequired": "60-90 min",
+        "image": "https://example.com/images/jogging.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "City Park Loop",
+          "length": "3.0 km",
+          "lighting": "Well-lit",
+          "description": "A jogging loop around the main city park with excellent lighting.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.524000,13.410000&travelmode=walking",
+          "safetyTips": [
+            "Wear comfortable running shoes.",
+            "Stretch before and after jogging.",
+            "Carry a water bottle to stay hydrated."
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "activity": "Cycling",
+        "description": "A cycling trip along the riverfront.",
+        "groupSuitability": "Suitable for small groups (2-3 people)",
+        "timeRequired": "60 min",
+        "image": "https://example.com/images/cycling.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Riverfront Cycling Trail",
+          "length": "15.0 km",
+          "lighting": "Partially lit",
+          "description": "A scenic cycling route along the river with views of the city.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.510000,13.405000&travelmode=bicycling",
+          "safetyTips": [
+            "Wear a helmet for safety.",
+            "Keep a safe distance from other cyclists.",
+            "Check your bike before starting the ride."
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "activity": "Outdoor Yoga",
+        "description": "A relaxing yoga session in the park.",
+        "groupSuitability": "Best for individuals or groups up to 4 people",
+        "timeRequired": "30-60 min",
+        "image": "https://example.com/images/yoga.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Sunset Park",
+          "length": "N/A",
+          "lighting": "Natural light",
+          "description": "A peaceful area in the park ideal for yoga and meditation.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.523000,13.409000&travelmode=walking",
+          "safetyTips": [
+            "Bring your own yoga mat.",
+            "Stay hydrated during the session.",
+            "Choose a quiet time for a more peaceful experience."
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "activity": "Hiking",
+        "description": "Explore scenic trails and enjoy nature at its best.",
+        "groupSuitability": "Suitable for individuals, pairs, or small groups",
+        "timeRequired": "2-5 hours",
+        "image": "https://example.com/images/hiking.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Mountain Trail",
+          "length": "8.0 km",
+          "lighting": "Natural light",
+          "description": "A challenging but rewarding hike through forested mountains.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.528000,13.412000&travelmode=walking",
+          "safetyTips": [
+            "Wear sturdy hiking boots.",
+            "Bring plenty of water and snacks.",
+            "Check the weather before starting the hike."
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "activity": "Rock Climbing",
+        "description": "Test your strength and endurance by climbing rocks or walls.",
+        "groupSuitability": "Best for small groups or pairs",
+        "timeRequired": "2-3 hours",
+        "image": "https://example.com/images/rock_climbing.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Rock Climbing Gym",
+          "length": "N/A",
+          "lighting": "Well-lit",
+          "description": "Indoor rock climbing facility with a variety of routes for all skill levels.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.522000,13.411000&travelmode=driving",
+          "safetyTips": [
+            "Always use a harness and belay system.",
+            "Warm up before climbing.",
+            "Be mindful of other climbers."
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "activity": "Picnic",
+        "description": "Relax and enjoy food outdoors in a local park.",
+        "groupSuitability": "Suitable for families and small groups",
+        "timeRequired": "1-3 hours",
+        "image": "https://example.com/images/picnic.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Lakeside Park",
+          "length": "N/A",
+          "lighting": "Partially shaded",
+          "description": "A scenic park by the lake with plenty of picnic spots.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.520000,13.413000&travelmode=walking",
+          "safetyTips": [
+            "Bring blankets and comfortable seating.",
+            "Avoid leaving food out in the heat.",
+            "Pack insect repellent if needed."
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "activity": "Beach Volleyball",
+        "description": "Enjoy an active game on the sand with friends.",
+        "groupSuitability": "Best for teams (4-6 people)",
+        "timeRequired": "1-2 hours",
+        "image": "https://example.com/images/volleyball.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Sunset Beach Volleyball Court",
+          "length": "N/A",
+          "lighting": "Well-lit",
+          "description": "A beach volleyball court with sand and lighting, perfect for evening games.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.530000,13.414000&travelmode=walking",
+          "safetyTips": [
+            "Stay hydrated during the game.",
+            "Wear sunscreen to protect your skin.",
+            "Use the proper footwear to avoid injuries."
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "activity": "Kayaking",
+        "description": "Paddle down rivers or lakes while enjoying the serenity of nature.",
+        "groupSuitability": "Suitable for pairs or small groups",
+        "timeRequired": "1-3 hours",
+        "image": "https://example.com/images/kayaking.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Clearwater Lake",
+          "length": "N/A",
+          "lighting": "Natural light",
+          "description": "A calm lake ideal for kayaking and exploring nature.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.521000,13.415000&travelmode=driving",
+          "safetyTips": [
+            "Wear a life jacket at all times.",
+            "Check the weather before heading out on the water.",
+            "Stay aware of your surroundings."
+          ]
+        }
+      },
+      {
+        "id": 9,
+        "activity": "Fishing",
+        "description": "Relax by the water while trying to catch fish.",
+        "groupSuitability": "Suitable for individuals or small groups",
+        "timeRequired": "2-4 hours",
+        "image": "https://example.com/images/fishing.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Tranquil River",
+          "length": "N/A",
+          "lighting": "Natural light",
+          "description": "A peaceful river ideal for fishing and unwinding.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.522000,13.416000&travelmode=driving",
+          "safetyTips": [
+            "Bring appropriate fishing gear.",
+            "Stay alert for changes in weather.",
+            "Respect local wildlife and regulations."
+          ]
+        }
+      },
+      {
+        "id": 10,
+        "activity": "Horseback Riding",
+        "description": "Explore trails on horseback for a unique outdoor experience.",
+        "groupSuitability": "Best for individuals or pairs",
+        "timeRequired": "1-2 hours",
+        "image": "https://example.com/images/horseback_riding.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Equestrian Trails",
+          "length": "5.0 km",
+          "lighting": "Natural light",
+          "description": "Ride through scenic trails on horseback, ideal for nature lovers.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.523000,13.417000&travelmode=walking",
+          "safetyTips": [
+            "Wear a helmet for safety.",
+            "Be aware of your horse's behavior.",
+            "Stay on marked trails."
+          ]
+        }
+      },
+      {
+        "id": 11,
+        "activity": "Running",
+        "description": "A fast-paced activity on designated running tracks.",
+        "groupSuitability": "Suitable for individuals or pairs",
+        "timeRequired": "30-60 min",
+        "image": "https://example.com/images/running.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Urban Running Track",
+          "length": "1.5 km",
+          "lighting": "Well-lit",
+          "description": "An oval track with a smooth surface, designed for runners.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.524000,13.419000&travelmode=walking",
+          "safetyTips": [
+            "Wear comfortable, moisture-wicking clothing.",
+            "Avoid running during peak heat hours.",
+            "Stay hydrated before, during, and after your run."
+          ]
+        }
+      },
+      {
+        "id": 12,
+        "activity": "Stand-Up Paddleboarding (SUP)",
+        "description": "Balance and paddle across calm waters.",
+        "groupSuitability": "Suitable for individuals or small groups",
+        "timeRequired": "1-2 hours",
+        "image": "https://example.com/images/paddleboarding.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Crystal Cove",
+          "length": "N/A",
+          "lighting": "Natural light",
+          "description": "A tranquil area perfect for paddleboarding and exploring.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.520000,13.420000&travelmode=driving",
+          "safetyTips": [
+            "Wear a life vest at all times.",
+            "Check the weather before heading out.",
+            "Paddle in calm waters for beginners."
+          ]
+        }
+      },
+      {
+        "id": 13,
+        "activity": "Snowshoeing",
+        "description": "Walk through snow-covered trails using special shoes.",
+        "groupSuitability": "Best for small groups or individuals",
+        "timeRequired": "2-3 hours",
+        "image": "https://example.com/images/snowshoeing.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Snowy Ridge",
+          "length": "6.0 km",
+          "lighting": "Natural light",
+          "description": "Explore a snowy landscape with scenic trails perfect for snowshoeing.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.528000,13.421000&travelmode=walking",
+          "safetyTips": [
+            "Wear warm, waterproof clothing.",
+            "Carry extra snacks and water.",
+            "Be mindful of the weather and trail conditions."
+          ]
+        }
+      },
+      {
+        "id": 14,
+        "activity": "Cross-Country Skiing",
+        "description": "Glide through snowy terrain with cross-country skis.",
+        "groupSuitability": "Best for individuals or pairs",
+        "timeRequired": "3-5 hours",
+        "image": "https://example.com/images/cross-country-skiing.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Snowfield Trail",
+          "length": "12.0 km",
+          "lighting": "Natural light",
+          "description": "A long trail designed for cross-country skiing through beautiful snowfields.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.529000,13.422000&travelmode=walking",
+          "safetyTips": [
+            "Wear layered clothing to manage body temperature.",
+            "Know the trail conditions before heading out.",
+            "Use sunscreen to protect your skin from sunburn."
+          ]
+        }
+      },
+      {
+        "id": 15,
+        "activity": "Swimming",
+        "description": "Enjoy a relaxing swim in a pool or open water.",
+        "groupSuitability": "Suitable for individuals or small groups",
+        "timeRequired": "30-60 min",
+        "image": "https://example.com/images/swimming.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Aquatic Center Pool",
+          "length": "N/A",
+          "lighting": "Indoor lighting",
+          "description": "An indoor pool ideal for swimming, lap training, or relaxation.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.530000,13.423000&travelmode=driving",
+          "safetyTips": [
+            "Always swim with a buddy.",
+            "Follow pool rules and guidelines.",
+            "Ensure your swimming technique is safe and effective."
+          ]
+        }
+      },
+      {
+        "id": 16,
+        "activity": "Team Sports",
+        "description": "Engage in friendly team-based activities like soccer or basketball.",
+        "groupSuitability": "Best for larger groups (5-10 people)",
+        "timeRequired": "1-2 hours",
+        "image": "https://example.com/images/team_sports.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Sports Complex Arena",
+          "length": "N/A",
+          "lighting": "Well-lit",
+          "description": "A multi-purpose sports complex for various team sports activities.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.531000,13.424000&travelmode=walking",
+          "safetyTips": [
+            "Always warm up before engaging in team sports.",
+            "Wear appropriate footwear to avoid injury.",
+            "Stay hydrated and take breaks as needed."
+          ]
+        }
+      },
+      {
+        "id": 17,
+        "activity": "Orienteering",
+        "description": "A fun navigation-based activity, using maps to find specific locations.",
+        "groupSuitability": "Suitable for small groups or individuals",
+        "timeRequired": "2-4 hours",
+        "image": "https://example.com/images/orienteering.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Forest Orienteering Course",
+          "length": "5.0 km",
+          "lighting": "Natural light",
+          "description": "A challenging course through the forest designed for orienteering.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.532000,13.425000&travelmode=walking",
+          "safetyTips": [
+            "Carry a map and compass to navigate.",
+            "Wear appropriate clothing for the terrain.",
+            "Ensure your phone is charged in case of emergency."
+          ]
+        }
+      },
+      {
+        "id": 18,
+        "activity": "Birdwatching",
+        "description": "Observe and identify local wildlife in their natural habitats.",
+        "groupSuitability": "Suitable for individuals or small groups",
+        "timeRequired": "1-2 hours",
+        "image": "https://example.com/images/birdwatching.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Nature Reserve Trail",
+          "length": "4.0 km",
+          "lighting": "Natural light",
+          "description": "A peaceful trail through a nature reserve, perfect for birdwatching.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.533000,13.426000&travelmode=walking",
+          "safetyTips": [
+            "Bring binoculars and a bird guidebook.",
+            "Dress in layers to stay comfortable in varying weather.",
+            "Be quiet to avoid disturbing the wildlife."
+          ]
+        }
+      }
   ]

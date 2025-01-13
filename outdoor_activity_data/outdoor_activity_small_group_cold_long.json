@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "activity": "Jogging",
+        "description": "A light jog around the local park.",
+        "groupSuitability": "Suitable for individuals and couples",
+        "timeRequired": "60-90 min",
+        "image": "https://example.com/images/jogging.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "City Park Loop",
+          "length": "3.0 km",
+          "lighting": "Well-lit",
+          "description": "A jogging loop around the main city park with excellent lighting.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.524000,13.410000&travelmode=walking",
+          "safetyTips": [
+            "Wear comfortable running shoes.",
+            "Stretch before and after jogging.",
+            "Carry a water bottle to stay hydrated."
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "activity": "Cycling",
+        "description": "A cycling trip along the riverfront.",
+        "groupSuitability": "Suitable for small groups (2-3 people)",
+        "timeRequired": "60 min",
+        "image": "https://example.com/images/cycling.jpg",
+        "locationInfo": {
+          "pathNameOrLocationName": "Riverfront Cycling Trail",
+          "length": "15.0 km",
+          "lighting": "Partially lit",
+          "description": "A scenic cycling route along the river with views of the city.",
+          "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.510000,13.405000&travelmode=bicycling",
+          "safetyTips": [
+            "Wear a helmet for safety.",
+            "Keep a safe distance from other cyclists.",
+            "Check your bike before starting the ride."
+          ]
+        }
+      }
+]
