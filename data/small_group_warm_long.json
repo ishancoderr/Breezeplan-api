@@ -1,0 +1,42 @@
+{
+    "6eabf1c39a814344c38e3befee1d6c9d": {
+        "key": [
+            "Warm",
+            "Moderate",
+            "Breezy",
+            "No Precipitation",
+            "Long",
+            "Small Group",
+            "Middle Aged",
+            [
+                "Adult",
+                "Senior",
+                "Young Adult"
+            ],
+            "Female",
+            "Intermediate",
+            "Intermediate",
+            "Low"
+        ],
+        "values": {
+            "Jogging": -2,
+            "Cycling": -2,
+            "Outdoor Yoga": -2,
+            "Hiking": -2,
+            "Rock Climbing": -2,
+            "Picnic": -2,
+            "Beach Volleyball": -1,
+            "Kayaking": -1,
+            "Fishing": -1,
+            "Horseback Riding": -1,
+            "Stand-up Paddleboarding": -1,
+            "Soccer": -1,
+            "Trail Running": -1,
+            "Frisbee": -1,
+            "Skateboarding": -1,
+            "Geocaching": -1,
+            "Orienteering": -1,
+            "Ziplining": -1
+        }
+    }
+}

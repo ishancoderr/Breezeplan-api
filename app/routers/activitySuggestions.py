@@ -11,6 +11,8 @@ from app.services.dataSaveService import DataSaveService
 
 router = APIRouter(prefix="/suggestionEngine", tags=["suggestion"])
 
+rl_agent = ReinforcementLearningAgent()
+
 class Member(BaseModel):
     gender: str
     age: int
@@ -35,20 +37,6 @@ class ChosenActivityRequest(BaseModel):
     timeRange: str
 
 user_feedback = {}
-
-
-
-def load_json_file(filename: str):
-    file_path = os.path.join(os.path.dirname(__file__), "../testData", filename)
-    with open(file_path, "r") as file:
-        return json.load(file)
-
-choosenActivitySuggestions = load_json_file("choosenActivityData.json")
-outdoorActivity = load_json_file("outdoorActivity.json")
-
-# Initialize the reinforcement learning agent
-actions = [activity["activity"] for activity in outdoorActivity]
-rl_agent = ReinforcementLearningAgent(actions)
 
 @router.post("/activitySuggestions")
 async def outdoor_activity_suggestions(request: SuggestionRequest):
@@ -77,16 +65,26 @@ async def outdoor_activity_suggestions(request: SuggestionRequest):
     dataSaver = DataSaveService(
                     output_categorization_data, 
                     output_categorization_data[5],
-                    output_categorization_data[0]
+                    output_categorization_data[0],
+                    output_categorization_data[4]
                     )
     out_hash = await dataSaver.output_hash()
     file_name = await dataSaver.get_file_name(
         output_categorization_data[5],
-        output_categorization_data[0]
+        output_categorization_data[0],
+        output_categorization_data[4]
     )
 
     file_path = f"data/{file_name}"
+    outdoor_activity_path = f"outdoor_activity_data/outdoor_activity_{file_name}"
     #await dataSaver.save_to_json()
+    outdoor_file_path_for_method = f"outdoor_activity_{file_name}"
+
+    #create files if not exist
+    await dataSaver.create_file_if_not_exists("data", file_name)
+    await dataSaver.create_file_if_not_exists("outdoor_activity_data", outdoor_file_path_for_method)
+
+
     if out_hash:
         with open(file_path, mode='r') as file:
             data = file.read()
@@ -95,12 +93,32 @@ async def outdoor_activity_suggestions(request: SuggestionRequest):
             print(f"Hash {out_hash} found in {file_path}.")
             output_values = json_data[out_hash].get("values", "No values found")
             print(f"Output values: {output_values}")
+            print(f"file_path values: {file_path}")
+            sorted_items = sorted(output_values.items(), key=lambda x: x[1], reverse=True)
+            top_4 = sorted_items[:4]
+            remaining = sorted_items[4:]
+            additional_2 = remaining[:2]
+            selected_names = [name for name, _ in top_4 + additional_2]
+            await rl_agent.update_q_value(selected_names,out_hash,file_path)
+            print(f"Selected names: {selected_names}")
+            with open(outdoor_activity_path, "r") as file:
+                data = json.load(file)
+                output_values = [activity for activity in data if activity['activity'] in selected_names]
+                return { "success": True, "data": output_values }
         else:
             print(f"Hash {out_hash} not found in {file_path}. Saving data to JSON.")
             await dataSaver.save_to_json()
-  
-    
-    
+            if out_hash in json_data:
+                print(f"Hash {out_hash} found in {file_path}.")
+                output_values = json_data[out_hash].get("values", "No values found")
+                items = sorted(output_values.items())
+                six_values = items[:6]
+                selected_names = [name for name, _ in six_values ]
+                await rl_agent.update_q_value(selected_names,out_hash,file_path)
+                with open(outdoor_activity_path, "r") as file:
+                    data = json.load(file)
+                    output_values = [activity for activity in data if activity['activity'] in selected_names]   
+                    return { "success": True, "data": output_values }
 
     # Get Q-values for the encoded state
     #encoded_key_str = str(encoded_key)
@@ -121,6 +139,7 @@ async def outdoor_activity_suggestions(request: SuggestionRequest):
     ]
 
     return JSONResponse(content={"success": True, "data": suggestions})
+'''
 '''
 @router.post("/choosenActivityData")
 async def chosen_activity_data(request: ChosenActivityRequest):
@@ -154,4 +173,4 @@ async def chosen_activity_data(request: ChosenActivityRequest):
     }
 
     return JSONResponse(content={"success": True, "data": response})
- 
+ '''

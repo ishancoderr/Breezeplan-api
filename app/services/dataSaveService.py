@@ -3,11 +3,12 @@ import hashlib
 import os
 
 class DataSaveService:
-    def __init__(self, data, group_size, tem):
+    def __init__(self, data, group_size, tem, time_range):
         # Initialize the data, group_size, and temperature
         self.data = data
         self.group_size = group_size
         self.tem = tem
+        self.time_range = time_range
 
     async def create_file_if_not_exists(self, folder_name, file_name):
         """Check if the file exists; if not, create it with an empty structure."""
@@ -74,9 +75,9 @@ class DataSaveService:
         
         converted_data = await self.convert_sets_to_lists(self.data)
 
-        # Get the filenames based on group size and temperature
-        file_name = await self.get_file_name(self.group_size, self.tem)
-        outdoor_activity_file_name = await self.get_outdoor_activity_file_name(self.group_size, self.tem)
+        # Get the filenames based on group size , time range and temperature
+        file_name = await self.get_file_name(self.group_size, self.tem, self.time_range)
+        outdoor_activity_file_name = await self.get_outdoor_activity_file_name(self.group_size, self.tem, self.time_range)
 
         await self.create_file_if_not_exists("data", file_name)
         await self.create_file_if_not_exists("outdoor_activity_data", outdoor_activity_file_name)
@@ -95,47 +96,23 @@ class DataSaveService:
     
         await self.write_to_json_file("data", file_name, output_data)
 
-    async def get_file_name(self, group_size, temperature):
+    async def get_file_name(self, group_size, temperature, time_range):
         file_name_map = {
-            ("Single", "Cold"): "single_cold.json",
-            ("Single", "Mild"): "single_mild.json",
-            ("Single", "Warm"): "single_warm.json",
-            ("Single", "Hot"): "single_hot.json",
-            ("Couple", "Cold"): "couple_cold.json",
-            ("Couple", "Mild"): "couple_mild.json",
-            ("Couple", "Warm"): "couple_warm.json",
-            ("Couple", "Hot"): "couple_hot.json",
-            ("Small Group", "Cold"): "small_group_cold.json",
-            ("Small Group", "Mild"): "small_group_mild.json",
-            ("Small Group", "Warm"): "small_group_warm.json",
-            ("Small Group", "Hot"): "small_group_hot.json",
-            ("Large Group", "Cold"): "large_group_cold.json",
-            ("Large Group", "Mild"): "large_group_mild.json",
-            ("Large Group", "Warm"): "large_group_warm.json",
-            ("Large Group", "Hot"): "large_group_hot.json",
+            (g, t, r): f"{g.lower().replace(' ', '_')}_{t.lower()}_{r.lower()}.json"
+            for g in ["Single", "Couple", "Small Group", "Large Group"]
+            for t in ["Cold", "Mild", "Warm", "Hot"]
+            for r in ["Short", "Moderate", "Long", "Extended"]
         }
-        return file_name_map.get((group_size, temperature), "default.json")
+        return file_name_map.get((group_size, temperature, time_range), "default.json")
 
-    async def get_outdoor_activity_file_name(self, group_size, temperature):
+    async def get_outdoor_activity_file_name(self, group_size, temperature, time_range):
         outdoor_activity_file_name_map = {
-            ("Single", "Cold"): "outdoor_activity_single_cold.json",
-            ("Single", "Mild"): "outdoor_activity_single_mild.json",
-            ("Single", "Warm"): "outdoor_activity_single_warm.json",
-            ("Single", "Hot"): "outdoor_activity_single_hot.json",
-            ("Couple", "Cold"): "outdoor_activity_couple_cold.json",
-            ("Couple", "Mild"): "outdoor_activity_couple_mild.json",
-            ("Couple", "Warm"): "outdoor_activity_couple_warm.json",
-            ("Couple", "Hot"): "outdoor_activity_couple_hot.json",
-            ("Small Group", "Cold"): "outdoor_activity_small_group_cold.json",
-            ("Small Group", "Mild"): "outdoor_activity_small_group_mild.json",
-            ("Small Group", "Warm"): "outdoor_activity_small_group_warm.json",
-            ("Small Group", "Hot"): "outdoor_activity_small_group_hot.json",
-            ("Large Group", "Cold"): "outdoor_activity_large_group_cold.json",
-            ("Large Group", "Mild"): "outdoor_activity_large_group_mild.json",
-            ("Large Group", "Warm"): "outdoor_activity_large_group_warm.json",
-            ("Large Group", "Hot"): "outdoor_activity_large_group_hot.json",
+            (g, t, r): f"outdoor_activity_{g.lower().replace(' ', '_')}_{t.lower()}_{r.lower()}.json"
+            for g in ["Single", "Couple", "Small Group", "Large Group"]
+            for t in ["Cold", "Mild", "Warm", "Hot"]
+            for r in ["Short", "Moderate", "Long", "Extended"]
         }
-        return outdoor_activity_file_name_map.get((group_size, temperature), "outdoor_activity_default.json")
+        return outdoor_activity_file_name_map.get((group_size, temperature, time_range), "outdoor_activity_default.json")
 
     async def output_hash(self):
         converted_data = await self.convert_sets_to_lists(self.data)
