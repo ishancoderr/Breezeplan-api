@@ -26,7 +26,6 @@ class SuggestionRequest(BaseModel):
     precipitation:float
     members: List[Member]  
     timeRange: int
-    calories:int
 
 class ChosenActivityRequest(BaseModel):
     id: int
@@ -46,7 +45,6 @@ async def outdoor_activity_suggestions(request: SuggestionRequest):
         "windSpeed": request.windSpeed,
         "precipitation": request.precipitation,
         "timeRange": request.timeRange,
-        "calories": request.calories,
         "members": [
         (member.gender, member.age, member.fitnessLevel) for member in request.members
         ]
@@ -57,7 +55,6 @@ async def outdoor_activity_suggestions(request: SuggestionRequest):
         wind_speed=state['windSpeed'],
         precipitation=state['precipitation'],
         time_range=state['timeRange'],
-        calories=state['calories'],
         members=state['members']
     )
 
@@ -96,10 +93,14 @@ async def outdoor_activity_suggestions(request: SuggestionRequest):
             print(f"Output values: {output_values}")
             print(f"file_path values: {file_path}")
             sorted_items = sorted(output_values.items(), key=lambda x: x[1], reverse=True)
-            top_4 = sorted_items[:4]
-            remaining = sorted_items[4:]
-            additional_2 = remaining[:2]
-            selected_names = [name for name, _ in top_4 + additional_2]
+            if len(sorted_items) < 6:
+                print(f"Warning: Only {len(sorted_items)} items available, less than 6!")
+                selected_names = [name for name, _ in sorted_items]  # Select all available items
+            else:
+                top_4 = sorted_items[:4]
+                remaining = sorted_items[4:]
+                additional_2 = remaining[:2]
+                selected_names = [name for name, _ in top_4 + additional_2]
             await rl_agent.update_q_value(selected_names,out_hash,file_path, endPoint)
             print(f"Selected names: {selected_names}")
             with open(outdoor_activity_path, "r") as file:
@@ -119,7 +120,11 @@ async def outdoor_activity_suggestions(request: SuggestionRequest):
                 print(f"Hash {out_hash} found in {file_path}.")
                 output_values = json_data[out_hash].get("values", "No values found")
                 items = sorted(output_values.items())
-                six_values = items[:6]
+                if len(items) < 6:
+                    print(f"Warning: Only {len(items)} items available, less than 6!")
+                    six_values = items 
+                else:
+                    six_values = items[:6] 
                 selected_names = [name for name, _ in six_values ]
                 await rl_agent.update_q_value(selected_names, out_hash, file_path, endPoint)
                 with open(outdoor_activity_path, "r") as file:

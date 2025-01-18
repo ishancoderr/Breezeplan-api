@@ -38,5 +38,44 @@
             "Orienteering": 0,
             "Birdwatching": -1
         }
+    },
+    "1181de33db15a15699e67c7c14c20d61": {
+        "key": [
+            "Warm",
+            "Moderate",
+            "Breezy",
+            "No Precipitation",
+            "Long",
+            "Small Group",
+            "Middle Aged",
+            [
+                "Adult",
+                "Senior",
+                "Young Adult"
+            ],
+            "Female",
+            "Intermediate",
+            "Intermediate"
+        ],
+        "values": {
+            "Jogging": -3,
+            "Cycling": -3,
+            "Outdoor Yoga": -3,
+            "Hiking": -3,
+            "Rock Climbing": -3,
+            "Picnic": -3,
+            "Beach Volleyball": -2,
+            "Kayaking": -2,
+            "Fishing": -2,
+            "Horseback Riding": -2,
+            "Running": -2,
+            "Stand-Up Paddleboarding (SUP)": -2,
+            "Snowshoeing": -2,
+            "Cross-Country Skiing": -2,
+            "Swimming": -2,
+            "Team Sports": -2,
+            "Orienteering": -2,
+            "Birdwatching": -2
+        }
     }
 }

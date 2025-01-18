@@ -1,0 +1,25 @@
+{
+    "ddc201f6a1ac812ce6d6875346446629": {
+        "key": [
+            "Mild",
+            "Moderate",
+            "Breezy",
+            "No Precipitation",
+            "Long",
+            "Small Group",
+            "Middle Aged",
+            [
+                "Adult",
+                "Senior",
+                "Young Adult"
+            ],
+            "Female",
+            "Intermediate",
+            "Intermediate"
+        ],
+        "values": {
+            "Jogging": -1,
+            "Cycling": -1
+        }
+    }
+}

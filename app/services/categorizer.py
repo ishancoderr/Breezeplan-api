@@ -2,17 +2,16 @@ import statistics
 
 
 class UserInputCategorizer:
-    def __init__(self, temperature, humidity, wind_speed, precipitation, time_range, calories, members):
+    def __init__(self, temperature, humidity, wind_speed, precipitation, time_range, members):
         self.temperature = temperature
         self.humidity = humidity
         self.wind_speed = wind_speed
         self.precipitation = precipitation
         self.time_range = time_range
-        self.calories = calories
         self.members = members
         self.time_range = time_range
         self.group_type = None
-
+        '''
     async def categorize_calories(self):
         if self.calories < 1000:
             return "Low"
@@ -20,7 +19,7 @@ class UserInputCategorizer:
             return "Moderate"
         else:
             return "High"
-
+        '''
     async def categorize_temperature(self):
         if self.temperature < 10.0:
             return "Cold"
@@ -158,7 +157,7 @@ class UserInputCategorizer:
         precip_category = await self.categorize_precipitation()
         time_category = await self.categorize_time_range()
         group_type, dominant_age_group, age_categories, dominant_gender, lowest_fitness_level, mode_fitness_level = await self.encode_members()
-        calorie_category = await self.categorize_calories()
+        #calorie_category = await self.categorize_calories()
 
         return (
             temp_category,
@@ -171,7 +170,7 @@ class UserInputCategorizer:
             age_categories,
             dominant_gender,
             lowest_fitness_level,
-            mode_fitness_level,
-            calorie_category
+            mode_fitness_level
+            #calorie_category
         )
 
