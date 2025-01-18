@@ -19,8 +19,8 @@
             "Low"
         ],
         "values": {
-            "Jogging": 5,
-            "Cycling": -1,
+            "Jogging": 0,
+            "Cycling": 9,
             "Outdoor Yoga": 0,
             "Hiking": -1,
             "Rock Climbing": 0,
