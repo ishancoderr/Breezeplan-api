@@ -1,1 +1,202 @@
-{}
+[
+    {
+        "id": 1,
+        "activity": "Brisk Walking",
+        "description": "A quick walk through the schlossplatz.",
+        "groupSuitability": "Suitable for individuals and couples",
+        "timeRequired": "20-30 min",
+        "image": "https://drive.google.com/file/d/1rOVu05K_pBsNGBnS5Q279fj95gVYafIH/view?usp=drive_link",
+        "locationInfo": {
+          "pathNameOrLocationName": "schlossplatz",
+          "length": "2.5 km",
+          "lighting": "Well-lit",
+          "description": "A tree-lined pathway circling the city, perfect for a brisk walk.",
+          "redirectUrl": "https://www.google.com/maps/place/51%C2%B057'43.8%22N+7%C2%B036'56.0%22E/@51.962164,7.61556,18z/data=!3m1!4b1!4m19!1m14!4m13!1m4!2m2!1d7.5957249!2d51.9693645!4e1!1m6!1m2!1s0x47b9babf5c21a161:0xa1fd24f0b30a379d!2sSchloss,+48149+M%C3%BCnster!2m2!1d7.6156189!2d51.9622009!3e2!3m3!8m2!3d51.962164!4d7.61556!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+          "safetyTips": [
+            "Wear comfortable shoes.",
+            "Dress in layers to stay warm.",
+            "Stay on the marked pathway."
+          ]
+        }
+    },
+    {
+        "id": 2,
+        "activity": "Lake Stroll",
+        "description": "A short walk along the Aasee lake.",
+        "groupSuitability": "Ideal for couples.",
+        "timeRequired": "15-20 min",
+        "image": "https://drive.google.com/file/d/1vvHrvUMZcXKU6vyKW6hElUzQOZJSdgGP/view?usp=drive_link",
+        "locationInfo": {
+          "pathNameOrLocationName": "Aasee Lake Walkway",
+          "length": "1.5 km",
+          "lighting": "Partially lit",
+          "description": "A peaceful path with views of the lake and surrounding greenery.",
+          "redirectUrl": "https://www.google.com/maps/place/51%C2%B057'26.8%22N+7%C2%B036'54.4%22E/@51.95744,7.615102,17z/data=!3m1!4b1!4m16!1m11!4m10!1m4!2m2!1d7.6152832!2d51.9569408!4e1!1m3!2m2!1d7.605572!2d51.94994!3e2!3m3!8m2!3d51.95744!4d7.615102!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+          "safetyTips": [
+            "Wear warm clothing.",
+            "Be cautious of slippery paths near the water.",
+            "Keep an eye on the weather."
+          ]
+        }
+    },
+    {
+        "id": 3,
+        "activity": "Short Run",
+        "description": "A quick jog in the local park.",
+        "groupSuitability": "Suitable for individuals.",
+        "timeRequired": "20-25 min",
+        "image": "https://drive.google.com/file/d/1Ru8cgkmVKS_qH4oprx3rj9Dz69L0IwAQ/view?usp=drive_link",
+        "locationInfo": {
+          "pathNameOrLocationName": "West Park Trail",
+          "length": "2.0 km",
+          "lighting": "Well-lit",
+          "description": "A convenient running track in West Park.",
+          "redirectUrl": "https://www.google.com/maps/place/51%C2%B057'31.4%22N+7%C2%B036'48.5%22E/@51.958724,7.613481,17z/data=!3m1!4b1!4m4!3m3!8m2!3d51.958724!4d7.613481!5m1!1e1?authuser=0&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+          "safetyTips": [
+            "Stretch before running.",
+            "Carry a small bottle of water.",
+            "Run at your own pace."
+          ]
+        }
+    },
+    {
+        "id": 4,
+        "activity": "Bird Watching",
+        "description": "A brief stop at Schlossgarten.",
+        "groupSuitability": "Ideal for couples.",
+        "timeRequired": "20-30 min",
+        "image": "https://drive.google.com/file/d/1ZYjC231tRhrGiGrgnpSLN0LNjPbo1nU1/view?usp=drive_link",
+        "locationInfo": {
+          "pathNameOrLocationName": "Schlossgarten",
+          "length": "1.0 km",
+          "lighting": "Partially lit",
+          "description": "A popular spot to observe migratory birds and nature.",
+          "redirectUrl": "https://www.google.de/maps/place/51%C2%B057'51.1%22N+7%C2%B036'37.4%22E/@51.9641863,7.6078101,17z/data=!3m1!4b1!4m4!3m3!8m2!3d51.964183!4d7.610385?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+          "safetyTips": [
+            "Bring binoculars for better views.",
+            "Wear waterproof shoes if it’s wet.",
+            "Avoid making loud noises."
+          ]
+        }
+    },
+    {
+        "id": 5,
+        "activity": "Bridge Crossing",
+        "description": "Crossing the Münsterland bridge for a quick view of the city.",
+        "groupSuitability": "Suitable for individuals.",
+        "timeRequired": "10-15 min",
+        "image": "https://drive.google.com/file/d/1cO_lOUwIqe6VW7f8TZe4mWKPjDlhrhHh/view?usp=drive_link",
+        "locationInfo": {
+          "pathNameOrLocationName": "Münsterland Bridge",
+          "length": "0.8 km",
+          "lighting": "Well-lit",
+          "description": "A scenic bridge offering panoramic views of Münster.",
+          "redirectUrl": "https://www.google.com/maps/place/51%C2%B057'26.3%22N+7%C2%B037'55.6%22E/@51.957315,7.632105,17z/data=!3m1!4b1!4m16!1m11!4m10!1m4!2m2!1d7.6152832!2d51.9569408!4e1!1m3!2m2!1d7.6322!2d51.9575!3e2!3m3!8m2!3d51.957315!4d7.632105!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+          "safetyTips": [
+            "Be cautious during icy weather.",
+            "Hold onto the railings for safety.",
+            "Watch out for cyclists."
+          ]
+        }
+    },
+    {
+        "id": 6,
+        "activity": "Nature Walk",
+        "description": "A short trail in Werse Meadows.",
+        "groupSuitability": "Great for couples.",
+        "timeRequired": "20-30 min",
+        "image": "https://drive.google.com/file/d/1XDOIRJTib4bqG0f9nYhlI-NySM0WMnut/view?usp=drive_link",
+        "locationInfo": {
+          "pathNameOrLocationName": "Werse Meadow Trail",
+          "length": "1.8 km",
+          "lighting": "Moderately lit",
+          "description": "A serene walk through the meadows by the Werse river.",
+          "redirectUrl": "https://www.google.com/maps/place/51%C2%B057'51.2%22N+7%C2%B039'48.2%22E/@51.96422,7.663377,17z/data=!3m1!4b1!4m16!1m11!4m10!1m4!2m2!1d7.6152832!2d51.9569408!4e1!1m3!2m2!1d7.6638!2d51.9642!3e2!3m3!8m2!3d51.96422!4d7.663377!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+          "safetyTips": [
+            "Stay on the trail to protect the habitat.",
+            "Wear sturdy shoes.",
+            "Carry a light if walking near dusk."
+          ]
+        }
+    },
+    {
+        "id": 7,
+        "activity": "Market Stop",
+        "description": "Exploring the outdoor stalls at the Münster Marketplace.",
+        "groupSuitability": "Perfect for individuals or couples.",
+        "timeRequired": "15-20 min",
+        "image": "https://drive.google.com/file/d/1LZMHqt5uv8vyak0bkdkuYx2F_G0GQMDJ/view?usp=drive_link",
+        "locationInfo": {
+          "pathNameOrLocationName": "Münster Marketplace",
+          "length": "Varies",
+          "lighting": "Well-lit",
+          "description": "A vibrant outdoor market with local produce and goods.",
+          "redirectUrl": "https://www.google.com/maps/place/51%C2%B057'46.0%22N+7%C2%B037'33.7%22E/@51.962768,7.626037,19z/data=!3m1!4b1!4m16!1m11!4m10!1m4!2m2!1d7.5959362!2d51.9695267!4e1!1m3!2m2!1d7.6261!2d51.9627!3e2!3m3!8m2!3d51.962768!4d7.626037?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+          "safetyTips": [
+            "Keep an eye on your belongings.",
+            "Dress warmly for open-air browsing.",
+            "Carry cash for small purchases."
+          ]
+        }
+    },
+    {
+        "id": 8,
+        "activity": "Quick Photography Session",
+        "description": "Capturing the iconic Prinzipalmarkt in the morning light.",
+        "groupSuitability": "Ideal for individuals.",
+        "timeRequired": "10-15 min",
+        "image": "https://drive.google.com/file/d/1D2h69GE24AuV_ttWAXVYGIOS3El7O5Ye/view?usp=drive_link",
+        "locationInfo": {
+          "pathNameOrLocationName": "Prinzipalmarkt",
+          "length": "0.5 km",
+          "lighting": "Well-lit",
+          "description": "A historic street with beautiful arches and shops.",
+          "redirectUrl": "https://www.google.com/maps/place/51%C2%B057'46.0%22N+7%C2%B037'33.7%22E/@51.962767,7.626033,19z/data=!3m1!4b1!4m16!1m11!4m10!1m4!2m2!1d7.5959362!2d51.9695267!4e1!1m3!2m2!1d7.6261!2d51.9627!3e2!3m3!8m2!3d51.962767!4d7.626033?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+          "safetyTips": [
+            "Be aware of pedestrians while taking photos.",
+            "Keep your camera secure.",
+            "Avoid staying in one spot for too long."
+          ]
+        }
+    },
+    {
+        "id": 9,
+        "activity": "Quick Stair Workout",
+        "description": "Using the steps at Schlossplatz for a light workout.",
+        "groupSuitability": "Suitable for individuals.",
+        "timeRequired": "10-20 min",
+        "image": "https://drive.google.com/file/d/1Qz5dPqw9F5YcEbL696NTbLEb8jlA2Ti9/view?usp=drive_link",
+        "locationInfo": {
+          "pathNameOrLocationName": "Schlossplatz Stairs",
+          "length": "N/A",
+          "lighting": "Well-lit",
+          "description": "A few sets of stairs to get the heart pumping.",
+          "redirectUrl": "https://www.google.com/maps/place/51%C2%B057'40.5%22N+7%C2%B036'47.0%22E/@51.961256,7.613043,19z/data=!3m1!4b1!4m16!1m11!4m10!1m4!2m2!1d7.5959362!2d51.9695267!4e1!1m3!2m2!1d7.6131!2d51.9613!3e2!3m3!8m2!3d51.961256!4d7.613043?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+          "safetyTips": [
+            "Watch your step to avoid injury.",
+            "Stretch before and after climbing.",
+            "Dress warmly to stay comfortable."
+          ]
+        }
+    },
+    {
+        "id": 10,
+        "activity": "Quick Park Loop",
+        "description": "A short lap around the Botanischer Garten.",
+        "groupSuitability": "Suitable for individuals and couples.",
+        "timeRequired": "15-20 min",
+        "image": "https://drive.google.com/file/d/1SGgf5bawLU8PoefAaKeywohXrHvNtwBw/view?usp=drive_link",
+        "locationInfo": {
+          "pathNameOrLocationName": "Botanischer Garten Loop",
+          "length": "1.2 km",
+          "lighting": "Partially lit",
+          "description": "A refreshing walk among plants and flowers.",
+          "redirectUrl": "https://www.google.com/maps/place/51%C2%B057'47.8%22N+7%C2%B036'56.3%22E/@51.963263,7.615638,18z/data=!3m1!4b1!4m16!1m11!4m10!1m4!2m2!1d7.5959362!2d51.9695267!4e1!1m3!2m2!1d7.6158!2d51.9633!3e2!3m3!8m2!3d51.963263!4d7.615638?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+          "safetyTips": [
+            "Stay on designated paths.",
+            "Respect the plants and nature.",
+            "Dress in warm layers."
+          ]
+        }
+    }
+]

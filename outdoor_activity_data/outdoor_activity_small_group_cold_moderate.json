@@ -1,1 +1,205 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Nature Walk",
+      "description": "A peaceful walk through the botanical gardens.",
+      "groupSuitability": "Suitable for small groups (3-5 people)",
+      "timeRequired": "45 min",
+      "image": "https://drive.google.com/file/d/1OyKbuZeX_ibTffyPYBgiLObXfKN-_A9z/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Botanical Garden",
+        "length": "2.0 km",
+        "lighting": "Well-lit",
+        "description": "A well-maintained garden with diverse plant species and scenic paths.",
+        "redirectUrl": "https://www.google.com/maps/place/51%C2%B057'49.3%22N+7%C2%B036'35.4%22E/@51.96369,7.609831,17z/data=!3m1!4b1!4m7!1m2!2m1!1sbotanical+garden!3m3!8m2!3d51.96369!4d7.609831?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+        "safetyTips": [
+          "Wear warm clothing.",
+          "Stay on marked paths.",
+          "Bring a small thermos of tea or coffee."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Photography Walk",
+      "description": "Capture the beauty of Münster’s historic landmarks.",
+      "groupSuitability": "Suitable for small groups (3-5 people)",
+      "timeRequired": "60 min",
+      "image": "https://drive.google.com/file/d/1gZzRuttuZUVM1hiVBeKEHHs4LVsxiHHp/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "Historic City Center",
+        "length": "3.5 km",
+        "lighting": "Partially lit",
+        "description": "A tour of Münster’s charming streets, cathedrals, and old market square.",
+        "redirectUrl": "https://www.google.com/maps/place/51%C2%B057'40.9%22N+7%C2%B037'38.8%22E/@51.96136,7.627432,17z/am=t/data=!3m1!4b1!4m20!1m15!4m14!1m4!2m2!1d7.6152832!2d51.9569408!4e1!1m3!2m2!1d7.627227!2d51.961563!3e2!6m3!1i0!2i0!3i4!3m3!8m2!3d51.96136!4d7.627432?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+        "safetyTips": [
+          "Keep your camera gear protected from cold temperatures.",
+          "Plan your route to include well-lit areas.",
+          "Be mindful of pedestrians."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Bird Watching",
+      "description": "Spot local birds at Aasee Park.",
+      "groupSuitability": "Suitable for small groups (3-5 people)",
+      "timeRequired": "90 min",
+      "image": "https://drive.google.com/file/d/1fM2D9NyxYlNUwjh6u7oUD9Yg_0GHI4xU/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Park Trail",
+        "length": "4.0 km",
+        "lighting": "Moderately lit",
+        "description": "A tranquil path around the lake with opportunities to observe local wildlife.",
+        "redirectUrl": "https://www.google.com/maps/place/51%C2%B057'25.1%22N+7%C2%B036'55.0%22E/@51.956984,7.615266,18z/data=!3m1!4b1!4m16!1m11!4m10!1m4!2m2!1d7.6152832!2d51.9569408!4e1!1m3!2m2!1d7.61!2d51.95!3e2!3m3!8m2!3d51.956984!4d7.615266?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+        "safetyTips": [
+          "Dress in layers to stay warm.",
+          "Carry binoculars for better bird viewing.",
+          "Avoid feeding the birds."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Historic Tour",
+      "description": "Explore the historic sites of Münster with a guided app.",
+      "groupSuitability": "Suitable for small groups (3-5 people)",
+      "timeRequired": "60 min",
+      "image": "https://drive.google.com/file/d/1JRcBnbXADYGH2NCLauI6xOQ3b8pEMGR8/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "Principality of Münster Highlights",
+        "length": "2.5 km",
+        "lighting": "Well-lit",
+        "description": "Walk through Münster’s historical sites, including the Prinzipalmarkt and St. Paulus Cathedral.",
+        "redirectUrl": "https://www.google.com/maps/place/M%C3%BCnster+Cathedral,+Dompl.+28,+48143+M%C3%BCnster/@51.9629244,7.6254963,19.61z/data=!4m18!1m11!4m10!1m4!2m2!1d7.6152832!2d51.9569408!4e1!1m3!2m2!1d7.626!2d51.963!3e2!3m5!1s0x47b9bac3b2be14b3:0xb8d2c82166bb2024!8m2!3d51.96298!4d7.6257713!16s%2Fg%2F11b6b90gbr?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+        "safetyTips": [
+          "Use a guide app to learn about the landmarks.",
+          "Stay on pedestrian-friendly paths.",
+          "Bring a scarf and gloves."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Park Yoga",
+      "description": "Outdoor yoga in a quiet corner of Wienburgpark.",
+      "groupSuitability": "Suitable for small groups (3-5 people)",
+      "timeRequired": "45 min",
+      "image": "https://drive.google.com/file/d/1gmrRMCQ2RUhUMDujKqul9N1Ur1LjO6QG/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "Wienburgpark Meadow",
+        "length": "1.0 km",
+        "lighting": "Moderately lit",
+        "description": "A peaceful open space for yoga and mindfulness activities.",
+        "redirectUrl": "https://www.google.com/maps/place/Busso-Peus-Stra%C3%9Fe+28,+48149+M%C3%BCnster/@51.9634428,7.5818936,14z/data=!4m18!1m11!4m10!1m4!2m2!1d7.6152832!2d51.9569408!4e1!1m3!2m2!1d7.59!2d51.97!3e2!3m5!1s0x47b9b0756505c1f7:0xe8dbabb258af4430!8m2!3d51.969934!4d7.589451!16s%2Fg%2F11wh5zxbh0?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+        "safetyTips": [
+          "Wear warm, flexible clothing.",
+          "Bring a yoga mat or a thick blanket.",
+          "Do light stretches beforehand."
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "activity": "Outdoor Sketching",
+      "description": "Draw or sketch by the Aasee lake.",
+      "groupSuitability": "Suitable for small groups (3-5 people)",
+      "timeRequired": "60 min",
+      "image": "https://drive.google.com/file/d/1UnXllbNrkh4OAM72aAO1BFEBiUhIhrPm/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Promenade",
+        "length": "2.5 km",
+        "lighting": "Partially lit",
+        "description": "Scenic lakeside views for artistic inspiration.",
+        "redirectUrl": "https://www.google.com/maps/place/51%C2%B056'52.4%22N+7%C2%B036'57.9%22E/@51.947882,7.616093,18z/data=!3m1!4b1!4m16!1m11!4m10!1m4!2m2!1d7.6152832!2d51.9569408!4e1!1m3!2m2!1d7.616!2d51.948!3e2!3m3!8m2!3d51.947882!4d7.616093?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+        "safetyTips": [
+          "Bring a sketchbook and pencils.",
+          "Wear gloves with removable fingers for dexterity.",
+          "Choose a sheltered spot to sit."
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "activity": "Ice Skating",
+      "description": "Enjoy a group skating session at an outdoor rink.",
+      "groupSuitability": "Suitable for small groups (3-5 people)",
+      "timeRequired": "60 min",
+      "image": "https://drive.google.com/file/d/1Y5pm_IOHyTNReh0nnY3rWXTajRgyWZ5j/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Ice Arena",
+        "length": "N/A",
+        "lighting": "Well-lit",
+        "description": "A seasonal outdoor ice rink perfect for group fun.",
+        "redirectUrl": "https://www.google.com/maps/place/Salzstra%C3%9Fe+52,+48143+M%C3%BCnster/@51.9617056,7.6293482,19.25z/data=!4m18!1m11!4m10!1m4!2m2!1d7.6152832!2d51.9569408!4e1!1m3!2m2!1d7.63!2d51.962!3e2!3m5!1s0x47b9badccd402a33:0xc25657bfc5ada04f!8m2!3d51.962056!4d7.6300422!16s%2Fg%2F11c4ktzrhq?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+        "safetyTips": [
+          "Wear gloves to protect your hands.",
+          "Check for skate rentals at the venue.",
+          "Stay within the designated skating area."
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "activity": "Winter Picnic",
+      "description": "Enjoy a cozy picnic with warm drinks in Hindenburgplatz.",
+      "groupSuitability": "Suitable for small groups (3-5 people)",
+      "timeRequired": "30 min",
+      "image": "https://drive.google.com/file/d/1yGjVZlpTVHNNj0U2IlKG6S0FMQLECI_R/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "Hindenburgplatz",
+        "length": "1.0 km",
+        "lighting": "Well-lit",
+        "description": "An open space perfect for a quick winter picnic.",
+        "redirectUrl": "https://www.google.com/maps/place/51%C2%B057'39.4%22N+7%C2%B037'40.8%22E/@51.960944,7.627985,19z/data=!3m1!4b1!4m16!1m11!4m10!1m4!2m2!1d7.6152832!2d51.9569408!4e1!1m3!2m2!1d7.628!2d51.961!3e2!3m3!8m2!3d51.960944!4d7.627985?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+        "safetyTips": [
+          "Bring a blanket to sit on.",
+          "Pack a thermos with hot drinks.",
+          "Dispose of any trash responsibly."
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "activity": "Park Orienteering",
+      "description": "Challenge your group to navigate through Wienburgpark using a map.",
+      "groupSuitability": "Suitable for small groups (3-5 people)",
+      "timeRequired": "90 min",
+      "image": "https://drive.google.com/file/d/1-bZ2WrPLdy6pOrTizALf2TFi6eQh1ez5/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "Wienburgpark",
+        "length": "3.0 km",
+        "lighting": "Partially lit",
+        "description": "A fun orienteering challenge for teams, exploring hidden park spots.",
+        "redirectUrl": "https://www.google.com/maps/place/51%C2%B058'11.9%22N+7%C2%B035'24.8%22E/@51.969957,7.59022,17z/data=!3m1!4b1!4m16!1m11!4m10!1m4!2m2!1d7.6152832!2d51.9569408!4e1!1m3!2m2!1d7.59!2d51.97!3e2!3m3!8m2!3d51.969957!4d7.59022?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+        "safetyTips": [
+          "Dress warmly and wear sturdy shoes.",
+          "Ensure your phone is fully charged.",
+          "Stay within the park’s boundaries."
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "activity": "Outdoor Chess",
+      "description": "Play giant chess in the city park.",
+      "groupSuitability": "Suitable for small groups (3-5 people)",
+      "timeRequired": "60 min",
+      "image": "https://drive.google.com/file/d/10ZCBbyvjh-W0xdQzEZunoTTAr_wVXRZS/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "City Park Chess Area",
+        "length": "1.0 km",
+        "lighting": "Well-lit",
+        "description": "A fun outdoor chess setup with life-sized pieces.",
+        "redirectUrl": "https://www.google.com/maps/place/51%C2%B057'59.8%22N+7%C2%B037'21.9%22E/@51.966609,7.622739,17z/data=!3m1!4b1!4m16!1m11!4m10!1m4!2m2!1d7.6152832!2d51.9569408!4e1!1m3!2m2!1d7.625!2d51.965!3e2!3m3!8m2!3d51.966609!4d7.622739?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D",
+        "safetyTips": [
+          "Wear gloves to keep warm.",
+          "Take breaks to move around and stay warm.",
+          "Be mindful of other park visitors."
+        ]
+      }
+    }
+  ]
+
+
+

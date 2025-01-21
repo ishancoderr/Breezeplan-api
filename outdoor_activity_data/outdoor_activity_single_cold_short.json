@@ -1,1 +1,203 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Morning Walk",
+      "description": "A quick walk to start your day.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "15-20 min",
+      "image": "https://drive.google.com/file/d/1XDQfuhX_x8OeMhgcKgeD0ptt-aaKwzHE/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "Promenade Park",
+        "length": "1.5 km",
+        "lighting": "Well-lit",
+        "description": "A beautiful tree-lined path in the city center.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.960000,7.625000&travelmode=walking",
+        "safetyTips": [
+          "Dress in layers to stay warm.",
+          "Watch out for slippery paths.",
+          "Stay visible with reflective clothing."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Quick Birdwatching",
+      "description": "A short birdwatching session in the park.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "20 min",
+      "image": "https://drive.google.com/file/d/1tCm5kRrdoqNGjUXqguBB3lN0UoUh1TSV/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Park",
+        "length": "2.0 km",
+        "lighting": "Natural lighting",
+        "description": "An open park by the lake, ideal for spotting local birds.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.950000,7.600000&travelmode=walking",
+        "safetyTips": [
+          "Carry binoculars for better viewing.",
+          "Wear waterproof shoes.",
+          "Respect wildlife and maintain silence."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Photography Walk",
+      "description": "Capture the beauty of the historic buildings.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "25 min",
+      "image": "https://drive.google.com/file/d/1cAVmIXSUwPO1kyKAniek4ip8q-K25fgI/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "St. Lambert's Church Area",
+        "length": "1.0 km",
+        "lighting": "Moderately lit",
+        "description": "A walk through the historic city center with stunning views.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.962000,7.628000&travelmode=walking",
+        "safetyTips": [
+          "Keep your camera safe in a weatherproof bag.",
+          "Avoid obstructing pathways.",
+          "Be mindful of other pedestrians."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Quick Stretching Routine",
+      "description": "A short session of outdoor stretches.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "10-15 min",
+      "image": "https://drive.google.com/file/d/1-aanlfi625SLgg4QO6ZQrUJ06GN1se93/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "Hiltruper Heath",
+        "length": "Open area",
+        "lighting": "Natural lighting",
+        "description": "A quiet outdoor area for physical activities.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.920000,7.640000&travelmode=walking",
+        "safetyTips": [
+          "Wear gloves to keep your hands warm.",
+          "Focus on slow, deliberate movements.",
+          "Avoid overexertion in cold temperatures."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Park Bench Meditation",
+      "description": "A serene moment to meditate and relax.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "15 min",
+      "image": "https://drive.google.com/file/d/162w400bki0iPV6auSCTrOP10woOzeEE5/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "Botanical Garden",
+        "length": "Open space",
+        "lighting": "Natural lighting",
+        "description": "A peaceful garden with various flora for meditation.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.969000,7.595000&travelmode=walking",
+        "safetyTips": [
+          "Bring a cushion for comfort.",
+          "Choose a spot away from the wind.",
+          "Dress warmly and stay relaxed."
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "activity": "Short Nature Sketching",
+      "description": "Sketch the natural scenery around you.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "20-25 min",
+      "image": "https://drive.google.com/file/d/1RgGOvEdVAan67suy6suGl2hw-BhIoAQx/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "Lake Promenade",
+        "length": "1.5 km",
+        "lighting": "Natural lighting",
+        "description": "A quiet lakeside spot for creative activities.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.948000,7.601000&travelmode=walking",
+        "safetyTips": [
+          "Use a sturdy surface for sketching.",
+          "Wear fingerless gloves to keep warm.",
+          "Protect your materials from moisture."
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "activity": "Quick Bench Workout",
+      "description": "A brief workout using a park bench.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "10 min",
+      "image": "https://drive.google.com/file/d/1Jct5ZFaAbwgeL4gblWymFT5S-EdQGXfS/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "City Park Fitness Zone",
+        "length": "Fitness area",
+        "lighting": "Well-lit",
+        "description": "A designated fitness area within the city park.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.960500,7.620000&travelmode=walking",
+        "safetyTips": [
+          "Check the bench for stability before use.",
+          "Perform movements slowly and deliberately.",
+          "Wear layers to stay warm."
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "activity": "Photography of Early Morning Light",
+      "description": "Capture the unique colors of the cold morning light.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "15-20 min",
+      "image": "https://drive.google.com/file/d/10GLPDZEp7EqgBp8jVBfZv3o2r7KS38bG/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "Historic Town Square",
+        "length": "1.0 km",
+        "lighting": "Natural morning light",
+        "description": "The historic square offers great angles for photography.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.962400,7.628800&travelmode=walking",
+        "safetyTips": [
+          "Carry a compact tripod for stability.",
+          "Be cautious of icy surfaces.",
+          "Avoid obstructing pedestrian pathways."
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "activity": "Short Urban Exploration",
+      "description": "Explore the quiet early morning streets.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "20 min",
+      "image": "https://drive.google.com/file/d/1ZutFZpb1NrGwFewagt9wn5QVcAg2Tq-m/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "Kuhviertel Neighborhood",
+        "length": "2.0 km",
+        "lighting": "Partially lit",
+        "description": "A quaint neighborhood with cobblestone streets.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.965000,7.630000&travelmode=walking",
+        "safetyTips": [
+          "Wear sturdy footwear for cobblestones.",
+          "Carry a small flashlight for dim areas.",
+          "Stay aware of your surroundings."
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "activity": "Quick Tree Identification Walk",
+      "description": "Learn about local trees on a short walk.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "25 min",
+      "image": "https://drive.google.com/file/d/1tXRRvw_YQvVX3DFkEo82VwNFh4BC3v-X/view?usp=drive_link",
+      "locationInfo": {
+        "pathNameOrLocationName": "Muenster Arboretum",
+        "length": "1.5 km",
+        "lighting": "Natural lighting",
+        "description": "An area dedicated to tree conservation and education.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.970000,7.590000&travelmode=walking",
+        "safetyTips": [
+          "Use a guidebook or app for tree identification.",
+          "Dress warmly for the outdoors.",
+          "Avoid touching unknown plants."
+        ]
+      }
+    }
+  ]
+  
