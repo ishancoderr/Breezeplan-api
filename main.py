@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routers.weather import router as weather_router
 from app.routers.activitySuggestions import router as activity_suggestions_router
+from app.routers.dataHandler import router as data_handler_router
 
 app = FastAPI(
     title="Breezeplan API",
@@ -20,6 +21,7 @@ app.add_middleware(
 
 app.include_router(weather_router)
 app.include_router(activity_suggestions_router)
+app.include_router(data_handler_router)
 
 @app.get("/", tags=["Root"])
 async def read_root():
