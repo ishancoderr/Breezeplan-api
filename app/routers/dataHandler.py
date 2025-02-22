@@ -41,8 +41,15 @@ def get_db_instance():
     return db_instance
 
 def generate_activity_id(activity: str, location: str):
+    # Remove spaces and special characters, and convert to lowercase
+    activity_cleaned = activity.replace(" ", "_").lower()
+    location_cleaned = location.replace(" ", "_").lower()
+    
+    # Generate a timestamp
     timestamp = datetime.datetime.utcnow().strftime("%Y%m%d%H%M%S")
-    return f"{activity}_{location}_{timestamp}"
+    
+    # Combine into a unique ID
+    return f"{activity_cleaned}-{location_cleaned}-{timestamp}"
 
 @router.post("/addData")
 async def add_activity(activity_data: ActivityData):
