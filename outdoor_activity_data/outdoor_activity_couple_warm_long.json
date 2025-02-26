@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Stand-Up Paddleboarding on Aasee",
+      "description": "Try stand-up paddleboarding on Aasee Lake for a fun and refreshing water activity.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/sup_aasee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Lake",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Glide across the water on a paddleboard while enjoying scenic city and nature views.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.515000,13.399500&travelmode=driving",
+        "safetyTips": [
+          "Wear a life jacket for safety.",
+          "Use sunscreen to avoid sunburn.",
+          "Start in calm water if you're a beginner."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Guided Walking Tour of Schloss Münster",
+      "description": "Discover the history and architecture of Schloss Münster with a guided walking tour.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "100 min",
+      "image": "https://example.com/images/schloss_munster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schloss Münster",
+        "length": "3 km",
+        "lighting": "Well-lit",
+        "description": "Explore the grand Münster Palace, its surrounding gardens, and learn about its historical significance.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.519900,13.401700&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for walking.",
+          "Bring a bottle of water to stay hydrated.",
+          "Stay on designated paths in the gardens."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Sunset Bike Ride on the Promenade",
+      "description": "Enjoy a relaxing bike ride around Münster’s famous green promenade during sunset.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "110 min",
+      "image": "https://example.com/images/promenade_biking.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Promenade",
+        "length": "6 km",
+        "lighting": "Partially lit",
+        "description": "A scenic loop circling Münster’s city center, perfect for an evening ride with a sunset view.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.520600,13.407300&travelmode=bicycling",
+        "safetyTips": [
+          "Use bike lights as it gets darker.",
+          "Keep a steady pace and watch for pedestrians.",
+          "Wear light, breathable clothing for comfort."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Nature Hike in Sentruper Höhe",
+      "description": "Take a scenic nature hike in Sentruper Höhe, a peaceful green space near Münster Zoo.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/sentruper_hike.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Sentruper Höhe",
+        "length": "5 km",
+        "lighting": "Natural daylight",
+        "description": "A relaxing hiking trail with a mix of wooded areas, open fields, and gentle hills.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.505700,13.403200&travelmode=walking",
+        "safetyTips": [
+          "Wear proper hiking shoes for uneven terrain.",
+          "Bring insect repellent for wooded areas.",
+          "Carry a reusable water bottle to stay hydrated."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Birdwatching at Rieselfelder Münster",
+      "description": "Observe rare bird species in their natural habitat at this famous wetland reserve.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "95 min",
+      "image": "https://example.com/images/rieselfelder_birdwatching.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Rieselfelder Münster",
+        "length": "4 km",
+        "lighting": "Natural daylight",
+        "description": "A guided or self-paced walk through birdwatching stations in this protected nature reserve.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.006000,13.420100&travelmode=walking",
+        "safetyTips": [
+          "Bring binoculars for better viewing.",
+          "Wear muted colors to avoid disturbing wildlife.",
+          "Stay on marked trails to protect the environment."
+        ]
+      }
+    }
+  ]
+  

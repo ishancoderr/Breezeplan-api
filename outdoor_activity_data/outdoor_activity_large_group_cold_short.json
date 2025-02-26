@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Quick Coffee Stop at Kaffeekommune Münster",
+      "description": "Stop by the local coffee shop for a warm drink and a quick break before continuing your exploration of Münster.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "20 min",
+      "image": "https://example.com/images/coffee_stop.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Kaffeekommune Münster",
+        "length": "Indoors",
+        "lighting": "Artificial indoor lighting",
+        "description": "A cozy and modern café offering a variety of hot beverages perfect for warming up in cold weather.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.516700,13.405600&travelmode=walking",
+        "safetyTips": [
+          "Wear warm clothing, as it’s chilly outside.",
+          "Take care of your belongings in crowded spaces.",
+          "Keep your drink secure to avoid spills."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Visit to the Münster Christmas Market",
+      "description": "Experience the festive atmosphere of Münster’s Christmas market with a quick stroll and some shopping for local crafts.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "25 min",
+      "image": "https://example.com/images/christmas_market.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Christmas Market",
+        "length": "Varies",
+        "lighting": "Well-lit",
+        "description": "A short walk through Münster’s charming Christmas market filled with festive stalls and holiday treats.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.516800,13.406000&travelmode=walking",
+        "safetyTips": [
+          "Dress warmly as the market can be chilly.",
+          "Watch out for busy areas and crowded stalls.",
+          "Make sure to keep your group together."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Quick Visit to the Lambertikirche",
+      "description": "A short stop to admire the stunning architecture of the Lambertikirche, Münster’s beautiful gothic church.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "15 min",
+      "image": "https://example.com/images/lambertikirche.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Lambertikirche Münster",
+        "length": "Indoors",
+        "lighting": "Well-lit",
+        "description": "A quick visit to the historic Lambertikirche church, known for its impressive bell tower and beautiful stained-glass windows.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.520000,13.406200&travelmode=walking",
+        "safetyTips": [
+          "Be respectful of others inside the church.",
+          "Stay together as a group while inside.",
+          "Keep your voices low to maintain a peaceful atmosphere."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Münster Town Hall Courtyard Photoshoot",
+      "description": "Gather for a brief but memorable photoshoot in the beautiful Münster Town Hall Courtyard.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/town_hall.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Town Hall Courtyard",
+        "length": "Outdoors",
+        "lighting": "Natural daylight",
+        "description": "Capture the group’s memories with a photoshoot in the picturesque Town Hall Courtyard, surrounded by historical buildings.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.520500,13.405900&travelmode=walking",
+        "safetyTips": [
+          "Wear appropriate clothing for the cold weather.",
+          "Be mindful of your surroundings to avoid accidents.",
+          "Take turns in the photos for equal participation."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "A Quick Walk Through Aasee Park",
+      "description": "Enjoy a brief walk through Aasee Park to stretch your legs and take in the tranquil surroundings.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/aasee_park.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Park",
+        "length": "2 km",
+        "lighting": "Partially lit",
+        "description": "A short walk through the scenic Aasee Park, ideal for a brief break in the fresh air near the lake.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.517100,13.404700&travelmode=walking",
+        "safetyTips": [
+          "Dress warmly, especially if walking near the water.",
+          "Stay on designated pathways to avoid muddy areas.",
+          "Be aware of your surroundings, especially near the lake."
+        ]
+      }
+    }
+  ]
+  

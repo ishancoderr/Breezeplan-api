@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Outdoor Yoga at Aasee",
+      "description": "Relax and stretch with a calming outdoor yoga session by the Aasee, perfect for a peaceful group experience surrounded by nature.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/yoga_asee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A tranquil outdoor yoga session held near Aasee, offering stunning lake views while practicing mindfulness and stretching.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.516000,13.402000&travelmode=walking",
+        "safetyTips": [
+          "Bring a yoga mat or towel for comfort.",
+          "Wear comfortable clothing suitable for yoga.",
+          "Ensure proper hydration before and after the session."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Mini Golf at Minigolfanlage Münster",
+      "description": "Challenge your group to a friendly game of mini golf at Minigolfanlage, offering a fun and competitive outdoor activity for everyone.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "75 min",
+      "image": "https://example.com/images/minigolf_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Minigolfanlage Münster",
+        "length": "Varies",
+        "lighting": "Artificial lighting",
+        "description": "A lively mini-golf course located in the heart of Münster, offering a relaxed yet competitive environment for groups of all ages.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.460000,13.398000&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for walking around the course.",
+          "Stay aware of other players when swinging the club.",
+          "Take turns and enjoy the friendly competition."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "City Scavenger Hunt",
+      "description": "Explore Münster's historic center with your group on a scavenger hunt, solving clues and discovering hidden gems in the city.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/scavenger_hunt.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster City Center",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A fun and engaging scavenger hunt through Münster’s historic streets, where teams will solve clues and find famous landmarks.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.463000,13.404500&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for walking.",
+          "Work together as a team to solve clues.",
+          "Be respectful of public spaces and fellow participants."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Picnic at Schlosspark",
+      "description": "Enjoy a relaxing picnic in the beautiful Schlosspark with your group, offering peaceful green space and scenic views.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/picnic_schlosspark.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schlosspark Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A charming park located near the castle, perfect for a picnic with open spaces, paths, and beautiful nature all around.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.415500,13.424000&travelmode=walking",
+        "safetyTips": [
+          "Bring a blanket and picnic supplies.",
+          "Be mindful of other park-goers.",
+          "Take care of any litter and dispose of it properly."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Boat Rental at Aasee",
+      "description": "Rent a small boat at Aasee and enjoy a relaxing time with your group, paddling around the lake and taking in the beautiful surroundings.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/boat_rent_asee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Boat Rental",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Rent a boat at Aasee and spend time with your group enjoying the water, making it a perfect outdoor activity for sunny weather.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.514500,13.401000&travelmode=walking",
+        "safetyTips": [
+          "Wear life jackets for safety on the water.",
+          "Follow the rental shop’s instructions for boat handling.",
+          "Stay together as a group to enjoy the experience."
+        ]
+      }
+    }
+  ]
+  

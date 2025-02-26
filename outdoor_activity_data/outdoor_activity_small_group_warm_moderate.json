@@ -1,1 +1,98 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Coffee Break at Café Herr Sonnenschein",
+      "description": "Relax with a cup of freshly brewed coffee and homemade pastries at the charming Café Herr Sonnenschein in the heart of Münster.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "45 min",
+      "image": "https://example.com/images/cafe_herr_sonnenschein.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Café Herr Sonnenschein",
+        "length": "N/A",
+        "lighting": "Natural daylight & indoor lighting",
+        "description": "A cozy café known for its relaxed atmosphere, high-quality coffee, and delicious homemade treats.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.963500,7.625800&travelmode=walking",
+        "safetyTips": [
+          "Check for available seating during peak hours.",
+          "Inform staff about any dietary restrictions before ordering."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Stroll through Botanischer Garten Münster",
+      "description": "Take a leisurely walk through the beautiful Botanischer Garten Münster, home to diverse plant species and serene landscapes.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/botanischer_garten.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Botanischer Garten Münster",
+        "length": "2 km",
+        "lighting": "Natural daylight",
+        "description": "A picturesque botanical garden featuring exotic and native plants, ideal for a relaxing nature walk.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.969000,7.595000&travelmode=walking",
+        "safetyTips": [
+          "Stay on designated paths to protect delicate plants.",
+          "Check for seasonal blooms for the best experience."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Paddle Boating at Aasee",
+      "description": "Rent a paddle boat and enjoy a relaxing time on Aasee, taking in the scenic waterfront views of Münster.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "75 min",
+      "image": "https://example.com/images/aasee_paddle_boating.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "Aasee provides an excellent setting for paddle boating with stunning city and nature views.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.955000,7.618000&travelmode=walking",
+        "safetyTips": [
+          "Wear a life jacket for safety.",
+          "Avoid overcrowding the boat to maintain balance."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Explore the Kunstmuseum Pablo Picasso",
+      "description": "Dive into the world of modern art with a visit to the Kunstmuseum Pablo Picasso, featuring unique exhibitions and collections.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/kunstmuseum_picasso.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Kunstmuseum Pablo Picasso",
+        "length": "N/A",
+        "lighting": "Indoor lighting",
+        "description": "A must-visit museum in Münster showcasing artworks by Pablo Picasso and other renowned modern artists.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.962200,7.622900&travelmode=walking",
+        "safetyTips": [
+          "Do not touch the artworks.",
+          "Follow museum guidelines regarding photography."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Evening Walk at Promenade Münster",
+      "description": "Take a refreshing evening walk along the Promenade Münster, a green pathway that circles the old town.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "50 min",
+      "image": "https://example.com/images/promenade_walk.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Promenade Münster",
+        "length": "4.5 km",
+        "lighting": "Natural daylight & street lighting",
+        "description": "A tree-lined promenade perfect for an evening stroll, offering beautiful sights and a relaxed atmosphere.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.963700,7.625600&travelmode=walking",
+        "safetyTips": [
+          "Watch out for cyclists sharing the path.",
+          "Stick to well-lit areas if walking after sunset."
+        ]
+      }
+    }
+  ]
+  

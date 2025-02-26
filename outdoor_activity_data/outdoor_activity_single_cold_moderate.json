@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Solo Visit to the Allwetterzoo Münster",
+      "description": "Enjoy a peaceful solo visit to Allwetterzoo, Münster's renowned zoo. Take your time exploring various animal exhibits and the beautiful park-like environment.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "75 min",
+      "image": "https://example.com/images/allwetterzoo_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Allwetterzoo Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight and zoo lighting",
+        "description": "A family-friendly zoo with both indoor and outdoor exhibits, including an aquarium and various animal enclosures. A great place for a solo wander among wildlife.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.445600,13.397300&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable walking shoes.",
+          "Bring a small snack or water to stay refreshed.",
+          "Respect the animals and follow zoo rules."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Solo Coffee and People Watching at Prinzipalmarkt",
+      "description": "Enjoy a warm drink while observing the lively atmosphere of Münster's historic market square, Prinzipalmarkt, which is full of character and charm.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/kaffee_prinzipalmarkt.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Prinzipalmarkt",
+        "length": "Varies",
+        "lighting": "Outdoor and indoor lighting",
+        "description": "A historic square in the heart of Münster, surrounded by stunning architecture, restaurants, and cafés. A perfect spot to sit and enjoy a coffee while watching the world go by.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.516500,13.396200&travelmode=walking",
+        "safetyTips": [
+          "Keep an eye on your belongings while seated outside.",
+          "Consider wearing layers to stay warm on chilly days.",
+          "Enjoy the atmosphere and take your time."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Solo Walk Around the Schlosspark",
+      "description": "Take a reflective solo walk through Schlosspark, Münster's royal park. Enjoy the peaceful surroundings, historical trees, and beautiful landscapes.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/schlosspark_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schlosspark",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A charming park around the Schloss Münster (University Castle), ideal for a leisurely walk amidst greenery, sculptures, and historic buildings.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.462000,13.398200&travelmode=walking",
+        "safetyTips": [
+          "Stay warm and dress in layers during colder days.",
+          "Be mindful of cyclists on shared paths.",
+          "Bring a camera to capture the scenic beauty."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Solo Visit to the Mühlenhof Open-Air Museum",
+      "description": "Explore Münster's rich cultural history at the Mühlenhof Open-Air Museum. Stroll through traditional farmhouses, windmills, and historical exhibits.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "80 min",
+      "image": "https://example.com/images/muehlenhof_museum.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Mühlenhof Open-Air Museum",
+        "length": "Varies",
+        "lighting": "Indoor and outdoor lighting",
+        "description": "An outdoor museum featuring old rural buildings, including windmills and farmhouses, showcasing life in the region's past.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.465200,13.395500&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for walking on uneven surfaces.",
+          "Check the weather forecast before visiting.",
+          "Respect the historical artifacts and structures."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Solo Art Viewing at LWL Museum for Art and Culture",
+      "description": "Spend time appreciating the artistic collections at the LWL Museum in Münster, from medieval art to contemporary works, all at your own pace.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/lwl_museum_art.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "LWL Museum for Art and Culture",
+        "length": "Varies",
+        "lighting": "Indoor museum lighting",
+        "description": "A museum showcasing an extensive collection of art from different periods, perfect for those looking to immerse themselves in creativity and history.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.464000,13.396700&travelmode=walking",
+        "safetyTips": [
+          "Do not touch the artwork to preserve its condition.",
+          "Stay aware of museum policies and exhibit guidelines.",
+          "Use the museum map to navigate to your favorite exhibits."
+        ]
+      }
+    }
+  ]
+  

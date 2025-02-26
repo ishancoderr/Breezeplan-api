@@ -1,1 +1,98 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Kayaking on the Aasee",
+      "description": "Enjoy a 2-hour kayaking session on the Aasee with friends. Paddle around the lake and enjoy the sun, perfect for a hot summer day.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/aasee_kayaking.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Lake",
+        "length": "N/A",
+        "lighting": "Natural sunlight",
+        "description": "Aasee is a beautiful lake in Münster, and kayaking here is a fantastic way to stay cool while enjoying the surroundings.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.059400,7.615600&travelmode=walking",
+        "safetyTips": [
+          "Wear a life jacket for safety.",
+          "Stay hydrated and protect yourself from the sun with sunscreen."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Cycling Tour through Promenade",
+      "description": "Take a 2.5-hour cycling tour along Münster’s famous Promenade, which is lined with trees and offers a scenic route around the city.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/cycling_promenade.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Promenade",
+        "length": "Approx. 4.5 km",
+        "lighting": "Partially shaded by trees",
+        "description": "The Promenade is a stunning route around Münster’s city center. Cycling here gives you a great view of the city while staying active in the heat.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.027200,7.611000&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a helmet and comfortable clothes.",
+          "Bring water and take breaks in shaded spots to stay cool."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Picnic at Schlossgarten",
+      "description": "Spend a relaxing 2-hour picnic with friends at Schlossgarten, enjoying the shade of trees and a beautiful view of the castle. It’s a perfect way to spend a hot day.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/schlossgarten_picnic.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schlossgarten Park",
+        "length": "N/A",
+        "lighting": "Shaded with trees",
+        "description": "Schlossgarten is one of Münster's most popular parks. Enjoy the fresh air, relax, and eat some snacks while soaking in the beauty of the park and castle.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.030100,7.612500&travelmode=walking",
+        "safetyTips": [
+          "Bring sunscreen and hats to protect yourself from the sun.",
+          "Use a blanket or towels to sit comfortably on the grass."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Swimming at Dortmund-Ems Canal",
+      "description": "Cool off with a 2-hour swim at the Dortmund-Ems Canal. Relax in the water and enjoy the summer heat with a refreshing dip.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/dortmund_ems_canal_swimming.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Dortmund-Ems Canal",
+        "length": "N/A",
+        "lighting": "Natural sunlight",
+        "description": "The Dortmund-Ems Canal offers a peaceful environment for swimming. It’s a great place to cool down during the summer heat.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.050000,7.620000&travelmode=walking",
+        "safetyTips": [
+          "Ensure that swimming is allowed at the location.",
+          "Stay hydrated and bring water bottles to the spot."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Walking Tour through the Botanical Garden",
+      "description": "Take a 2-hour walking tour of the Botanical Garden, enjoying the lush green space and cooling off under the shade of trees in the hot weather.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/botanical_garden_walk.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Botanical Garden Münster",
+        "length": "Approx. 2 km",
+        "lighting": "Shaded paths with occasional sun",
+        "description": "The Botanical Garden offers a peaceful and shaded environment to walk around. The variety of plants provides a cooling experience in the warm weather.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.035400,7.612900&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for walking.",
+          "Stay hydrated and take rest breaks when needed."
+        ]
+      }
+    }
+  ]
+  

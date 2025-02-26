@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Biking Adventure through Rieselfelder",
+      "description": "Cycle through the scenic nature reserve of Rieselfelder, home to diverse bird species and wetlands.",
+      "groupSuitability": "Perfect for two cycling enthusiasts",
+      "timeRequired": "110 min",
+      "image": "https://example.com/images/biking_rieselfelder.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Rieselfelder Cycling Trail",
+        "length": "12 km",
+        "lighting": "Natural daylight",
+        "description": "A well-maintained cycling trail through wetlands and birdwatching spots.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.0213,7.6468&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a helmet and bright clothing.",
+          "Respect nature and avoid disturbing wildlife.",
+          "Carry a small repair kit for emergencies."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Botanical Garden Exploration",
+      "description": "Stroll through Münster’s botanical garden and discover exotic plants and quiet spots for relaxation.",
+      "groupSuitability": "Ideal for nature lovers",
+      "timeRequired": "95 min",
+      "image": "https://example.com/images/botanical_garden.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Botanischer Garten Münster",
+        "length": "2.5 km",
+        "lighting": "Well-lit",
+        "description": "A beautifully maintained botanical garden with themed plant sections and peaceful seating areas.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9635,7.6129&travelmode=walking",
+        "safetyTips": [
+          "Stay on designated paths.",
+          "Do not pick or touch rare plants.",
+          "Bring a camera for capturing unique flowers."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Rowboat Ride on Aasee",
+      "description": "Enjoy a peaceful rowboat ride on Aasee with stunning views of the city skyline and nature.",
+      "groupSuitability": "Great for a relaxing water experience",
+      "timeRequired": "100 min",
+      "image": "https://example.com/images/rowboat_aasee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Boat Rental",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A calm lake perfect for boating, surrounded by lush greenery and walking paths.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9562,7.6153&travelmode=walking",
+        "safetyTips": [
+          "Wear a life jacket for safety.",
+          "Avoid overcrowding the boat.",
+          "Be aware of changing weather conditions."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Photography Walk through Kuhviertel",
+      "description": "Capture Münster’s historic charm on a photography walk through the artistic district of Kuhviertel.",
+      "groupSuitability": "Perfect for photography enthusiasts",
+      "timeRequired": "115 min",
+      "image": "https://example.com/images/photography_kuhviertel.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Kuhviertel Münster",
+        "length": "3 km",
+        "lighting": "Natural daylight",
+        "description": "A picturesque district with cobbled streets, historic pubs, and unique architecture.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9651,7.6230&travelmode=walking",
+        "safetyTips": [
+          "Keep your camera safe from unexpected weather.",
+          "Respect private property when taking photos.",
+          "Look for interesting light and shadow contrasts."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Outdoor Yoga at Südpark",
+      "description": "Practice a guided yoga session in the serene atmosphere of Südpark, surrounded by greenery.",
+      "groupSuitability": "Ideal for relaxation seekers",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/yoga_sudpark.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Südpark Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A peaceful city park with open green spaces, ideal for yoga and meditation.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9478,7.6214&travelmode=walking",
+        "safetyTips": [
+          "Bring a yoga mat for comfort.",
+          "Stay hydrated and dress in comfortable layers.",
+          "Find a quiet spot away from crowded areas."
+        ]
+      }
+    }
+  ]
+  

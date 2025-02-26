@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Group Run at Stadtwald Münster",
+      "description": "Take a quick but invigorating group run through the beautiful Stadtwald Münster, surrounded by trees and fresh air.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/group_run.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Stadtwald Münster",
+        "length": "5 km",
+        "lighting": "Partially shaded",
+        "description": "A scenic route through the Stadtwald, providing a great running path that offers a mix of sunlight and shade along the way.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.479500,13.423200&travelmode=walking",
+        "safetyTips": [
+          "Wear lightweight clothing and shoes designed for running.",
+          "Make sure to hydrate before and after the run.",
+          "Stay within the group to avoid getting lost."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Paddleboarding at Aasee",
+      "description": "Try paddleboarding with your group at Aasee for a fun and refreshing activity in the hot weather.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "75 min",
+      "image": "https://example.com/images/paddleboarding.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Paddleboarding on the serene waters of Aasee is a great way to cool off while enjoying the surrounding views of Münster.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.518500,13.404200&travelmode=walking",
+        "safetyTips": [
+          "Wear sunscreen and a hat to protect from the sun.",
+          "Make sure to wear a life jacket if you are not an experienced paddleboarder.",
+          "Be mindful of the water traffic around you and keep a safe distance."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Outdoor Volleyball at Hammerbrook Park",
+      "description": "Set up a volleyball game with your group at Hammerbrook Park, enjoying some friendly competition in the sun.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/volleyball.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Hammerbrook Park",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A spacious park with open fields ideal for an intense but fun volleyball game, perfect for cooling off with some group exercise.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.465200,13.411300&travelmode=walking",
+        "safetyTips": [
+          "Wear athletic clothing and shoes suitable for outdoor sports.",
+          "Drink plenty of water to stay hydrated during the game.",
+          "Stretch before the game to avoid muscle strain."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Picnic at Promenade Park",
+      "description": "Enjoy a light picnic with your group at Promenade Park, taking in the sunshine and relaxing together in the green space.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/picnic_promenade.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Promenade Park",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A lovely spot in Münster's city center with plenty of grassy areas perfect for spreading a blanket and enjoying a summer picnic with your group.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.518300,13.404400&travelmode=walking",
+        "safetyTips": [
+          "Pack a cooler with cold drinks to stay refreshed.",
+          "Make sure to use sunscreen, as you'll be outdoors for an extended period.",
+          "Clean up the area after your picnic to keep the park clean."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Cycling Tour Around Lake Möhnesee",
+      "description": "Take a cycling trip with your group around the picturesque Lake Möhnesee, enjoying beautiful views and fresh air.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/cycling_moehnesee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Lake Möhnesee",
+        "length": "18 km",
+        "lighting": "Natural daylight",
+        "description": "A scenic cycling loop around Lake Möhnesee with picturesque views of the water and surrounding countryside. Great for a moderate ride with your group.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.462300,13.437100&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a helmet and check your bike before starting.",
+          "Bring water to stay hydrated during the ride.",
+          "Make sure to follow traffic signs and be aware of other cyclists."
+        ]
+      }
+    }
+  ]
+  

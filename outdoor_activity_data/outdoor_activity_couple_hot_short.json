@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Ice Cream Tasting at Hafen Münster",
+      "description": "Enjoy a quick ice cream tasting session at one of Münster’s best gelato spots by the harbor.",
+      "groupSuitability": "Ideal for two people",
+      "timeRequired": "25 min",
+      "image": "https://example.com/images/icecream_hafen.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Hafen Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A lively harbor area with scenic views and excellent ice cream parlors.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9626,7.6254&travelmode=walking",
+        "safetyTips": [
+          "Stay hydrated while walking.",
+          "Try lighter flavors for a refreshing experience.",
+          "Find a shaded seating area to enjoy your ice cream."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Refreshing Fountain Walk at Prinzipalmarkt",
+      "description": "Take a short stroll around the historical Prinzipalmarkt and cool off near the fountains.",
+      "groupSuitability": "Great for couples",
+      "timeRequired": "20 min",
+      "image": "https://example.com/images/fountain_walk.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Prinzipalmarkt",
+        "length": "500 m",
+        "lighting": "Well-lit",
+        "description": "A charming old town street lined with medieval buildings and refreshing water fountains.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9613,7.6258&travelmode=walking",
+        "safetyTips": [
+          "Wear light clothing to stay cool.",
+          "Carry a small hand towel to wipe off sweat.",
+          "Avoid walking in direct sunlight for too long."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Cold Drink Break at Aasee Terrace",
+      "description": "Relax at the Aasee terrace with a cold drink and enjoy the waterfront view.",
+      "groupSuitability": "Perfect for a quick refreshment break",
+      "timeRequired": "15 min",
+      "image": "https://example.com/images/cold_drink_aasee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A scenic lakeside promenade with cafes and outdoor seating.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9556,7.6131&travelmode=walking",
+        "safetyTips": [
+          "Choose a shaded seating area.",
+          "Drink plenty of water alongside your cold beverage.",
+          "Apply sunscreen if sitting in an open-air area."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Cooling Mist Experience at LWL Museum Garden",
+      "description": "Step into the mist cooling installation at the LWL Museum garden for a quick refreshment.",
+      "groupSuitability": "Great for two people escaping the heat",
+      "timeRequired": "10 min",
+      "image": "https://example.com/images/mist_cooling_lwl.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "LWL Museum Garden",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A beautifully designed garden with interactive mist cooling installations.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9620,7.6198&travelmode=walking",
+        "safetyTips": [
+          "Avoid standing too long in direct sunlight.",
+          "Wear comfortable and breathable clothing.",
+          "Use a hat or umbrella for extra shade."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Mini Workout at Schlossplatz Outdoor Gym",
+      "description": "Do a quick stretching or bodyweight workout at the open-air gym at Schlossplatz.",
+      "groupSuitability": "Best for fitness enthusiasts",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/workout_schlossplatz.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schlossplatz Outdoor Gym",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A modern outdoor fitness area with workout stations near Schloss Münster.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9637,7.6124&travelmode=walking",
+        "safetyTips": [
+          "Stretch before starting your workout.",
+          "Avoid overexertion in the heat.",
+          "Stay hydrated and take breaks."
+        ]
+      }
+    }
+  ]
+  

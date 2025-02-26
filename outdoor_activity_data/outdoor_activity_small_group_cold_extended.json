@@ -1,1 +1,98 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Winter Cycling Tour",
+      "description": "Join a group of friends for a scenic 120-minute winter cycling tour through Münster’s historical streets and beautiful parks.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/winter_cycling.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster City Center & Aasee Loop",
+        "length": "Approx. 12 km",
+        "lighting": "Partially lit",
+        "description": "This 120-minute route takes you through Münster’s city center and along the picturesque Aasee, ideal for a peaceful winter cycling experience.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.030000,7.624000&travelmode=bicycling",
+        "safetyTips": [
+          "Dress warmly and wear gloves to avoid cold hands.",
+          "Check your bike before starting the ride."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Visit to the LWL Museum of Natural History",
+      "description": "Explore the LWL Museum of Natural History with your group for an enriching 130-minute experience discovering exhibits on nature, wildlife, and history.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "130 min",
+      "image": "https://example.com/images/lwl_museum.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "LWL Museum of Natural History",
+        "length": "N/A",
+        "lighting": "Well-lit indoor lighting",
+        "description": "This museum offers interactive exhibits, making it a perfect place for a cold day of learning and exploring nature and history.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.056400,7.622700&travelmode=walking",
+        "safetyTips": [
+          "Be mindful of the museum's opening hours.",
+          "Avoid loud conversations to maintain a respectful atmosphere."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Indoor Rock Climbing at Boulderwelt",
+      "description": "Spend 150 minutes challenging yourselves with indoor rock climbing at Boulderwelt, a great activity to enjoy with friends on a cold day.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "150 min",
+      "image": "https://example.com/images/boulderwelt_climbing.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Boulderwelt Münster",
+        "length": "N/A",
+        "lighting": "Bright indoor lighting",
+        "description": "Boulderwelt is a top indoor rock climbing gym where you can push your physical limits in a safe, enjoyable environment.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.057400,7.615200&travelmode=walking",
+        "safetyTips": [
+          "Warm up properly before climbing.",
+          "Wear comfortable athletic clothing and climbing shoes."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Visit to the Münster Zoo",
+      "description": "Take a 120-minute walk through Münster Zoo with your group, observing animals in their natural habitat while learning about conservation.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/munster_zoo.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Zoo",
+        "length": "N/A",
+        "lighting": "Natural daylight and artificial lighting in exhibits",
+        "description": "Münster Zoo is a large park that offers an array of animals, from elephants to birds of prey, making it an educational and enjoyable experience.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.068700,7.630200&travelmode=walking",
+        "safetyTips": [
+          "Keep a safe distance from the animals.",
+          "Respect the zoo's rules for a positive experience."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Escape Room Challenge",
+      "description": "Work together as a team to solve puzzles and escape within 120 minutes at one of Münster’s thrilling escape rooms.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/escape_room.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Exit the Room Münster",
+        "length": "N/A",
+        "lighting": "Low ambient lighting",
+        "description": "Escape Room Münster offers exciting and challenging escape room experiences perfect for a fun group activity to test your problem-solving skills.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.031300,7.630600&travelmode=walking",
+        "safetyTips": [
+          "Listen carefully to the rules and instructions before entering.",
+          "Stay calm and communicate clearly with your team."
+        ]
+      }
+    }
+  ]
+  

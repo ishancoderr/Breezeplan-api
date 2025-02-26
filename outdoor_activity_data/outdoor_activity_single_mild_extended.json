@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Solo Stroll in Aasee Park",
+      "description": "Take a leisurely solo walk around the serene Aasee Park, enjoying the calm atmosphere and the beautiful lake views. Perfect for a refreshing day outdoors.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/aasee_park_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Park",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Aasee Park offers a picturesque setting with beautiful pathways along the lake. It’s perfect for a peaceful solo stroll, ideal for enjoying nature and getting some fresh air.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.465600,7.629500&travelmode=walking",
+        "safetyTips": [
+          "Bring a jacket, as it can get chilly by the water.",
+          "Stay hydrated and bring a water bottle with you.",
+          "Watch your step around the lake’s edge."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Solo Exploration of the Münster Botanical Garden",
+      "description": "Spend a couple of hours exploring the diverse flora in Münster's Botanical Garden. A great opportunity for a solo nature walk, while learning about different plant species.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "135 min",
+      "image": "https://example.com/images/munster_botanical_garden.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Botanical Garden",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "The Botanical Garden is a lush and tranquil space, ideal for a peaceful solo walk. Take in the various plant species and enjoy the calm surroundings.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.408000,7.605500&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for walking on uneven terrain.",
+          "Bring a light jacket in case it gets cool.",
+          "Respect the plants and follow the marked pathways."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Solo Cycling Tour through the Promenade",
+      "description": "Rent a bike and embark on a solo cycling tour along the historic Promenade, a 4.5 km loop that takes you through some of Münster’s most scenic areas.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/promenade_cycling_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Promenade",
+        "length": "4.5 km",
+        "lighting": "Partially lit",
+        "description": "The Promenade is a scenic and smooth cycling route that circles the city center. It’s perfect for a solo cycling session, offering views of parks, lakes, and historic landmarks.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.420000,7.593500&travelmode=bicycling",
+        "safetyTips": [
+          "Make sure your bike is in good working condition before starting.",
+          "Wear a helmet for safety.",
+          "Keep a safe distance from other cyclists."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Solo Visit to the Museum of Art",
+      "description": "Take a solo tour of the Museum of Art in Münster, where you can enjoy an array of classic and contemporary art exhibits. Perfect for a solo cultural experience.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "150 min",
+      "image": "https://example.com/images/museum_of_art_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Museum of Art",
+        "length": "Varies",
+        "lighting": "Indoor lighting",
+        "description": "The Museum of Art offers a wide range of exhibitions, from classical to modern art. Take your time to explore and appreciate the works in a quiet, solo setting.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.417800,7.629000&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable clothing, as you might be walking around for extended periods.",
+          "Check for any temporary exhibitions before your visit.",
+          "Respect the artwork and avoid using flash photography."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Solo Visit to the Prinzipalmarkt",
+      "description": "Take a solo stroll around the Prinzipalmarkt, Münster’s historic city center. Enjoy the beautiful architecture, shop at local boutiques, and relax in one of the many cafés.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/prinzipalmarkt_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Prinzipalmarkt",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Prinzipalmarkt is the heart of Münster, lined with historic buildings and shops. It’s a wonderful place to explore on your own, with plenty of places to sit and enjoy a coffee or snack.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.030000,7.625000&travelmode=walking",
+        "safetyTips": [
+          "Keep an eye on your belongings in busy areas.",
+          "Take breaks at one of the outdoor cafés for a rest.",
+          "Wear comfortable shoes for walking."
+        ]
+      }
+    }
+  ]
+  

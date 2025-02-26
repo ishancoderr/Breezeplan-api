@@ -1,1 +1,102 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Kayaking on Lake Aasee",
+      "description": "Enjoy a long and refreshing kayaking session on Lake Aasee, perfect for a hot day.",
+      "groupSuitability": "Ideal for two people",
+      "timeRequired": "150 min",
+      "image": "https://example.com/images/kayaking_aasee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Lake Aasee",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A scenic kayaking route across the tranquil waters of Lake Aasee.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9495,7.5950&travelmode=driving",
+        "safetyTips": [
+          "Wear a life jacket.",
+          "Stay hydrated.",
+          "Apply sunscreen to avoid sunburn."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Cycling to Werse River",
+      "description": "A long-distance cycling trip along the Werse River, ideal for an adventurous day.",
+      "groupSuitability": "Best for two active individuals",
+      "timeRequired": "180 min",
+      "image": "https://example.com/images/cycling_werse.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Werse River Trail",
+        "length": "30 km",
+        "lighting": "Natural daylight",
+        "description": "A beautiful cycling trail following the Werse River, offering great natural views.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9503,7.6948&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a helmet.",
+          "Take breaks to rest.",
+          "Carry enough water to stay hydrated."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Hiking in Baumberge",
+      "description": "A challenging but rewarding long hike in the Baumberge region.",
+      "groupSuitability": "Perfect for two adventure lovers",
+      "timeRequired": "150 min",
+      "image": "https://example.com/images/hiking_baumberge.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Baumberge Hiking Trail",
+        "length": "12 km",
+        "lighting": "Natural daylight",
+        "description": "A scenic and moderately difficult hiking trail in the Baumberge hills.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9633,7.4683&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable hiking shoes.",
+          "Bring a hat and sunscreen.",
+          "Take frequent water breaks."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Stand-Up Paddleboarding on Lake Aasee",
+      "description": "A fun and relaxing paddleboarding experience on a hot summer day.",
+      "groupSuitability": "Ideal for two people",
+      "timeRequired": "130 min",
+      "image": "https://example.com/images/paddleboarding_aasee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Lake Aasee Paddle Zone",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A designated paddleboarding area on Lake Aasee, perfect for cooling off.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9495,7.5950&travelmode=driving",
+        "safetyTips": [
+          "Wear a personal flotation device.",
+          "Apply waterproof sunscreen.",
+          "Stay close to the shore if you're a beginner."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Exploring Rieselfelder Nature Reserve",
+      "description": "A guided or self-paced nature walk through the vast wetlands of Rieselfelder.",
+      "groupSuitability": "Great for nature enthusiasts",
+      "timeRequired": "135 min",
+      "image": "https://example.com/images/rieselfelder_walk.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Rieselfelder Nature Reserve",
+        "length": "10 km",
+        "lighting": "Natural daylight",
+        "description": "A birdwatching and wildlife exploration trail within a beautiful wetland reserve.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.0225,7.6350&travelmode=walking",
+        "safetyTips": [
+          "Wear light and breathable clothing.",
+          "Bring binoculars for birdwatching.",
+          "Drink plenty of water."
+        ]
+      }
+    }
+  ]

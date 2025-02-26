@@ -1,1 +1,98 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Explore the Allwetterzoo Münster",
+      "description": "Visit the Allwetterzoo to enjoy a variety of animals and exhibits, while experiencing a lovely day outdoors in mild weather.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/allwetterzoo.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Allwetterzoo Münster",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "Allwetterzoo Münster offers a great opportunity to walk through animal exhibits and natural landscapes, perfect for a longer visit with friends.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.959000,7.636000&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for walking.",
+          "Stay hydrated while exploring the zoo."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Visit the Mühlenhof Open-Air Museum",
+      "description": "Step back in time and explore the historic buildings and exhibits at the Mühlenhof Open-Air Museum, showcasing Münster’s heritage.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/muehlenhof_museum.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Mühlenhof Open-Air Museum",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "Explore the Mühlenhof Open-Air Museum, a space dedicated to displaying old houses, tools, and cultural history of the region.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.981500,7.621500&travelmode=walking",
+        "safetyTips": [
+          "Check the weather forecast before heading out.",
+          "Stay on the marked paths in the museum to ensure safety."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Biking through the Havixbeck Nature Reserve",
+      "description": "Rent bikes and explore the beautiful Havixbeck Nature Reserve, a scenic area perfect for cycling through forests and fields.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/havixbeck_biking.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Havixbeck Nature Reserve",
+        "length": "15 km",
+        "lighting": "Natural daylight",
+        "description": "Cycle through the scenic routes of Havixbeck Nature Reserve, where you can enjoy the fresh air and view diverse wildlife and plants.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.983800,7.493900&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a helmet for safety.",
+          "Carry a water bottle and snacks for the ride."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Picnic at Aasee Lake",
+      "description": "Spend a relaxing afternoon having a picnic by the Aasee Lake, enjoying the tranquil atmosphere and picturesque views.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "150 min",
+      "image": "https://example.com/images/aasee_picnic.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Lake",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "Aasee is a popular spot for picnics, boating, and walking along the lake, offering a peaceful setting for group activities.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.053500,7.616000&travelmode=walking",
+        "safetyTips": [
+          "Bring sunscreen to protect from sun exposure.",
+          "Be mindful of local wildlife and avoid feeding animals."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Hike through the Coesfelder Wald",
+      "description": "Enjoy a nature hike through the Coesfelder Wald, a forested area perfect for walking and exploring nature trails with friends.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/coesfelder_wald.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Coesfelder Wald",
+        "length": "8 km",
+        "lighting": "Natural daylight",
+        "description": "Explore the serene forest trails of Coesfelder Wald, ideal for a quiet walk or group hike surrounded by nature.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.966000,7.522500&travelmode=walking",
+        "safetyTips": [
+          "Wear sturdy shoes for walking on trails.",
+          "Carry a small first-aid kit and stay aware of your surroundings."
+        ]
+      }
+    }
+  ]
+  

@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Guided Historical Walking Tour of Münster",
+      "description": "Embark on a two-hour walking tour exploring the rich history of Münster, visiting key landmarks and learning about the city's past.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/historical_tour.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster City Center",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A walking tour through Münster's historical sites including the Prinzipalmarkt, St. Paulus Cathedral, and the University of Münster.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.453200,13.417800&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for walking.",
+          "Carry an umbrella or a rain jacket, as the weather can change.",
+          "Stay together as a group to ensure everyone stays on track."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Cycling Tour around Aasee",
+      "description": "Take a scenic 15 km cycling tour around the Aasee lake, a perfect way to enjoy the cool breeze while staying active with your group.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "135 min",
+      "image": "https://example.com/images/cycling_asee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Cycling Route",
+        "length": "15 km",
+        "lighting": "Natural daylight",
+        "description": "A beautiful route around Aasee with stunning lake views, perfect for a leisurely ride through nature and open spaces.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.516000,13.402500&travelmode=bicycling",
+        "safetyTips": [
+          "Make sure your bike is in good working condition.",
+          "Wear a helmet for safety.",
+          "Bring a water bottle to stay hydrated during the ride."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Kayaking on the Dortmund-Ems Canal",
+      "description": "Explore the waters of the Dortmund-Ems Canal with your group in rented kayaks, navigating the gentle waters and enjoying the fresh air.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/kayaking_dortmund_ems.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Dortmund-Ems Canal",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A kayaking adventure on the Dortmund-Ems Canal, offering an ideal mix of relaxation and light exercise as you paddle along the peaceful waters.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.461500,13.429100&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a life jacket for safety.",
+          "Ensure your kayak is secure before getting in the water.",
+          "Be cautious around boat traffic and other water users."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Picnic and Nature Walk at Gronau Nature Reserve",
+      "description": "Pack a picnic and take a group walk through the beautiful Gronau Nature Reserve, where you can relax in nature and enjoy fresh air.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "150 min",
+      "image": "https://example.com/images/picnic_gronau.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Gronau Nature Reserve",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A relaxing walk through Gronau Nature Reserve with opportunities to enjoy a picnic in peaceful surroundings surrounded by nature.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.414000,13.458200&travelmode=walking",
+        "safetyTips": [
+          "Bring a blanket and chairs for a comfortable picnic.",
+          "Make sure to bring enough water and food for the group.",
+          "Be mindful of local wildlife and do not disturb them."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Rock Climbing at Kletterpark Münster",
+      "description": "Test your skills and enjoy a group adventure with a rock climbing session at Kletterpark Münster, a great way to challenge yourself and have fun.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/rock_climbing_kletterpark.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Kletterpark Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A thrilling rock climbing park offering various climbing routes for all skill levels. Perfect for groups looking for a bit of adventure in the great outdoors.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.462100,13.422300&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable climbing shoes and loose-fitting clothes.",
+          "Make sure you're harnessed securely before starting the climb.",
+          "Ensure you're familiar with the safety guidelines provided by the park."
+        ]
+      }
+    }
+  ]
+  

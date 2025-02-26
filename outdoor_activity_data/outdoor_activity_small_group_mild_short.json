@@ -1,1 +1,98 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Quick Visit to St. Lamberti Church",
+      "description": "Take a brief stop at St. Lamberti Church, a historical landmark with striking architecture and an interesting past.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "15 min",
+      "image": "https://example.com/images/st_lamberti.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "St. Lamberti Church",
+        "length": "N/A",
+        "lighting": "Natural daylight & indoor lighting",
+        "description": "A quick visit to admire the church’s beautiful Gothic design and learn about its historical significance.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.962400,7.625700&travelmode=walking",
+        "safetyTips": [
+          "Maintain silence inside the church to respect visitors.",
+          "Be cautious on the steps leading inside."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Photo Stop at Prinzipalmarkt",
+      "description": "Take a quick break at Prinzipalmarkt, Münster’s iconic shopping street with historic buildings and a vibrant atmosphere.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "20 min",
+      "image": "https://example.com/images/prinzipalmarkt.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Prinzipalmarkt",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "Perfect for capturing picturesque shots of Münster’s historical marketplace and soaking in the local charm.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.962000,7.626500&travelmode=walking",
+        "safetyTips": [
+          "Watch out for trams and cyclists while taking photos.",
+          "Keep an eye on personal belongings in crowded areas."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Stop by the Kiepenkerl Statue",
+      "description": "Visit the famous Kiepenkerl statue, a tribute to the traveling merchants who played a key role in Münster’s history.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "10 min",
+      "image": "https://example.com/images/kiepenkerl_statue.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Kiepenkerl Statue",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "A quick cultural stop to see an important historical monument in Münster’s old town.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.962800,7.626000&travelmode=walking",
+        "safetyTips": [
+          "Be mindful of passing pedestrians while taking photos.",
+          "Check for guided tour groups that might be gathering nearby."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Short Break at Servatiiplatz",
+      "description": "Pause for a short rest at Servatiiplatz, a peaceful square with benches and greenery, ideal for a quick chat or snack.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "10 min",
+      "image": "https://example.com/images/servatiiplatz.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Servatiiplatz",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "A quiet public space where you can take a short break before continuing your exploration of Münster.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.961500,7.628700&travelmode=walking",
+        "safetyTips": [
+          "Watch out for cyclists passing by.",
+          "Dispose of any litter properly to keep the area clean."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Admire the Krameramtshaus",
+      "description": "Take a moment to admire the Krameramtshaus, one of Münster’s oldest trade guild buildings with a rich history.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "15 min",
+      "image": "https://example.com/images/krameramtshaus.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Krameramtshaus",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "A historical site that once served as a meeting place for merchants and now offers a glimpse into Münster’s past.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.963000,7.626200&travelmode=walking",
+        "safetyTips": [
+          "Follow any visitor guidelines posted outside the building.",
+          "Stay on the public paths and avoid restricted areas."
+        ]
+      }
+    }
+  ]
+  

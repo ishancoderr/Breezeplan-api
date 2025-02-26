@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Cycling Tour along the Dortmund-Ems Canal",
+      "description": "Embark on a scenic cycling journey along the Dortmund-Ems Canal, perfect for groups to enjoy the natural beauty of Münster and its surroundings.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/cycling_dortmund_ems.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Dortmund-Ems Canal",
+        "length": "20 km",
+        "lighting": "Partially lit",
+        "description": "A beautiful cycling route along the Dortmund-Ems Canal, offering picturesque views of nature and peaceful surroundings.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.469000,13.397000&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a helmet for safety.",
+          "Check your bike before starting.",
+          "Stay hydrated and take breaks when needed."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Group Picnic at Aasee",
+      "description": "Gather your friends for a relaxing picnic by the beautiful Aasee, where you can enjoy a meal and soak up the sun.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "150 min",
+      "image": "https://example.com/images/picnic_asee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A peaceful area next to the lake perfect for picnicking with your group, offering ample green space and stunning lake views.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.514500,13.401500&travelmode=walking",
+        "safetyTips": [
+          "Bring enough food and water for everyone.",
+          "Dispose of any trash properly.",
+          "Respect the public space and other visitors."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Boat Tour on Aasee",
+      "description": "Rent a boat and take a leisurely tour around Aasee with your group, enjoying the serene atmosphere and scenic surroundings.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/boat_tour_asee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Boat Rentals",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A boat rental service at Aasee that allows groups to explore the lake and enjoy the tranquility of the water.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.515000,13.400500&travelmode=walking",
+        "safetyTips": [
+          "Wear life jackets for safety.",
+          "Follow the rules for boat handling.",
+          "Stay together and avoid wandering too far from the group."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Hiking at Coesfelder Wald",
+      "description": "Take a group hike through the Coesfelder Wald, exploring the forest trails while enjoying the fresh air and the natural beauty of the woods.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/hiking_coesfelder_wald.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Coesfelder Wald",
+        "length": "10 km",
+        "lighting": "Natural daylight",
+        "description": "A picturesque forest area just outside Münster, offering peaceful hiking trails that are perfect for group exploration.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.474000,13.405500&travelmode=walking",
+        "safetyTips": [
+          "Wear sturdy shoes for hiking.",
+          "Carry water and snacks to stay energized.",
+          "Stick together and stay on marked trails."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Outdoor Volleyball at Stella Maris Beach",
+      "description": "Enjoy a fun and competitive game of beach volleyball at Stella Maris Beach, perfect for large groups looking for an active day in the sun.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/volleyball_stella_maris.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Stella Maris Beach",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A sandy beach area near the lake offering volleyball courts and plenty of space for group sports activities.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.515500,13.399500&travelmode=walking",
+        "safetyTips": [
+          "Wear appropriate athletic shoes.",
+          "Stay hydrated during the game.",
+          "Respect other players and follow the beach rules."
+        ]
+      }
+    }
+  ]
+  

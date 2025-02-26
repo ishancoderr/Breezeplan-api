@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Group Kayaking on the Münster Canal",
+      "description": "Enjoy an exciting group kayaking experience on the Münster Canal, exploring the calm waters while navigating through scenic views.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "100 min",
+      "image": "https://example.com/images/kayaking_munster_canal.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Canal",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A kayaking adventure along the Münster Canal, offering stunning views of the city and the opportunity to enjoy the outdoors with friends.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.462000,13.400500&travelmode=boating",
+        "safetyTips": [
+          "Wear a life vest for safety.",
+          "Stay in your group and maintain a safe distance.",
+          "Be mindful of boat traffic in the canal."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Group Hiking at Werse Forest",
+      "description": "Embark on a group hike through the peaceful trails of Werse Forest, surrounded by lush greenery and tranquil nature.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "110 min",
+      "image": "https://example.com/images/hiking_worse_forest.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Werse Forest",
+        "length": "7 km",
+        "lighting": "Natural daylight",
+        "description": "A scenic hiking trail through Werse Forest, offering an immersive experience in nature with fresh air and plenty of wildlife.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.470500,13.392000&travelmode=walking",
+        "safetyTips": [
+          "Wear sturdy hiking boots.",
+          "Carry water and snacks for the journey.",
+          "Stick to the marked trails and stay with the group."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Group Volleyball at Bielefelder Str Beach",
+      "description": "Gather your group for an exciting game of beach volleyball at Bielefelder Str Beach, enjoying the sun and competition.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/volleyball_bielefelder_beach.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Bielefelder Str Beach",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A sandy beach area equipped with volleyball courts, perfect for a friendly yet competitive match between groups.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.462500,13.399500&travelmode=walking",
+        "safetyTips": [
+          "Wear appropriate footwear for the sand.",
+          "Hydrate regularly during the game.",
+          "Be mindful of others using the courts."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Outdoor Painting at Promenade",
+      "description": "Enjoy a group painting session at the Promenade, where you can capture the scenic views of Münster’s green spaces and historic architecture.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/painting_promenade.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Promenade",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A peaceful location surrounded by parks and historic buildings, perfect for setting up easels and painting with your group.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.455000,13.407000&travelmode=walking",
+        "safetyTips": [
+          "Bring a portable chair or blanket for comfort.",
+          "Make sure to bring all necessary art supplies.",
+          "Respect the public space and avoid blocking paths."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Group Picnic and Sports at Allwetterzoo",
+      "description": "Have a fun and relaxing group picnic at Allwetterzoo, combined with some friendly sports activities at the zoo’s open grounds.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "110 min",
+      "image": "https://example.com/images/picnic_allwetterzoo.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Allwetterzoo Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A large zoo area with ample space for a picnic and casual sports, offering a great mix of wildlife experiences and outdoor fun.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.455500,13.421500&travelmode=walking",
+        "safetyTips": [
+          "Keep track of your personal belongings.",
+          "Ensure food and drinks are stored safely during the picnic.",
+          "Be considerate of zoo visitors and animals."
+        ]
+      }
+    }
+  ]
+  

@@ -1,1 +1,98 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Stroll through the Botanischer Garten Münster",
+      "description": "Take a peaceful walk through the Botanischer Garten Münster, exploring diverse plant species and seasonal blooms in a serene environment.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/botanischer_garten.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Botanischer Garten Münster",
+        "length": "2 km",
+        "lighting": "Natural daylight",
+        "description": "This botanical garden offers a tranquil escape with beautifully curated plant collections, a pond, and shaded benches for relaxation.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.963600,7.613300&travelmode=walking",
+        "safetyTips": [
+          "Stay on designated paths to protect the plant life.",
+          "Check the weather forecast to dress appropriately."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Explore the Wochenmarkt Münster",
+      "description": "Visit the vibrant Wochenmarkt Münster, where you can browse fresh produce, local delicacies, and artisanal goods while enjoying the lively atmosphere.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/wochenmarkt.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Wochenmarkt Münster",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "One of the most famous markets in Münster, the Wochenmarkt is a great place to experience local culture and taste fresh regional products.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.962600,7.626100&travelmode=walking",
+        "safetyTips": [
+          "Keep an eye on personal belongings in crowded areas.",
+          "Carry some cash as not all vendors accept cards."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Walk along the Promenade",
+      "description": "Enjoy a refreshing walk along the Promenade, Münster’s famous green belt that encircles the old town, perfect for a leisurely group stroll.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "45 min",
+      "image": "https://example.com/images/promenade.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Promenade Münster",
+        "length": "4.5 km",
+        "lighting": "Natural daylight",
+        "description": "This tree-lined path is ideal for a scenic walk or a short cycling trip, offering a peaceful break from the city's hustle and bustle.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.962000,7.625000&travelmode=walking",
+        "safetyTips": [
+          "Be mindful of cyclists sharing the path.",
+          "Wear comfortable shoes for walking on paved surfaces."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Visit the Zwinger Münster",
+      "description": "Discover the historic Zwinger Münster, an old fortress with a fascinating history and unique architecture, perfect for a short cultural excursion.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/zwinger.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Zwinger Münster",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "A historical landmark with a mix of medieval and World War II history, offering an intriguing visit for history enthusiasts.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.957700,7.614000&travelmode=walking",
+        "safetyTips": [
+          "Follow all visitor guidelines for safety.",
+          "Be cautious when walking on uneven surfaces."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Coffee break at Café Herr Sonnenschein",
+      "description": "Take a break at Café Herr Sonnenschein, a charming café in Münster known for its cozy ambiance, delicious coffee, and homemade cakes.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/cafe_sonnenschein.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Café Herr Sonnenschein",
+        "length": "N/A",
+        "lighting": "Natural daylight & indoor lighting",
+        "description": "A welcoming café with a selection of organic coffee, fresh pastries, and comfortable seating—great for a relaxing group gathering.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.960200,7.628000&travelmode=walking",
+        "safetyTips": [
+          "Check the menu for allergens if needed.",
+          "Reserve a table in advance during peak hours."
+        ]
+      }
+    }
+  ]
+  

@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Sunrise View at St. Lambert's Church",
+      "description": "Enjoy a quiet morning watching the sunrise over the historic St. Lambert's Church in Münster.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/sunrise_st_lambert.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "St. Lambert's Church",
+        "length": "Short walking distance",
+        "lighting": "Well-lit",
+        "description": "A peaceful spot in Münster's old town with historical significance and great early morning views.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.517500,13.405000&travelmode=walking",
+        "safetyTips": [
+          "Dress warmly for the early morning chill.",
+          "Watch your step on cobbled streets.",
+          "Be mindful of early morning cyclists."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Quick Coffee Walk at Erbdrostenhof",
+      "description": "Take a short walk around the Baroque Erbdrostenhof and grab a coffee at a nearby café.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "20 min",
+      "image": "https://example.com/images/coffee_walk.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Erbdrostenhof",
+        "length": "1 km",
+        "lighting": "Well-lit",
+        "description": "A short city walk to admire one of Münster's finest Baroque buildings with a café stop.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.518200,13.406500&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for city walking.",
+          "Be cautious of traffic when crossing streets.",
+          "Stay aware of cyclists, as bike lanes are common."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Botanical Garden Mini Tour",
+      "description": "Enjoy a short walk through the Münster Botanical Garden and admire the seasonal flowers.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "25 min",
+      "image": "https://example.com/images/botanical_garden.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Botanical Garden",
+        "length": "1.5 km",
+        "lighting": "Partially lit",
+        "description": "A refreshing and peaceful garden walk with a variety of plants and flowers.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.520300,13.409000&travelmode=walking",
+        "safetyTips": [
+          "Stay on designated paths to protect plant life.",
+          "Check weather conditions before visiting.",
+          "Avoid touching rare or protected plant species."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Short Riverside Break at Werse",
+      "description": "Relax by the Werse River with a short walk along the riverside trail.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/werse_river.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Werse River Trail",
+        "length": "2 km",
+        "lighting": "Partially lit",
+        "description": "A peaceful riverside walk with benches for short breaks and scenic water views.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.514000,13.403500&travelmode=walking",
+        "safetyTips": [
+          "Watch out for cyclists on shared trails.",
+          "Be careful of uneven ground near the river.",
+          "Carry a small snack or drink for a relaxing break."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Pferdegasse Street Stroll",
+      "description": "A brief stroll down Pferdegasse, a charming street known for its local boutiques and atmosphere.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "15 min",
+      "image": "https://example.com/images/pferdegasse_walk.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Pferdegasse",
+        "length": "0.8 km",
+        "lighting": "Well-lit",
+        "description": "A short but delightful walk through one of Münster's vibrant shopping streets.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.516800,13.408200&travelmode=walking",
+        "safetyTips": [
+          "Be aware of pedestrian traffic in busy areas.",
+          "Check out local stores for unique finds.",
+          "Stay mindful of cyclists passing through."
+        ]
+      }
+    }
+  ]
+  

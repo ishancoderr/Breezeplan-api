@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Group Stretching at Aasee",
+      "description": "Start your day with a group stretching session by the calm waters of Aasee, ideal for relaxing muscles and enjoying the outdoor atmosphere.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "20 min",
+      "image": "https://example.com/images/stretching_asee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Lakeside",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A beautiful lakeside spot to do light stretching or yoga with your group while watching the serene view of Aasee.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.515500,13.397200&travelmode=walking",
+        "safetyTips": [
+          "Ensure that everyone has enough space for stretching.",
+          "Stretch within your comfort zone.",
+          "Stay hydrated before and after the session."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Group Photo Walk at Prinzipalmarkt",
+      "description": "Capture the beautiful historical architecture and bustling city scenes with your group during a short photo walk through Münster’s iconic Prinzipalmarkt.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/photo_walk_prinzipalmarkt.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Prinzipalmarkt",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Take a stroll through the famous Prinzipalmarkt while snapping photos of the historic buildings, fountains, and lively atmosphere.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.455300,13.414600&travelmode=walking",
+        "safetyTips": [
+          "Be mindful of pedestrians and traffic while walking.",
+          "Respect people's privacy when taking photos.",
+          "Use a camera strap to prevent accidental drops."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Group Ice Cream Break at Domplatz",
+      "description": "Take a quick break from exploring with your group and enjoy some delicious ice cream at one of the stands in Domplatz.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "15 min",
+      "image": "https://example.com/images/ice_cream_domplatz.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Domplatz",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Sit and enjoy your ice cream at Domplatz, located in front of the impressive Münster Cathedral, perfect for a quick and sweet break.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.517000,13.405200&travelmode=walking",
+        "safetyTips": [
+          "Watch out for melting ice cream on hot days.",
+          "Dispose of any trash responsibly.",
+          "Be considerate of others in public spaces."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Group Water Balloon Fight at Schlossgarten",
+      "description": "Cool down and have some fun with your group in a water balloon fight at Schlossgarten, perfect for a hot day and a short burst of outdoor fun.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/water_balloon_schlossgarten.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schlossgarten",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A spacious park in Münster, ideal for a water balloon fight, surrounded by lush greenery and castle views.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.455700,13.409000&travelmode=walking",
+        "safetyTips": [
+          "Use non-toxic water balloons.",
+          "Avoid throwing balloons at faces.",
+          "Ensure everyone is wearing comfortable, light clothing."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Group Frisbee at Aasee Park",
+      "description": "Enjoy a quick and fun game of frisbee with your group at Aasee Park, perfect for a short, energetic activity outdoors.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "20 min",
+      "image": "https://example.com/images/frisbee_asee_park.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Park",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A spacious park near Aasee, ideal for a quick frisbee game with friends and family, surrounded by green open spaces.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.513000,13.398000&travelmode=walking",
+        "safetyTips": [
+          "Clear the area before starting to avoid obstacles.",
+          "Make sure to warm up your arm before throwing.",
+          "Be mindful of other park visitors."
+        ]
+      }
+    }
+  ]
+  

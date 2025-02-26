@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Solo Visit to Münster Cathedral",
+      "description": "Explore the stunning architecture and historical significance of the Münster Cathedral, taking your time to admire the intricate details of the building and its surroundings.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/munster_cathedral.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Cathedral",
+        "length": "Varies",
+        "lighting": "Natural daylight and indoor lighting",
+        "description": "A magnificent Gothic cathedral in the heart of Münster, with an impressive tower and rich history, perfect for a solo visit.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.515400,13.392800&travelmode=walking",
+        "safetyTips": [
+          "Respect the quiet and sacred nature of the cathedral.",
+          "Stay aware of your belongings while indoors.",
+          "Take time to reflect and enjoy the peaceful atmosphere."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Solo Stroll in the Aasee Park",
+      "description": "Take a solitary walk through Aasee Park, enjoying the serene views of the lake, the surrounding trees, and the crisp air.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/asee_park_walk.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Park",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A peaceful park surrounding Aasee Lake, offering plenty of paths for walking, jogging, or simply relaxing by the water.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.514000,13.400000&travelmode=walking",
+        "safetyTips": [
+          "Dress warmly if it's cold outside.",
+          "Be mindful of other walkers and cyclists.",
+          "Keep your phone charged for navigation, if needed."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Solo Art Viewing at Kunstmuseum Münster",
+      "description": "Explore the contemporary and classical art exhibits at the Kunstmuseum Münster, where you can take your time appreciating the diverse collection of art from various eras and styles.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "110 min",
+      "image": "https://example.com/images/kunstmuseum_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Kunstmuseum Münster",
+        "length": "Varies",
+        "lighting": "Indoor lighting",
+        "description": "A renowned museum in Münster showcasing modern and classical art, perfect for a quiet solo exploration of creative works.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.463800,13.400400&travelmode=walking",
+        "safetyTips": [
+          "Avoid touching the artwork to preserve it.",
+          "Respect museum policies and any ongoing exhibits.",
+          "Use a museum map to plan your visit efficiently."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Solo Coffee Break at Kaffeekommune",
+      "description": "Enjoy a warm, comforting cup of coffee while relaxing at Kaffeekommune, a popular café in Münster known for its excellent selection of specialty coffee and cozy atmosphere.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/kaffeekommune.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Kaffeekommune",
+        "length": "Varies",
+        "lighting": "Indoor lighting",
+        "description": "A cozy, modern café in the city center offering high-quality coffee and a relaxing environment, ideal for a solo coffee break or a quiet read.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.511100,13.402500&travelmode=walking",
+        "safetyTips": [
+          "Bring headphones or a book for extra relaxation.",
+          "Be mindful of the time if you're on a schedule.",
+          "Take care of your belongings while enjoying your coffee."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Solo Cycling at the Promenade",
+      "description": "Cycle along the iconic Promenade, a scenic route that circles the historic center of Münster, perfect for a refreshing solo bike ride to clear your mind.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/promenade_cycling.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Promenade",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "The Promenade is a tree-lined, car-free path around Münster's city center, ideal for a peaceful solo bike ride, offering views of parks, fountains, and historic landmarks.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.516200,13.406400&travelmode=bicycling",
+        "safetyTips": [
+          "Check your bike's tires and brakes before starting.",
+          "Wear a helmet for safety.",
+          "Respect pedestrians and other cyclists."
+        ]
+      }
+    }
+  ]
+  

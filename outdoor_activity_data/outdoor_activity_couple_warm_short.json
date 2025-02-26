@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Coffee Break at Rothenburg Café",
+      "description": "Enjoy a quick coffee break at one of Münster’s coziest cafés.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "20 min",
+      "image": "https://example.com/images/rothenburg_cafe.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Rothenburg Café",
+        "length": "Varies",
+        "lighting": "Well-lit",
+        "description": "A charming café with delicious pastries and locally roasted coffee, perfect for a short and relaxing break.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.517600,13.404900&travelmode=walking",
+        "safetyTips": [
+          "Try Münster’s famous local pastries.",
+          "Watch out for cyclists when crossing streets nearby.",
+          "Choose outdoor seating for a great city view."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Quick Stroll through Domplatz",
+      "description": "Take a short walk through the historic Domplatz, Münster’s central square.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "15 min",
+      "image": "https://example.com/images/domplatz_walk.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Domplatz",
+        "length": "0.5 km",
+        "lighting": "Well-lit",
+        "description": "A beautiful square surrounded by historical buildings, ideal for a quick walk or photo stop.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.518200,13.405700&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for cobblestone paths.",
+          "Visit early morning for fewer crowds.",
+          "Keep an eye out for historical plaques and statues."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Canal View Stop at Kreativkai",
+      "description": "Relax for a short break by the Dortmund-Ems Canal at Kreativkai.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "25 min",
+      "image": "https://example.com/images/kreativkai_canal.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Kreativkai",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A trendy waterfront area with modern architecture, great for a quick relaxation stop by the water.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.495400,13.406800&travelmode=walking",
+        "safetyTips": [
+          "Sit near shaded areas during hot weather.",
+          "Watch out for cyclists on shared paths.",
+          "Take a moment to enjoy the city’s modern side."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Visit the Erbdrostenhof Courtyard",
+      "description": "A quick visit to the beautiful baroque courtyard of Erbdrostenhof.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "10 min",
+      "image": "https://example.com/images/erbdrostenhof.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Erbdrostenhof",
+        "length": "Varies",
+        "lighting": "Well-lit",
+        "description": "A hidden gem in Münster, this 18th-century courtyard is perfect for a short cultural stop.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.518000,13.407500&travelmode=walking",
+        "safetyTips": [
+          "Keep noise levels low to respect the historic site.",
+          "Take a few photos, but avoid blocking walkways.",
+          "Check visiting hours before planning your stop."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Sunbathing at Aasee Park",
+      "description": "Spend a short time sunbathing and relaxing on the green fields near Aasee.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/aasee_sunbathing.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Park",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A lovely green space perfect for a short sunbathing break or simply watching the lake.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.514800,13.398600&travelmode=walking",
+        "safetyTips": [
+          "Bring a small towel or blanket for comfort.",
+          "Use sunscreen to avoid sunburn.",
+          "Stay hydrated, especially in warm weather."
+        ]
+      }
+    }
+  ]
+  

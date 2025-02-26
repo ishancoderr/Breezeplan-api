@@ -1,1 +1,98 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Quick Espresso Stop at Röstbar Münster",
+      "description": "Grab a quick espresso or cappuccino at Röstbar, a specialty coffee shop known for its excellent brews and cozy atmosphere.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "15 min",
+      "image": "https://example.com/images/roestbar_espresso.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Röstbar Münster",
+        "length": "N/A",
+        "lighting": "Natural daylight & indoor lighting",
+        "description": "A small yet vibrant coffee shop that offers high-quality coffee, perfect for a quick energy boost before continuing your day.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.962700,7.628400&travelmode=walking",
+        "safetyTips": [
+          "Check peak hours for available seating.",
+          "Inform staff about any allergies when ordering."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Quick Photo Stop at St. Lamberti Church",
+      "description": "Take a short stop to admire and capture photos of the historic St. Lamberti Church, a landmark in Münster’s city center.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "10 min",
+      "image": "https://example.com/images/st_lamberti_church.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "St. Lamberti Church",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "A Gothic-style church with an impressive facade, known for its iconic towers and historical significance.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.962100,7.626800&travelmode=walking",
+        "safetyTips": [
+          "Be mindful of ongoing services while visiting.",
+          "Stay on designated paths to respect the site."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Refreshing Ice Cream at Eispavillon",
+      "description": "Cool down with a delicious scoop of ice cream at Eispavillon, one of Münster’s favorite ice cream spots.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "20 min",
+      "image": "https://example.com/images/eispavillon_icecream.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Eispavillon Münster",
+        "length": "N/A",
+        "lighting": "Natural daylight & indoor lighting",
+        "description": "A popular ice cream parlor offering a variety of flavors, perfect for a short and sweet break on a warm day.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.963000,7.620500&travelmode=walking",
+        "safetyTips": [
+          "Check for allergens in flavors before ordering.",
+          "Keep an eye on personal belongings in busy areas."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Short Walk through Prinzipalmarkt",
+      "description": "Take a brief walk through Prinzipalmarkt, Münster’s historic shopping street lined with beautiful arcades and boutiques.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "25 min",
+      "image": "https://example.com/images/prinzipalmarkt_walk.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Prinzipalmarkt Münster",
+        "length": "1 km",
+        "lighting": "Natural daylight",
+        "description": "A historic street with charming buildings, luxury stores, and cafés, making it a perfect spot for a quick scenic walk.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.962500,7.625500&travelmode=walking",
+        "safetyTips": [
+          "Watch out for cyclists and pedestrians.",
+          "Be cautious of uneven pavement when walking."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Catch a Sunset View at Aaseeterrassen",
+      "description": "Spend a few minutes enjoying the serene sunset view at Aaseeterrassen, a popular lakeside gathering spot.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/aaseeterrassen_sunset.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aaseeterrassen",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "A lakeside terrace offering a great spot to relax and admire the picturesque sunset over Aasee.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.956500,7.615500&travelmode=walking",
+        "safetyTips": [
+          "Be cautious when sitting near the water’s edge.",
+          "Keep an eye on personal belongings in public areas."
+        ]
+      }
+    }
+  ]
+  

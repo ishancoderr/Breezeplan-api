@@ -39,4 +39,108 @@
           ]
         }
       }
+
+      [
+        {
+          "id": 3,
+          "activity": "Brisk Walk Around Lake Aasee",
+          "description": "Enjoy a refreshing walk around Lake Aasee, a popular recreational area near the city center.",
+          "groupSuitability": "Ideal for couples",
+          "timeRequired": "90 min",
+          "image": "https://example.com/images/lake_aasee.jpg",
+          "locationInfo": {
+            "pathNameOrLocationName": "Aasee Loop",
+            "length": "5.7 km",
+            "lighting": "Partially lit",
+            "description": "A scenic path around Lake Aasee, offering views of the water and surrounding greenery.",
+            "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9495,7.5950&travelmode=walking",
+            "safetyTips": [
+              "Wear warm clothing to protect against the cold.",
+              "Be cautious of potentially slippery surfaces.",
+              "Stay on designated paths."
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "activity": "Visit to the Botanical Garden",
+          "description": "Explore the Botanischer Garten Münster, featuring diverse plant species and serene landscapes.",
+          "groupSuitability": "Perfect for pairs",
+          "timeRequired": "90 min",
+          "image": "https://example.com/images/botanical_garden.jpg",
+          "locationInfo": {
+            "pathNameOrLocationName": "Botanischer Garten Münster",
+            "length": "Varies",
+            "lighting": "Well-lit",
+            "description": "A peaceful botanical garden with a wide variety of plants and themed sections.",
+            "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9632,7.6124&travelmode=walking",
+            "safetyTips": [
+              "Dress warmly for the weather.",
+              "Stick to the designated walkways.",
+              "Respect the plants and garden rules."
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "activity": "Historical City Walk",
+          "description": "Take a guided or self-paced walk through Münster’s historic old town.",
+          "groupSuitability": "Great for two people",
+          "timeRequired": "90 min",
+          "image": "https://example.com/images/historical_walk.jpg",
+          "locationInfo": {
+            "pathNameOrLocationName": "Münster Old Town Route",
+            "length": "4.5 km",
+            "lighting": "Well-lit",
+            "description": "A historic walk through Münster’s most famous landmarks, including Prinzipalmarkt and St. Paulus Cathedral.",
+            "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9623,7.6257&travelmode=walking",
+            "safetyTips": [
+              "Wear comfortable shoes.",
+              "Bring an umbrella if there’s a chance of rain.",
+              "Follow pedestrian signals and street crossings."
+            ]
+          }
+        },
+        {
+          "id": 6,
+          "activity": "Cycling Along the Promenade",
+          "description": "Enjoy a scenic bike ride on Münster’s famous promenade.",
+          "groupSuitability": "Best for pairs",
+          "timeRequired": "90-120 min",
+          "image": "https://example.com/images/cycling_promenade.jpg",
+          "locationInfo": {
+            "pathNameOrLocationName": "Münster Promenade",
+            "length": "4.5 km loop",
+            "lighting": "Partially lit",
+            "description": "A car-free cycling route encircling Münster’s old town, lined with trees.",
+            "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9607,7.6261&travelmode=bicycling",
+            "safetyTips": [
+              "Wear a helmet.",
+              "Follow cycling traffic rules.",
+              "Keep an eye out for pedestrians."
+            ]
+          }
+        },
+        {
+          "id": 7,
+          "activity": "Visit to the Allwetterzoo Münster",
+          "description": "Explore the Allwetterzoo, home to a diverse range of animals.",
+          "groupSuitability": "Ideal for two people",
+          "timeRequired": "120 min",
+          "image": "https://example.com/images/allwetterzoo.jpg",
+          "locationInfo": {
+            "pathNameOrLocationName": "Allwetterzoo Münster",
+            "length": "Varies",
+            "lighting": "Well-lit",
+            "description": "A large zoo with indoor and outdoor exhibits, perfect for a winter visit.",
+            "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9491,7.5739&travelmode=walking",
+            "safetyTips": [
+              "Dress warmly.",
+              "Follow zoo guidelines.",
+              "Stay on designated paths."
+            ]
+          }
+        }
+      ]
+      
 ]

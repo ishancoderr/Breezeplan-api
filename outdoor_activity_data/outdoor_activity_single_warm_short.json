@@ -1,1 +1,98 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Coffee Break at Kaffeekommune",
+      "description": "Enjoy a quick 15-minute coffee break in Münster’s Kaffeekommune, known for its specialty coffee and relaxed atmosphere.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "15 min",
+      "image": "https://example.com/images/kaffeekommune_coffee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Kaffeekommune",
+        "length": "N/A",
+        "lighting": "Bright indoor lighting",
+        "description": "Kaffeekommune is a popular coffee shop in the heart of Münster, perfect for a quick yet high-quality coffee break.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.030000,7.626500&travelmode=walking",
+        "safetyTips": [
+          "Mind your personal belongings in crowded spaces.",
+          "Respect the seating arrangements to ensure a calm environment."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Quick Walk in the Stadtpark",
+      "description": "Take a refreshing 30-minute walk through the peaceful Stadtpark, ideal for a brief solo stroll surrounded by greenery.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/stadtpark_walk.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Stadtpark",
+        "length": "Approx. 1.5 km",
+        "lighting": "Natural daylight",
+        "description": "Stadtpark is a serene park with wide walking paths and lovely views, perfect for a short, refreshing solo walk.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.028500,7.611000&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for walking.",
+          "Be mindful of cyclists using the same path."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Ice Cream Break at Eisdiele Eiskultur",
+      "description": "Indulge in a 20-minute solo ice cream break at Eisdiele Eiskultur, known for its delicious, locally made gelato.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "20 min",
+      "image": "https://example.com/images/eisdiele_icecream.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Eisdiele Eiskultur",
+        "length": "N/A",
+        "lighting": "Bright outdoor lighting",
+        "description": "Eisdiele Eiskultur is a charming ice cream parlor in Münster, offering a wide variety of delicious gelato flavors to enjoy in a short break.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.030500,7.625800&travelmode=walking",
+        "safetyTips": [
+          "Check for any food allergies before choosing your ice cream.",
+          "Dispose of your waste responsibly."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Quick Visit to the Münster Cathedral",
+      "description": "Take a brief 25-minute visit to the stunning Münster Cathedral, one of the city's most iconic landmarks.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "25 min",
+      "image": "https://example.com/images/munster_cathedral.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Cathedral (St. Paulus Dom)",
+        "length": "N/A",
+        "lighting": "Natural daylight and indoor lighting",
+        "description": "The Münster Cathedral is an architectural marvel located in the city center, offering a peaceful and inspiring environment for a short visit.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.030200,7.627600&travelmode=walking",
+        "safetyTips": [
+          "Be respectful of ongoing services or activities in the cathedral.",
+          "Mind the floor when exploring the interior."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Relax at the Aa-See Shore",
+      "description": "Take 30 minutes to relax by the tranquil shores of Aa-See, a perfect spot for a short solo break with a scenic view.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/aa_see_relax.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aa-See",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "Aa-See is a peaceful lake, ideal for sitting by the shore, reflecting, and enjoying the beauty of nature in a brief but refreshing solo session.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.067000,7.621800&travelmode=walking",
+        "safetyTips": [
+          "Stay hydrated in the heat.",
+          "Be cautious near the water's edge."
+        ]
+      }
+    }
+  ]
+  
