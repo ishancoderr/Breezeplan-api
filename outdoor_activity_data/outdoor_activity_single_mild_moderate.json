@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Solo Visit to the Allwetterzoo Münster",
+      "description": "Explore the Allwetterzoo Münster, where you can observe various animals and enjoy a peaceful walk around the zoo's exhibits. Perfect for animal lovers and those seeking some time in nature.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/allwetterzoo_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Allwetterzoo Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "The Allwetterzoo Münster is a charming zoo with a variety of animals and well-maintained exhibits. You can easily spend time walking around and observing wildlife.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.420000,7.580000&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for walking.",
+          "Stay hydrated by bringing water.",
+          "Respect the animals and keep a safe distance."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Coffee Break at Kaffeekommune",
+      "description": "Relax and enjoy a coffee at Kaffeekommune, one of the best specialty coffee shops in Münster. Ideal for a peaceful solo experience while enjoying some of the finest coffee in town.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "45 min",
+      "image": "https://example.com/images/kaffeekommune.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Kaffeekommune",
+        "length": "N/A",
+        "lighting": "Indoor lighting",
+        "description": "Kaffeekommune is a cozy coffee shop offering a great selection of coffee and pastries. It’s the perfect spot to unwind for a solo coffee break in Münster.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.039000,7.619500&travelmode=walking",
+        "safetyTips": [
+          "Keep your personal items secure.",
+          "Respect other patrons by keeping noise levels low.",
+          "Avoid peak hours if you prefer a quieter atmosphere."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Solo Bike Ride Along the Promenade",
+      "description": "Take a solo bike ride along the scenic Promenade in Münster, one of the most beautiful cycling routes in the city. Enjoy the fresh air, tree-lined paths, and picturesque views.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "75 min",
+      "image": "https://example.com/images/promenade_bike.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Promenade",
+        "length": "Approx. 5.5 km",
+        "lighting": "Well-lit",
+        "description": "The Promenade is a cycling path that loops around the city center, offering peaceful views of nature, parks, and historical buildings. It’s ideal for a solo bike ride.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.040000,7.625000&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a helmet for safety.",
+          "Check the condition of your bike before riding.",
+          "Stay alert for pedestrians on the path."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Solo Visit to the Westfälisches Museum für Archäologie",
+      "description": "Discover the fascinating exhibits at the Westfälisches Museum für Archäologie, which showcases archaeological finds from the region. It's a great solo experience for those interested in history and culture.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/archaeology_museum.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Westfälisches Museum für Archäologie",
+        "length": "N/A",
+        "lighting": "Indoor lighting",
+        "description": "The Westfälisches Museum für Archäologie offers a deep dive into the history of the region, with a variety of exhibits that appeal to history enthusiasts and curious visitors.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.061000,7.612500&travelmode=walking",
+        "safetyTips": [
+          "Respect the artifacts and do not touch displays.",
+          "Take your time to enjoy each exhibit.",
+          "Avoid busy times for a quieter visit."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Solo Visit to the Botanischer Garten Münster",
+      "description": "Stroll through the beautiful Botanischer Garten, a botanical garden with diverse plant species and peaceful areas for relaxation. Perfect for a solo visit to enjoy nature's beauty.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/botanischer_garten.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Botanischer Garten Münster",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "The Botanischer Garten Münster is a calm and picturesque garden filled with diverse plant species and relaxing spots for visitors to sit and enjoy nature.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.430000,7.615000&travelmode=walking",
+        "safetyTips": [
+          "Respect the plants and do not damage them.",
+          "Wear comfortable shoes for walking.",
+          "Check the opening hours before your visit."
+        ]
+      }
+    }
+  ]
+  

@@ -1,1 +1,98 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Stand-up Paddleboarding at Aasee",
+      "description": "Try stand-up paddleboarding on Aasee, an exciting and refreshing water sport that lets you explore the lake while keeping cool under the sun.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/aasee_paddleboarding.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Lake",
+        "length": "N/A",
+        "lighting": "Natural sunlight",
+        "description": "Aasee is a popular lake in Münster perfect for water activities like paddleboarding. It's a great way to stay cool during a hot day.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.058500,7.612000&travelmode=walking",
+        "safetyTips": [
+          "Wear a life jacket for safety.",
+          "Use sunscreen to avoid sunburn."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Outdoor Bowling at Schlossgarten",
+      "description": "Enjoy a fun and competitive game of outdoor bowling at Schlossgarten, a relaxing park with beautiful views, perfect for a group of friends on a hot summer day.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/schlossgarten_bowling.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schlossgarten",
+        "length": "N/A",
+        "lighting": "Natural sunlight",
+        "description": "Schlossgarten is a beautiful park with an outdoor bowling alley. It provides a peaceful atmosphere for a fun activity with friends.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.045000,7.615000&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for walking and bowling.",
+          "Stay hydrated, especially on hot days."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Tennis Match at Tennis Club Grün-Weiß Münster",
+      "description": "Enjoy a friendly tennis match at the Tennis Club Grün-Weiß, a great way to have fun and stay active while beating the heat of a sunny day.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/tennis_club_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Tennis Club Grün-Weiß Münster",
+        "length": "N/A",
+        "lighting": "Natural sunlight",
+        "description": "Tennis Club Grün-Weiß offers well-maintained courts where you can play singles or doubles with friends while enjoying the warm summer weather.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.053400,7.611100&travelmode=walking",
+        "safetyTips": [
+          "Wear appropriate tennis shoes.",
+          "Apply sunscreen to protect your skin."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Mini Golf at Freizeitpark Fiedler",
+      "description": "Challenge your friends to a round of mini golf at Freizeitpark Fiedler, a fun and relaxing way to spend time outdoors while enjoying the summer sun.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/mini_golf_freizeitpark_fiedler.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Freizeitpark Fiedler",
+        "length": "N/A",
+        "lighting": "Natural sunlight",
+        "description": "Freizeitpark Fiedler offers an exciting mini golf course surrounded by green spaces, perfect for a friendly competition with friends.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.075800,7.625400&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable clothes and shoes.",
+          "Take a break and hydrate often on hot days."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Bouldering at Bloc Haus",
+      "description": "Cool down while challenging yourself with bouldering at Bloc Haus, a climbing gym where you can test your strength and skills on various climbing walls.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/bouldering_bloc_haus.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Bloc Haus Climbing Gym",
+        "length": "N/A",
+        "lighting": "Indoor lighting",
+        "description": "Bloc Haus provides a great indoor environment for bouldering, offering various climbing walls that will keep you engaged while staying out of the sun.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.064300,7.611500&travelmode=walking",
+        "safetyTips": [
+          "Use proper climbing shoes for safety.",
+          "Warm-up before starting to prevent injury."
+        ]
+      }
+    }
+  ]
+  

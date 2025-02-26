@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Guided Historical Tour of Münster's Old Town",
+      "description": "Explore Münster's rich history with a guided walking tour through its old town, including landmarks and hidden gems.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "130 min",
+      "image": "https://example.com/images/oldtown_tour.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Old Town",
+        "length": "4 km",
+        "lighting": "Well-lit",
+        "description": "A historical tour covering the Prinzipalmarkt, St. Lamberti Church, and Münster’s famous town hall.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.517800,13.405600&travelmode=walking",
+        "safetyTips": [
+          "Wear warm clothing and comfortable shoes.",
+          "Stay together as a group, especially in busy areas.",
+          "Listen to the guide for interesting historical insights."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Escape Room Challenge at Rätselraum Münster",
+      "description": "Put your teamwork to the test in an exciting escape room experience.",
+      "groupSuitability": "Suitable for large groups (6-10 people)",
+      "timeRequired": "140 min",
+      "image": "https://example.com/images/escape_room.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Rätselraum Münster",
+        "length": "Indoors",
+        "lighting": "Artificial indoor lighting",
+        "description": "An immersive escape room adventure with various themes and difficulty levels.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.520100,13.410700&travelmode=walking",
+        "safetyTips": [
+          "Communicate effectively with your team.",
+          "Follow game rules for a smooth experience.",
+          "Dress comfortably for indoor activities."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Bowling Tournament at Cosmo Bowling",
+      "description": "Enjoy a fun and competitive bowling session at Münster’s top bowling center.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "125 min",
+      "image": "https://example.com/images/bowling.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Cosmo Bowling Münster",
+        "length": "Indoors",
+        "lighting": "Artificial indoor lighting",
+        "description": "A modern bowling alley with multiple lanes, perfect for group competitions.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.495900,13.408400&travelmode=walking",
+        "safetyTips": [
+          "Wear bowling shoes for safety and performance.",
+          "Stretch before playing to prevent injuries.",
+          "Respect other players and take turns properly."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Ice Skating at Münster Ice Arena",
+      "description": "Glide across the ice with your group at Münster’s indoor ice skating rink.",
+      "groupSuitability": "Suitable for large groups (6-12 people)",
+      "timeRequired": "135 min",
+      "image": "https://example.com/images/ice_skating.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Eissporthalle Münster",
+        "length": "Indoors",
+        "lighting": "Artificial indoor lighting",
+        "description": "A well-maintained ice rink where groups can enjoy skating and friendly competitions.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.502300,13.412800&travelmode=walking",
+        "safetyTips": [
+          "Wear gloves and warm clothing.",
+          "Skate at a controlled speed to avoid falls.",
+          "Follow the rink's safety guidelines."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Winter Hike in Hohenfelder Holz",
+      "description": "Take a peaceful winter hike through the scenic Hohenfelder Holz forest.",
+      "groupSuitability": "Suitable for large groups (6-10 people)",
+      "timeRequired": "145 min",
+      "image": "https://example.com/images/winter_hike.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Hohenfelder Holz",
+        "length": "6 km",
+        "lighting": "Natural daylight",
+        "description": "A scenic winter hike through Münster’s beautiful forested area with frost-covered trees and fresh air.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.507700,13.406900&travelmode=walking",
+        "safetyTips": [
+          "Wear warm layers and sturdy waterproof boots.",
+          "Bring a thermos with hot tea or coffee.",
+          "Stay on marked trails for safety."
+        ]
+      }
+    }
+  ]
+  

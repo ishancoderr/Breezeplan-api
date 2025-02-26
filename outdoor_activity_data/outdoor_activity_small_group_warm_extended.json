@@ -1,1 +1,98 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Kayaking on the Werse River",
+      "description": "Enjoy a refreshing kayaking adventure on the Werse River, surrounded by lush greenery and tranquil waters.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "130 min",
+      "image": "https://example.com/images/werse_kayaking.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Werse River",
+        "length": "7 km",
+        "lighting": "Natural daylight",
+        "description": "A scenic river route perfect for a leisurely kayak trip, offering beautiful nature views and peaceful surroundings.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.961000,7.700000&travelmode=driving",
+        "safetyTips": [
+          "Wear a life jacket for safety.",
+          "Stay aware of other boaters and natural currents."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Guided Tour of Burg Hülshoff",
+      "description": "Explore the historic Burg Hülshoff, a picturesque castle with fascinating exhibitions on Annette von Droste-Hülshoff’s life and work.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "140 min",
+      "image": "https://example.com/images/burg_huelshoff.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Burg Hülshoff",
+        "length": "N/A",
+        "lighting": "Natural daylight & indoor lighting",
+        "description": "A historical castle featuring lush gardens, literary exhibits, and guided tours that immerse visitors in Münster’s cultural heritage.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.937000,7.560000&travelmode=driving",
+        "safetyTips": [
+          "Wear comfortable shoes for walking on uneven surfaces.",
+          "Respect historical artifacts and follow tour guide instructions."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Cycling to Roxel and Back",
+      "description": "Take a scenic bike ride from Münster to the charming district of Roxel, passing through picturesque countryside and small villages.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "150 min",
+      "image": "https://example.com/images/roxel_cycling.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster to Roxel",
+        "length": "18 km",
+        "lighting": "Natural daylight",
+        "description": "A well-maintained cycling route leading to Roxel, where you can take a break at a local café or explore the town’s landmarks.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.950000,7.540000&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a helmet and obey traffic rules.",
+          "Bring a water bottle to stay hydrated during the ride."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Nature Walk in Rieselfelder Münster",
+      "description": "Explore the diverse ecosystems of Rieselfelder Münster, a nature reserve perfect for birdwatching and photography.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "125 min",
+      "image": "https://example.com/images/rieselfelder_walk.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Rieselfelder Münster",
+        "length": "6 km",
+        "lighting": "Natural daylight",
+        "description": "A scenic reserve with a variety of bird species, wetlands, and observation platforms, making it an ideal destination for nature lovers.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.020000,7.650000&travelmode=walking",
+        "safetyTips": [
+          "Bring binoculars for better birdwatching experience.",
+          "Stick to marked trails to protect the wildlife habitat."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Relaxing Afternoon at Hiltruper See",
+      "description": "Unwind by the scenic Hiltruper See, where you can enjoy a lakeside walk, grab a coffee, or simply soak in the peaceful surroundings.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "130 min",
+      "image": "https://example.com/images/hiltruper_see.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Hiltruper See",
+        "length": "4 km",
+        "lighting": "Natural daylight",
+        "description": "A beautiful lake with walking trails, seating areas, and a café nearby—perfect for a relaxing afternoon outing.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.911000,7.650000&travelmode=walking",
+        "safetyTips": [
+          "Bring sunscreen to protect from sun exposure.",
+          "Be mindful of cyclists and joggers on the shared paths."
+        ]
+      }
+    }
+  ]
+  

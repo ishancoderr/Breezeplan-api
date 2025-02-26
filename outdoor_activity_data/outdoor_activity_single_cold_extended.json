@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Solo Hiking at the Muensterland Nature Trail",
+      "description": "Embark on a peaceful solo hike through the Muensterland Nature Trail, surrounded by lush greenery and tranquil forest paths, ideal for personal reflection and nature immersion.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "130 min",
+      "image": "https://example.com/images/hiking_muensterland_trail.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Muensterland Nature Trail",
+        "length": "15 km",
+        "lighting": "Natural daylight",
+        "description": "A beautiful trail through the Münsterland region, offering scenic views of forests, wetlands, and wildlife, perfect for an extended solo hike.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.478000,13.405700&travelmode=walking",
+        "safetyTips": [
+          "Wear sturdy, comfortable hiking shoes.",
+          "Carry a map or use a GPS app to navigate.",
+          "Bring snacks and water to stay energized."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Solo Photography Walk at Botanical Garden Münster",
+      "description": "Capture the beauty of the changing seasons during a solo photography walk at the Botanical Garden, showcasing a variety of flowers, trees, and other natural wonders.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/photography_botanical_garden.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Botanical Garden Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A tranquil location to enjoy and photograph diverse plant species. The garden is ideal for a relaxing photography session, capturing nature’s vibrant colors.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.472500,13.397100&travelmode=walking",
+        "safetyTips": [
+          "Be respectful of plant life and stay on designated paths.",
+          "Use sunscreen to protect from the sun.",
+          "Keep your camera gear protected from moisture."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Solo Visit to LWL Museum of Natural History",
+      "description": "Spend a few hours exploring the fascinating exhibits at the LWL Museum of Natural History. Take your time viewing the displays, learning about geology, paleontology, and the natural world.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "150 min",
+      "image": "https://example.com/images/museum_natural_history.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "LWL Museum of Natural History",
+        "length": "Varies",
+        "lighting": "Indoor lighting",
+        "description": "An educational museum with impressive collections and exhibits on natural history, ideal for solo exploration and learning at your own pace.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.464500,13.396500&travelmode=walking",
+        "safetyTips": [
+          "Follow museum rules and respect the exhibits.",
+          "Wear comfortable shoes for walking.",
+          "Keep your personal belongings close to you."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Solo Reading and Relaxing at Schlossgarten Park",
+      "description": "Relax and read a book in the serene Schlossgarten Park, enjoying the peaceful surroundings and fresh air, making it a perfect spot for a solo retreat.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/reading_schlossgarten_park.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schlossgarten Park",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A quiet park near the castle, perfect for sitting on a bench, reading, and enjoying the outdoors. The park offers both open spaces and shaded areas.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.455500,13.406500&travelmode=walking",
+        "safetyTips": [
+          "Stay hydrated and take breaks if needed.",
+          "Find a quiet and safe spot for reading.",
+          "Be aware of your surroundings."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Solo Bike Ride Around the Aasee Lake",
+      "description": "Take a solo bike ride around the Aasee Lake, enjoying the natural beauty and peaceful views, ideal for a leisurely ride or a more active cycling session.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "135 min",
+      "image": "https://example.com/images/bike_ride_asee_lake.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Lake",
+        "length": "Around 7 km",
+        "lighting": "Natural daylight",
+        "description": "A scenic cycling route that circles Aasee Lake, offering beautiful views of the water, surrounding nature, and parks along the way.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.513500,13.399000&travelmode=bicycling",
+        "safetyTips": [
+          "Check your bike before the ride for any issues.",
+          "Wear a helmet for safety.",
+          "Stay aware of pedestrians and other cyclists."
+        ]
+      }
+    }
+  ]
+  

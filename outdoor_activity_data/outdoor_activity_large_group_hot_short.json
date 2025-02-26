@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Group Stretching at Aasee Park",
+      "description": "A relaxing group stretching session in the cool shade of Aasee Park, perfect for warming up or cooling down during hot weather.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/stretching_asee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Park",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A peaceful park surrounding Aasee with shaded areas, perfect for a quick group stretching session or gentle yoga.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.518500,13.404200&travelmode=walking",
+        "safetyTips": [
+          "Wear light, breathable clothing.",
+          "Make sure to stay hydrated.",
+          "Stretch gently to avoid strain."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Ice Cream Break at Alter Fischmarkt",
+      "description": "Enjoy a quick group break while savoring delicious ice cream in Münster's charming Alter Fischmarkt under the summer sun.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "20 min",
+      "image": "https://example.com/images/ice_cream_fischmarkt.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Alter Fischmarkt",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Alter Fischmarkt is a historic square in the heart of Münster, ideal for a quick stop to cool off with ice cream or refreshing drinks.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.445800,13.406200&travelmode=walking",
+        "safetyTips": [
+          "Choose a shaded spot to relax.",
+          "Don't forget to bring cash for the ice cream vendors.",
+          "Eat quickly to avoid melting ice cream in the heat."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Photo Session at Prinzipalmarkt",
+      "description": "Gather your group and take a quick photo session at Prinzipalmarkt, capturing the iconic architecture and vibrant atmosphere of Münster.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "25 min",
+      "image": "https://example.com/images/photo_prinzipalmarkt.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Prinzipalmarkt",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Prinzipalmarkt is a beautiful historic square lined with colorful buildings, perfect for a memorable photo session with your group.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.452400,13.423000&travelmode=walking",
+        "safetyTips": [
+          "Make sure to stay hydrated while under the sun.",
+          "Wear sunscreen to protect your skin.",
+          "Avoid midday heat by taking photos early or late in the day."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Quick Coffee Break at Röstbar Münster",
+      "description": "Stop by the popular Röstbar for a quick coffee with your group to cool off and enjoy some refreshment in the heat.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "15 min",
+      "image": "https://example.com/images/coffee_rostbar.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Röstbar Münster",
+        "length": "Varies",
+        "lighting": "Indoor and outdoor seating",
+        "description": "A trendy coffee shop in Münster offering great coffee and cool air-conditioned space to refresh yourself with friends or family.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.451700,13.423400&travelmode=walking",
+        "safetyTips": [
+          "Cool down with an iced coffee or refreshing drink.",
+          "Enjoy the shaded outdoor seating for a comfortable break.",
+          "Wear light clothing to stay cool in the hot weather."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Group Photos at Schloss Münster",
+      "description": "Gather your group for a fun and quick photo session at Schloss Münster, with the stunning palace and gardens as the backdrop.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/photo_schloss_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schloss Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Schloss Münster is a beautiful palace located in a park in the heart of the city. It's a great spot for group photos with stunning architecture and lush greenery.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.419000,13.408300&travelmode=walking",
+        "safetyTips": [
+          "Remember to drink water while taking photos.",
+          "Wear sunscreen to protect yourself from the sun.",
+          "Be mindful of the weather and take breaks to avoid heat exhaustion."
+        ]
+      }
+    }
+  ]
+  

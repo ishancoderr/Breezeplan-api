@@ -1,1 +1,98 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Quick Coffee Break at Kaffeekommune",
+      "description": "Gather with friends for a quick 20-minute coffee break at Kaffeekommune, one of Münster’s best cafes for artisanal coffee.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "20 min",
+      "image": "https://example.com/images/kaffeekommune_coffee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Kaffeekommune",
+        "length": "N/A",
+        "lighting": "Warm indoor lighting",
+        "description": "Kaffeekommune is known for its excellent coffee, perfect for a brief stop and enjoying a cup with friends.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.025300,7.589400&travelmode=walking",
+        "safetyTips": [
+          "Stay warm by layering up when stepping outside.",
+          "Be mindful of the café’s peak hours."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Visit to the Muenster Cathedral",
+      "description": "Take a quick 30-minute tour around the iconic Muenster Cathedral, exploring the architecture and history.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/munster_cathedral.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Muenster Cathedral",
+        "length": "N/A",
+        "lighting": "Natural light",
+        "description": "The Muenster Cathedral is a stunning landmark, and even a brief visit offers a chance to appreciate its grandeur.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.075400,7.453000&travelmode=walking",
+        "safetyTips": [
+          "Keep quiet and respectful while inside.",
+          "Follow any photography guidelines if visiting during services."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Mini Photoshoot at Aasee",
+      "description": "Capture beautiful moments with a mini photoshoot by the Aasee, taking advantage of the scenic lakeside views in just 30 minutes.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/aasee_photoshoot.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee",
+        "length": "N/A",
+        "lighting": "Natural outdoor lighting",
+        "description": "The Aasee lake offers a picturesque setting for a short photoshoot with friends, ideal for a quick stop while enjoying nature.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.059400,7.615600&travelmode=walking",
+        "safetyTips": [
+          "Keep your camera gear safe and dry.",
+          "Wear warm clothing as it can get chilly by the lake."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Street Art Walk around Hafenviertel",
+      "description": "Take a quick 25-minute stroll through the Hafenviertel, where you can discover vibrant street art on the walls of the neighborhood.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "25 min",
+      "image": "https://example.com/images/hafenviertel_street_art.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Hafenviertel",
+        "length": "Approx. 2 km",
+        "lighting": "Well-lit street lighting",
+        "description": "The Hafenviertel district in Münster is famous for its creative street art, making it a perfect destination for a brief cultural walk.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.076500,7.628900&travelmode=walking",
+        "safetyTips": [
+          "Be aware of traffic while walking around the area.",
+          "Wear comfortable shoes for a smooth walk."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Visit to the Muenster Museum of Art",
+      "description": "Enjoy a brief 30-minute visit to the Muenster Museum of Art, appreciating the modern and contemporary art on display.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/muenster_art_museum.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Muenster Museum of Art",
+        "length": "N/A",
+        "lighting": "Bright indoor lighting",
+        "description": "This museum is a great place to explore modern art in a short amount of time, making it perfect for a group activity on a chilly day.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.029600,7.615700&travelmode=walking",
+        "safetyTips": [
+          "Respect the artworks by not touching them.",
+          "Keep your belongings secure during your visit."
+        ]
+      }
+    }
+  ]
+  

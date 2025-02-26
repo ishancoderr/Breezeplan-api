@@ -1,1 +1,105 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Solo Exploration at Aasee",
+      "description": "Enjoy a peaceful solo day exploring the Aasee, Münster's picturesque lake. You can walk around the lake, take in the scenery, and perhaps rent a pedal boat.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "135 min",
+      "image": "https://example.com/images/aasee_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A beautiful and serene lake located in the heart of Münster. Perfect for a long walk, renting a pedal boat, or simply relaxing by the shore.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.462000,13.397000&travelmode=walking",
+        "safetyTips": [
+          "Bring plenty of water to stay hydrated.",
+          "Wear sunscreen to protect from the sun.",
+          "Be mindful of your surroundings, especially near the water."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Solo Cycling Along the Promenade",
+      "description": "Cycle along the Münster Promenade, a beautiful and extensive route that runs through the city center. It’s ideal for solo cyclists to enjoy the scenic views of the city and parks.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/promenade_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Promenade",
+        "length": "Varies",
+        "lighting": "Partially lit",
+        "description": "The Promenade in Münster is a tree-lined path that encircles the city center, offering a peaceful environment for cycling. This route connects several parks and historic sites.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.520000,13.405000&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a helmet for safety.",
+          "Ensure your bike is in good working condition before starting.",
+          "Keep a safe distance from other cyclists and pedestrians."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Solo Visit to the LWL Museum of Art and Culture",
+      "description": "Take a solo journey through Münster's LWL Museum of Art and Culture, appreciating the diverse range of art from medieval times to contemporary pieces.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/lwl_museum_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "LWL Museum of Art and Culture",
+        "length": "Varies",
+        "lighting": "Indoor lighting",
+        "description": "The LWL Museum offers a rich collection of art, culture, and history, allowing visitors to explore various galleries and exhibitions at their own pace.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.464500,13.396600&travelmode=walking",
+        "safetyTips": [
+          "Take your time to explore each exhibit.",
+          "Do not touch the artwork to preserve it.",
+          "Check for any special exhibitions or events during your visit."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Solo Walking Tour of Münster's Old Town",
+      "description": "Wander through the charming streets of Münster's Old Town, discovering historic buildings, hidden courtyards, and landmarks, while enjoying a solo walking experience.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "150 min",
+      "image": "https://example.com/images/old_town_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster's Old Town",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Münster's Old Town is full of cobblestone streets, historical architecture, and local landmarks, perfect for a long and leisurely solo walk.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.516000,13.396500&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable walking shoes for uneven surfaces.",
+          "Stay hydrated, especially during hot days.",
+          "Be cautious near busy streets and traffic."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Solo Picnic at Schlossgarten",
+      "description": "Pack a picnic and enjoy a peaceful solo afternoon at Schlossgarten, a beautiful garden near the University of Münster, where you can relax under the sun surrounded by nature.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/schlossgarten_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schlossgarten",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Schlossgarten is a large and scenic garden offering lush greenery, perfect for a peaceful solo picnic under the shade of trees or on the open lawn.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.462500,13.398500&travelmode=walking",
+        "safetyTips": [
+          "Pack plenty of water and snacks for your picnic.",
+          "Choose a shaded spot to avoid direct sunlight.",
+          "Take care to leave no trash behind and respect the environment."
+        ]
+      }
+    }
+  ]
+  
+
+

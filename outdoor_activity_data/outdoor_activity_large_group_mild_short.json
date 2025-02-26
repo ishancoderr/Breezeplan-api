@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Group Meditation at Promenade",
+      "description": "Unwind with a peaceful guided meditation session at Münster’s Promenade, perfect for relaxation in the midst of nature.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/meditation_promenade.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Promenade Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A calm and quiet location around the Promenade, perfect for group meditation to clear your mind while surrounded by trees.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.455000,13.415000&travelmode=walking",
+        "safetyTips": [
+          "Sit comfortably and find a quiet spot.",
+          "Wear comfortable clothing for relaxation.",
+          "Be mindful of noise around the group."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Short Walk at Botanischer Garten Münster",
+      "description": "Take a brief and relaxing walk around the beautiful Botanischer Garten, enjoying the vibrant flowers and tranquil atmosphere.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "20 min",
+      "image": "https://example.com/images/botanischer_garten.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Botanischer Garten Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A serene walk through the Botanischer Garten, where visitors can enjoy the lush greenery and peaceful flower displays.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.454500,13.398500&travelmode=walking",
+        "safetyTips": [
+          "Stay on the designated paths.",
+          "Take time to enjoy the plants and surroundings.",
+          "Keep a safe distance from the flower beds."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Group Photo at Prinzipalmarkt",
+      "description": "Capture the charm of Münster’s historic Prinzipalmarkt with your group, creating memories with beautiful photographs.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/prinzipalmarkt_photo.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Prinzipalmarkt Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A popular photo opportunity in Münster’s iconic marketplace, surrounded by historic buildings and vibrant city life.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.464500,13.426000&travelmode=walking",
+        "safetyTips": [
+          "Be aware of pedestrian traffic while taking photos.",
+          "Respect the local businesses and other visitors.",
+          "Use proper camera settings for bright daylight."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Quick Refreshment Break at Domplatz Café",
+      "description": "Take a short break with your group at one of the outdoor cafés at Domplatz, enjoying a refreshing drink and the lively atmosphere.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "25 min",
+      "image": "https://example.com/images/domplatz_cafe.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Domplatz Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A bustling square in the heart of Münster, surrounded by cafés and historical buildings, ideal for a refreshing pit stop.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.465000,13.426500&travelmode=walking",
+        "safetyTips": [
+          "Keep an eye on personal belongings.",
+          "Be courteous to staff and fellow visitors.",
+          "Take time to relax and enjoy the city views."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Quick Rest at Allwetterzoo Münster",
+      "description": "Enjoy a short rest while watching some of the animals at Münster’s Allwetterzoo, perfect for animal lovers and a quick group stop.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/allwetterzoo_rest.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Allwetterzoo Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Take a brief break at Allwetterzoo Münster, where you can observe some of the animals before continuing your adventure around the zoo.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.448500,13.390000&travelmode=walking",
+        "safetyTips": [
+          "Stay with the group and avoid distractions.",
+          "Respect the zoo’s rules and regulations.",
+          "Be mindful of the animals and their habitats."
+        ]
+      }
+    }
+  ]
+  

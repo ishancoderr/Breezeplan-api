@@ -1,1 +1,98 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Cooling Off at Aasee Beach",
+      "description": "Relax and cool off at the Aasee beach area, where you can dip your feet in the water and enjoy the sunshine.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/aasee_beach.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Beach",
+        "length": "N/A",
+        "lighting": "Natural sunlight",
+        "description": "Aasee offers a popular beach area, ideal for sunbathing and dipping your feet in the water, especially on a hot day.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.058500,7.612000&travelmode=walking",
+        "safetyTips": [
+          "Keep an eye on personal belongings.",
+          "Stay hydrated and use sunscreen."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Quick Ice Cream Break at Eissalon Venezia",
+      "description": "Grab a quick and refreshing ice cream at Eissalon Venezia. Perfect for cooling off while enjoying a sweet treat with friends.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "15 min",
+      "image": "https://example.com/images/eissalon_venezia.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Eissalon Venezia",
+        "length": "N/A",
+        "lighting": "Natural sunlight",
+        "description": "A popular ice cream parlor offering a variety of delicious flavors, perfect for a quick stop during a hot summer day.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.030800,7.622300&travelmode=walking",
+        "safetyTips": [
+          "Choose lighter flavors for a refreshing treat.",
+          "Watch out for melting ice cream!"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Chilling at Prinzipalmarkt",
+      "description": "Take a short break and enjoy the vibrant atmosphere at Prinzipalmarkt, Münster's historic city center with plenty of cafes and shops.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "20 min",
+      "image": "https://example.com/images/prinzipalmarkt.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Prinzipalmarkt",
+        "length": "N/A",
+        "lighting": "Natural sunlight",
+        "description": "Prinzipalmarkt is a beautiful pedestrian square where you can take a quick break, enjoy the surroundings, and soak up the local culture.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.029600,7.626000&travelmode=walking",
+        "safetyTips": [
+          "Stay mindful of traffic in busy areas.",
+          "Protect your eyes from the sun with sunglasses."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Visit to the Botanical Garden",
+      "description": "Take a leisurely stroll through the lush greenery of Münster's Botanical Garden, a peaceful retreat perfect for a short visit.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/botanical_garden.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Botanical Garden",
+        "length": "N/A",
+        "lighting": "Natural sunlight",
+        "description": "Münster's Botanical Garden offers a cool, shady environment with a wide variety of plants, ideal for a brief and relaxing escape from the heat.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.034000,7.611000&travelmode=walking",
+        "safetyTips": [
+          "Bring a hat or sunshade to protect from the sun.",
+          "Take short breaks in the shaded areas."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Fountain Fun at Schlossplatz",
+      "description": "Cool down by enjoying the refreshing fountains at Schlossplatz, where you can dip your feet in the water and relax in the shade.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/schlossplatz_fountain.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schlossplatz",
+        "length": "N/A",
+        "lighting": "Natural sunlight",
+        "description": "Schlossplatz is a beautiful square near the castle with fountains, perfect for a cool and refreshing stop during a hot day.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.030400,7.616700&travelmode=walking",
+        "safetyTips": [
+          "Keep your belongings close while near fountains.",
+          "Wear waterproof shoes if planning to get your feet wet."
+        ]
+      }
+    }
+  ]
+  

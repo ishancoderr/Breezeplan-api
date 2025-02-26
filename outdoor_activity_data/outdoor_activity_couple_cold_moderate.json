@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Short Walk Around Lake Aasee",
+      "description": "Enjoy a quick walk around a section of Lake Aasee, perfect for a refreshing break.",
+      "groupSuitability": "Ideal for couples",
+      "timeRequired": "45 min",
+      "image": "https://example.com/images/lake_aasee_short.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Short Loop",
+        "length": "2.5 km",
+        "lighting": "Partially lit",
+        "description": "A short and scenic section of the Lake Aasee walking path.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9495,7.5950&travelmode=walking",
+        "safetyTips": [
+          "Wear warm clothing to protect against the cold.",
+          "Watch out for slippery paths.",
+          "Stay on designated trails."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Quick Visit to the Botanical Garden",
+      "description": "Explore the highlights of the Botanischer Garten Münster in a short time frame.",
+      "groupSuitability": "Perfect for pairs",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/botanical_garden_short.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Botanischer Garten Münster",
+        "length": "Varies",
+        "lighting": "Well-lit",
+        "description": "A peaceful garden with quick-access routes to its most notable sections.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9632,7.6124&travelmode=walking",
+        "safetyTips": [
+          "Wear layers for warmth.",
+          "Stick to the designated pathways.",
+          "Respect the plant collections."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "City Landmarks Express Tour",
+      "description": "Visit Münster’s key historical sites in under an hour.",
+      "groupSuitability": "Great for two people",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/historical_express.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Old Town Highlights Route",
+        "length": "3.0 km",
+        "lighting": "Well-lit",
+        "description": "A fast-paced walk through Münster’s most iconic landmarks, including Prinzipalmarkt.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9623,7.6257&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes.",
+          "Check the weather forecast.",
+          "Be mindful of traffic and pedestrians."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Short Cycling Along the Promenade",
+      "description": "A quick cycling loop on Münster’s famous promenade.",
+      "groupSuitability": "Best for pairs",
+      "timeRequired": "75 min",
+      "image": "https://example.com/images/cycling_short_promenade.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Promenade",
+        "length": "3.5 km loop",
+        "lighting": "Partially lit",
+        "description": "A short, scenic cycling route around the historic city center.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9607,7.6261&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a helmet.",
+          "Follow traffic rules for cyclists.",
+          "Be cautious of pedestrians."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Birdwatching at Rieselfelder",
+      "description": "A peaceful nature walk with birdwatching opportunities at Rieselfelder Münster.",
+      "groupSuitability": "Ideal for two nature lovers",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/birdwatching_rieselfelder.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Rieselfelder Nature Reserve",
+        "length": "4.0 km",
+        "lighting": "Limited natural light",
+        "description": "A tranquil birdwatching site with observation towers and wetlands.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.0225,7.6350&travelmode=walking",
+        "safetyTips": [
+          "Dress warmly.",
+          "Bring binoculars for better bird spotting.",
+          "Stay on designated trails."
+        ]
+      }
+    }
+  ]
+  

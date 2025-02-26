@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Solo Coffee Break at Kaffeekommune",
+      "description": "Take a short break in the heart of Münster at Kaffeekommune, a cozy coffee shop. Enjoy a cup of locally brewed coffee and relax in a welcoming atmosphere.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "45 min",
+      "image": "https://example.com/images/kaffeekommune_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Kaffeekommune",
+        "length": "Varies",
+        "lighting": "Indoor lighting",
+        "description": "A popular coffee shop in Münster offering specialty coffee and a relaxing environment to take a break, catch up on reading, or simply enjoy a quiet moment.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.517100,13.398000&travelmode=walking",
+        "safetyTips": [
+          "Enjoy a cool iced coffee to beat the heat.",
+          "Be mindful of your belongings in busy cafes.",
+          "Check if there are any daily specials or promotions."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Solo Visit to the Botanischer Garten",
+      "description": "Take a peaceful stroll through the Botanischer Garten in Münster, enjoying the variety of plants and flowers. It's an ideal place to unwind for a short solo visit.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/botanischer_garten_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Botanischer Garten",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "The Botanischer Garten is a botanical garden in Münster, home to a wide variety of plants, including exotic species and tranquil pathways, perfect for a solo walk.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.455800,13.396200&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for walking on garden paths.",
+          "Bring a water bottle to stay hydrated.",
+          "Avoid disturbing the plants or wildlife."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Solo Visit to the Picasso Museum",
+      "description": "Enjoy a short solo visit to the Picasso Museum in Münster. Immerse yourself in the incredible works of Pablo Picasso and other modern artists.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "75 min",
+      "image": "https://example.com/images/picasso_museum_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Picasso Museum",
+        "length": "Varies",
+        "lighting": "Indoor lighting",
+        "description": "The Picasso Museum in Münster showcases works from the legendary artist Pablo Picasso. It’s a great place to explore modern art and enjoy a peaceful time on your own.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.463900,13.399200&travelmode=walking",
+        "safetyTips": [
+          "Take your time to appreciate each exhibit.",
+          "Keep your voice low and respect the museum’s quiet atmosphere.",
+          "Check for any temporary exhibitions or artist events."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Solo Visit to the Allwetterzoo",
+      "description": "Take a brief trip to Münster’s Allwetterzoo for a solo visit. Explore the diverse wildlife and enjoy a walk through the open-air exhibits.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/allwetterzoo_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Allwetterzoo",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Allwetterzoo offers a unique chance to observe animals in open-air habitats. It’s a perfect short solo activity to enjoy nature and animals in a peaceful environment.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.464000,13.398400&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes as you’ll be walking through the zoo.",
+          "Bring sunscreen and a hat for protection from the sun.",
+          "Respect the animals and their space."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Solo Visit to the Aasee Park",
+      "description": "Enjoy a relaxing solo visit to Aasee Park, where you can stroll along the lakeside, sit by the water, or find a shaded spot to relax and unwind.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/aasee_park_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Park",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Aasee Park is a serene location by the lake, perfect for a short solo walk or a relaxing moment by the water. It’s a great spot to escape the city heat.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.463200,13.398500&travelmode=walking",
+        "safetyTips": [
+          "Stay hydrated and wear comfortable clothing.",
+          "Be mindful of sun exposure and take breaks in the shade.",
+          "Avoid swimming in the lake unless there are designated areas."
+        ]
+      }
+    }
+  ]
+  

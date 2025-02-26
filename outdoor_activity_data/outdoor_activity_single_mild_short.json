@@ -1,1 +1,98 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Quick Coffee at Kaffeekommune",
+      "description": "Enjoy a freshly brewed cup of coffee at Kaffeekommune, a local specialty coffee shop. Perfect for a quick, rejuvenating break in the middle of your day.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "20 min",
+      "image": "https://example.com/images/kaffeekommune.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Kaffeekommune",
+        "length": "N/A",
+        "lighting": "Indoor lighting",
+        "description": "Kaffeekommune is known for its high-quality coffee and friendly atmosphere. It's an ideal stop for a quick coffee break.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.039000,7.619500&travelmode=walking",
+        "safetyTips": [
+          "Keep an eye on your belongings while you enjoy your coffee.",
+          "Respect other customers by keeping noise to a minimum."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Short Walk in Aasee Park",
+      "description": "Take a relaxing 20-minute walk around Aasee Park, enjoying the calming views of the water and surrounding greenery.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "25 min",
+      "image": "https://example.com/images/aasee_park.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Park",
+        "length": "Approx. 2 km loop",
+        "lighting": "Natural daylight",
+        "description": "Aasee Park is a serene park by the lake, perfect for a short walk to clear your mind or enjoy the natural surroundings.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.060000,7.614000&travelmode=walking",
+        "safetyTips": [
+          "Stay on designated paths to avoid trampling plants.",
+          "Be mindful of cyclists and joggers on the path."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Visit to St. Lambert's Church",
+      "description": "Take a short visit to St. Lambert's Church and admire its stunning architecture and rich history in the heart of Münster.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "20 min",
+      "image": "https://example.com/images/st_lamberts_church.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "St. Lambert's Church",
+        "length": "N/A",
+        "lighting": "Indoor lighting",
+        "description": "St. Lambert's Church is a beautiful example of Gothic architecture, offering a peaceful retreat in the busy city center.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.031000,7.623000&travelmode=walking",
+        "safetyTips": [
+          "Be respectful of the church’s peaceful environment.",
+          "Avoid loud conversations or phone calls inside the church."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Explore the Prinzipalmarkt",
+      "description": "Stroll around the Prinzipalmarkt, Münster's historic marketplace, to take in the stunning architecture and perhaps stop for a quick snack at one of the nearby cafes.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/prinzipalmarkt.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Prinzipalmarkt",
+        "length": "N/A",
+        "lighting": "Well-lit",
+        "description": "Prinzipalmarkt is a vibrant historical square in the city center, known for its stunning medieval architecture and bustling atmosphere.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.027000,7.624000&travelmode=walking",
+        "safetyTips": [
+          "Watch out for busy pedestrian traffic.",
+          "Keep an eye on your personal belongings."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Visit to the LWL-Museum für Kunst und Kultur",
+      "description": "Stop by the LWL-Museum für Kunst und Kultur to enjoy a brief but enriching experience with modern and historical art collections.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/lwl_museum.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "LWL-Museum für Kunst und Kultur",
+        "length": "N/A",
+        "lighting": "Indoor lighting",
+        "description": "The LWL-Museum offers a fascinating collection of art, making it a great place for art lovers to take a brief solo visit.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.061000,7.613000&travelmode=walking",
+        "safetyTips": [
+          "Do not touch the artwork on display.",
+          "Be mindful of your surroundings in the museum."
+        ]
+      }
+    }
+  ]
+  

@@ -1,1 +1,98 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Stand-up Paddleboarding at Aasee",
+      "description": "Experience the calm waters of Aasee with a stand-up paddleboard for a 60-minute solo session.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/aasee_paddleboarding.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "Aasee is a peaceful lake in Münster, ideal for solo paddleboarding, with a fantastic view of the surrounding park.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.060000,7.614000&travelmode=walking",
+        "safetyTips": [
+          "Wear a life vest for safety.",
+          "Make sure you have a solid stance before paddling."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Cycling in the Promenade",
+      "description": "Take a leisurely 75-minute cycle around Münster's Promenade, a beautiful green space encircling the city center.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "75 min",
+      "image": "https://example.com/images/promenade_cycling.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Promenade",
+        "length": "Approx. 4.5 km",
+        "lighting": "Well-lit",
+        "description": "The Promenade is a loop around the city center, perfect for cycling with views of green parks and historic buildings.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.030000,7.614000&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a helmet.",
+          "Make sure your bike's tires are properly inflated."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Photography Walk at the Botanical Garden",
+      "description": "Spend 90 minutes capturing the stunning flora and fauna at Münster's Botanical Garden.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/photography_botanical.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Botanical Garden Münster",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "The Botanical Garden is a peaceful place for a photography walk, with over 7,000 species of plants to capture in a beautiful setting.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.019000,7.617000&travelmode=walking",
+        "safetyTips": [
+          "Bring extra camera batteries.",
+          "Respect the plants and stay on designated paths."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Walking and People Watching at Prinzipalmarkt",
+      "description": "Enjoy a 60-minute stroll and people watching at the heart of Münster, the bustling Prinzipalmarkt.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "60 min",
+      "image": "https://example.com/images/prinzipalmarkt_walking.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Prinzipalmarkt",
+        "length": "Approx. 1 km",
+        "lighting": "Well-lit",
+        "description": "Prinzipalmarkt is Münster's iconic marketplace, lined with historical buildings, perfect for observing local life.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.030000,7.626000&travelmode=walking",
+        "safetyTips": [
+          "Stay mindful of traffic when crossing streets.",
+          "Be cautious of your belongings in crowded areas."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Picnic at the University of Münster's Schlossgarten",
+      "description": "Relax with a 90-minute solo picnic in the Schlossgarten of the University of Münster, surrounded by beautiful gardens.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/schlossgarten_picnic.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schlossgarten Münster",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "Schlossgarten, the gardens of the University of Münster, provide a serene atmosphere for a solo picnic with views of the university's historic castle.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.027000,7.616500&travelmode=walking",
+        "safetyTips": [
+          "Bring sunscreen and a hat for sun protection.",
+          "Dispose of waste responsibly."
+        ]
+      }
+    }
+  ]
+  

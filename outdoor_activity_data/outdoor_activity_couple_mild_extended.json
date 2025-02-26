@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Scenic Canoeing at Werse River",
+      "description": "Paddle through the gentle waters of the Werse River, enjoying the peaceful surroundings and fresh air.",
+      "groupSuitability": "Perfect for two adventurers",
+      "timeRequired": "130 min",
+      "image": "https://example.com/images/canoeing_werse.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Werse River Canoe Route",
+        "length": "8 km",
+        "lighting": "Natural daylight",
+        "description": "A picturesque canoeing route with calm waters, perfect for a relaxing adventure.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9502,7.7258&travelmode=driving",
+        "safetyTips": [
+          "Wear a life jacket at all times.",
+          "Be mindful of other watercraft.",
+          "Bring a waterproof bag for valuables."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Historic Walking Tour in Altstadt",
+      "description": "Explore Münster’s old town with a self-guided tour through its charming streets and landmarks.",
+      "groupSuitability": "Ideal for history enthusiasts",
+      "timeRequired": "140 min",
+      "image": "https://example.com/images/walking_tour_altstadt.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Altstadt",
+        "length": "5 km",
+        "lighting": "Well-lit",
+        "description": "A historic district filled with medieval architecture, bustling squares, and fascinating stories.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9623,7.6261&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable walking shoes.",
+          "Carry a map or guidebook.",
+          "Be aware of cyclists in shared pedestrian zones."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Forest Hiking in Wienburgpark",
+      "description": "Take a refreshing hike through the trails of Wienburgpark and enjoy the crisp autumn air.",
+      "groupSuitability": "Great for nature lovers",
+      "timeRequired": "125 min",
+      "image": "https://example.com/images/hiking_wienburgpark.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Wienburgpark Hiking Trail",
+        "length": "6 km",
+        "lighting": "Natural daylight",
+        "description": "A scenic nature park with diverse wildlife and serene walking trails.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9768,7.6184&travelmode=walking",
+        "safetyTips": [
+          "Wear weather-appropriate clothing.",
+          "Stay on marked trails.",
+          "Bring a small backpack with snacks and water."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Picnic and Birdwatching at Aasee",
+      "description": "Enjoy a relaxing lakeside picnic and watch the local bird species in their natural habitat.",
+      "groupSuitability": "Ideal for a quiet afternoon outdoors",
+      "timeRequired": "145 min",
+      "image": "https://example.com/images/picnic_aasee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Park",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A beautiful lakeside park with plenty of green space and a variety of bird species to observe.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9565,7.6132&travelmode=walking",
+        "safetyTips": [
+          "Pack light and bring a picnic blanket.",
+          "Avoid feeding wildlife.",
+          "Check the weather forecast before heading out."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Photography Walk at Schlossgarten Münster",
+      "description": "Capture stunning images of Münster’s botanical gardens and Schloss Münster with your camera.",
+      "groupSuitability": "Great for photography enthusiasts",
+      "timeRequired": "130 min",
+      "image": "https://example.com/images/photography_schlossgarten.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schlossgarten Münster",
+        "length": "3 km",
+        "lighting": "Natural daylight",
+        "description": "A historic palace garden with beautifully maintained greenery and seasonal flowers.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9636,7.6135&travelmode=walking",
+        "safetyTips": [
+          "Bring extra batteries for your camera.",
+          "Respect the garden rules.",
+          "Take photos during golden hour for the best lighting."
+        ]
+      }
+    }
+  ]
+  

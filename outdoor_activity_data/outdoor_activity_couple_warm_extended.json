@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Canoeing on Aasee",
+      "description": "Paddle across Aasee Lake and enjoy the refreshing breeze and scenic views.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/canoeing_aasee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Lake",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A relaxing canoeing experience on Münster’s largest lake, surrounded by greenery and city views.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.514500,13.398700&travelmode=driving",
+        "safetyTips": [
+          "Wear a life jacket at all times.",
+          "Apply sunscreen and stay hydrated.",
+          "Be cautious of other boats and swimmers."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Cycling Tour to Hiltruper See",
+      "description": "A scenic cycling trip to Hiltruper See, a tranquil lake perfect for a short break and picnic.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "130 min",
+      "image": "https://example.com/images/cycling_hiltruper_see.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Hiltruper See Cycling Route",
+        "length": "20 km",
+        "lighting": "Partially lit",
+        "description": "A beautiful cycling route leading to Hiltruper See, passing through forested areas and open landscapes.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.481200,13.409300&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a helmet and follow traffic rules.",
+          "Bring a bottle of water for hydration.",
+          "Be cautious when cycling on mixed-use paths."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Picnic and Walk at Wienburg Park",
+      "description": "Relax with a picnic and explore the serene walking trails at Wienburg Park.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "140 min",
+      "image": "https://example.com/images/wienburg_park.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Wienburg Park",
+        "length": "5 km",
+        "lighting": "Natural daylight",
+        "description": "A lush green park ideal for a peaceful picnic, followed by a scenic walk among nature trails.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.533700,13.403900&travelmode=walking",
+        "safetyTips": [
+          "Carry a picnic blanket and enough food and drinks.",
+          "Dispose of waste properly to keep the park clean.",
+          "Wear comfortable shoes for walking on uneven paths."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Guided Horseback Riding near Roxel",
+      "description": "Experience horseback riding through the picturesque countryside near Roxel.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "150 min",
+      "image": "https://example.com/images/horseback_roxel.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Riding Trails near Roxel",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A guided horseback riding tour through meadows, forests, and open fields in the Roxel area.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.484500,13.387600&travelmode=driving",
+        "safetyTips": [
+          "Wear appropriate riding gear, including a helmet.",
+          "Follow the instructor’s guidance at all times.",
+          "Be gentle with the horses and respect their pace."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Exploring the Rieselfelder Nature Reserve",
+      "description": "A nature walk through the Rieselfelder wetlands, home to diverse bird species and beautiful landscapes.",
+      "groupSuitability": "Suitable for couples",
+      "timeRequired": "135 min",
+      "image": "https://example.com/images/rieselfelder.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Rieselfelder Nature Reserve",
+        "length": "6 km",
+        "lighting": "Natural daylight",
+        "description": "A peaceful escape into nature with birdwatching opportunities and scenic walking trails.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.006500,13.420800&travelmode=walking",
+        "safetyTips": [
+          "Bring binoculars for better birdwatching.",
+          "Stay on marked trails to protect wildlife.",
+          "Wear light, breathable clothing for warm weather."
+        ]
+      }
+    }
+  ]
+  

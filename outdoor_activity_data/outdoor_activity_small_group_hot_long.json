@@ -1,1 +1,98 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Beach Volleyball at Aasee Beach",
+      "description": "Enjoy a fun 90-minute game of beach volleyball at Aasee Beach, perfect for staying active and socializing with friends on a hot day.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/aasee_beach_volleyball.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Beach",
+        "length": "N/A",
+        "lighting": "Natural sunlight",
+        "description": "Aasee Beach is a popular spot for sports and relaxation. The sandy courts are perfect for a friendly game of beach volleyball while enjoying the heat of the summer.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.059400,7.615600&travelmode=walking",
+        "safetyTips": [
+          "Apply sunscreen before and during play.",
+          "Bring plenty of water to stay hydrated."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Cycling through the Münsterland Park",
+      "description": "Cycle through the beautiful Münsterland Park on a scenic route, with a mix of shade and sun to keep you cool while exploring the nature reserve.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/cycling_muensterland_park.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münsterland Park",
+        "length": "Approx. 15 km",
+        "lighting": "Partially shaded with some open areas",
+        "description": "Münsterland Park offers a picturesque cycling route through nature, making it an ideal location to enjoy the summer weather with friends.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.050000,7.595000&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a helmet for safety.",
+          "Keep a safe distance from other cyclists."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Picnic and Boat Ride at Schloss Nordkirchen",
+      "description": "Enjoy a relaxing picnic and a 90-minute boat ride around the beautiful castle grounds at Schloss Nordkirchen, offering a scenic and cool escape from the heat.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/schloss_nordkirchen_boat_ride.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schloss Nordkirchen",
+        "length": "N/A",
+        "lighting": "Natural sunlight",
+        "description": "Schloss Nordkirchen is a stunning baroque palace with beautiful gardens, perfect for a peaceful boat ride and picnic with friends.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.848600,7.469700&travelmode=walking",
+        "safetyTips": [
+          "Bring sunscreen and hats for sun protection.",
+          "Stay hydrated with plenty of water."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Kayaking on the Dortmund-Ems Canal",
+      "description": "Experience an exciting 90-minute kayaking trip along the Dortmund-Ems Canal, an ideal activity for beating the heat and enjoying the water.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/kayaking_dortmund_ems_canal.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Dortmund-Ems Canal",
+        "length": "N/A",
+        "lighting": "Natural sunlight",
+        "description": "The Dortmund-Ems Canal provides a refreshing water route for kayaking, perfect for cooling down during the hot summer months.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.050000,7.620000&travelmode=walking",
+        "safetyTips": [
+          "Wear a life jacket at all times.",
+          "Check weather conditions and water levels before heading out."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Outdoor Yoga at Gievenbecker Park",
+      "description": "Take part in a calming 90-minute outdoor yoga session in Gievenbecker Park, ideal for a relaxing activity in the fresh air during the warm summer weather.",
+      "groupSuitability": "Suitable for groups of 3-5",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/yoga_gievenbecker_park.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Gievenbecker Park",
+        "length": "N/A",
+        "lighting": "Shaded and open sunny areas",
+        "description": "Gievenbecker Park offers a tranquil and green space to enjoy outdoor yoga, with both sun and shade to provide a perfect environment for relaxation and stretching.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.944400,7.566800&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable, breathable clothing.",
+          "Use a yoga mat for added comfort."
+        ]
+      }
+    }
+  ]
+  

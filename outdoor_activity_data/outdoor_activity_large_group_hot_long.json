@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Outdoor Basketball at Sportpark Ost",
+      "description": "Get your group together for an energetic basketball game under the sun at Sportpark Ost.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "100 min",
+      "image": "https://example.com/images/basketball_game.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Sportpark Ost",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A large sports park featuring multiple outdoor courts, including basketball courts, perfect for a competitive group game.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.466300,13.407100&travelmode=walking",
+        "safetyTips": [
+          "Wear breathable clothing and sunscreen.",
+          "Stay hydrated by drinking water regularly.",
+          "Use proper footwear to prevent injuries."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Münster City Scavenger Hunt",
+      "description": "Embark on a fun and challenging scavenger hunt around the city, solving clues and completing tasks together.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "110 min",
+      "image": "https://example.com/images/scavenger_hunt.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster City Centre",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Explore the heart of Münster with a scavenger hunt, visiting various landmarks and solving clues along the way.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.520100,13.405900&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes as you'll be walking for a while.",
+          "Take breaks in shaded areas to avoid heat exhaustion.",
+          "Stay together as a group to ensure everyone stays safe."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Group Yoga at Aasee Park",
+      "description": "Relax and rejuvenate with a group yoga session at the lakeside in Aasee Park.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/yoga_aasee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Park",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A peaceful and serene location by the lake where you can practice yoga in the fresh air, surrounded by nature.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.516000,13.404800&travelmode=walking",
+        "safetyTips": [
+          "Wear light and comfortable clothing.",
+          "Use a yoga mat for added comfort on the grass.",
+          "Make sure to stay hydrated before and after the session."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Biking Tour Along the Promenade",
+      "description": "Take a guided bike tour around Münster's scenic Promenade, enjoying the summer weather and historic views.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "95 min",
+      "image": "https://example.com/images/bike_tour_promenade.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Promenade",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A relaxed biking tour around Münster's Promenade, an 8-km circular path around the city center with beautiful views of the city and green spaces.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.516900,13.402500&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a helmet for safety.",
+          "Bring a water bottle to stay hydrated.",
+          "Follow traffic rules and signal your turns."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Picnic at Schlosspark",
+      "description": "Organize a relaxing picnic with your group in the beautiful Schlosspark, surrounded by historic architecture and greenery.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/picnic_schlosspark.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schlosspark Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A relaxing outdoor picnic at Schlosspark, located in the heart of Münster with wide green spaces perfect for group gatherings.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.518000,13.406800&travelmode=walking",
+        "safetyTips": [
+          "Bring a blanket and enough food and drinks for the group.",
+          "Stay in shaded areas during peak heat.",
+          "Dispose of any waste responsibly to keep the park clean."
+        ]
+      }
+    }
+  ]
+  

@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Münster Castle & Botanical Garden Tour",
+      "description": "A guided tour of the historic Münster Castle followed by a walk through its beautiful botanical garden.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "100 min",
+      "image": "https://example.com/images/castle_tour.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Castle & Botanical Garden",
+        "length": "3 km",
+        "lighting": "Well-lit",
+        "description": "An insightful tour through the impressive Münster Castle and a scenic walk through its lush botanical garden.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.519200,13.406300&travelmode=walking",
+        "safetyTips": [
+          "Wear warm clothing as the gardens can be chilly.",
+          "Stay with the group during the castle tour.",
+          "Check for guided tour availability before visiting."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Indoor Climbing at Big Wall Kletterhalle",
+      "description": "Challenge your group to a fun and active indoor climbing session at Münster’s largest climbing gym.",
+      "groupSuitability": "Suitable for large groups (6-12 people)",
+      "timeRequired": "110 min",
+      "image": "https://example.com/images/climbing_gym.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Big Wall Kletterhalle Münster",
+        "length": "Indoors",
+        "lighting": "Artificial indoor lighting",
+        "description": "A spacious indoor climbing hall with walls of varying difficulty, perfect for beginners and experienced climbers alike.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.495500,13.409200&travelmode=walking",
+        "safetyTips": [
+          "Wear appropriate climbing shoes.",
+          "Follow safety instructions from trainers.",
+          "Ensure proper harness fitting before climbing."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Museum Visit at LWL Museum für Kunst und Kultur",
+      "description": "Explore fascinating art and cultural exhibits at Münster’s renowned LWL Museum.",
+      "groupSuitability": "Suitable for large groups (6-15 people)",
+      "timeRequired": "95 min",
+      "image": "https://example.com/images/lwl_museum.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "LWL Museum für Kunst und Kultur",
+        "length": "Indoors",
+        "lighting": "Well-lit",
+        "description": "A modern museum showcasing art, history, and cultural exhibits from various time periods.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.518400,13.405800&travelmode=walking",
+        "safetyTips": [
+          "Respect museum rules and do not touch exhibits.",
+          "Keep voices low to avoid disturbing others.",
+          "Take breaks in designated seating areas."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Winter Market Stroll at Domplatz",
+      "description": "Experience the charm of Münster’s winter market with food, crafts, and warm drinks.",
+      "groupSuitability": "Suitable for large groups (6-10 people)",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/winter_market.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Domplatz Winter Market",
+        "length": "Varies",
+        "lighting": "Well-lit",
+        "description": "A seasonal market featuring delicious treats, festive decorations, and local handcrafted goods.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.518900,13.406100&travelmode=walking",
+        "safetyTips": [
+          "Dress warmly, as temperatures can be low.",
+          "Keep an eye on personal belongings in crowded areas.",
+          "Try local specialties like hot chocolate or roasted almonds."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Billiards & Darts Night at Billard Café",
+      "description": "Enjoy a casual evening with friends playing billiards and darts at a popular local café.",
+      "groupSuitability": "Suitable for large groups (6-8 people)",
+      "timeRequired": "115 min",
+      "image": "https://example.com/images/billiards_cafe.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Billard Café Münster",
+        "length": "Indoors",
+        "lighting": "Artificial indoor lighting",
+        "description": "A relaxed environment where groups can enjoy games of billiards and darts while socializing.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.499300,13.407700&travelmode=walking",
+        "safetyTips": [
+          "Be mindful of cues and darts when playing.",
+          "Follow the house rules of the café.",
+          "Keep an eye on drinks to avoid spills near the tables."
+        ]
+      }
+    }
+  ]
+  

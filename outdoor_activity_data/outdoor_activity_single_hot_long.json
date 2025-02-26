@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Solo Visit to the Mühlenhof Open-Air Museum",
+      "description": "Take a trip to the Mühlenhof Open-Air Museum and enjoy a peaceful solo tour through Münster's rural history with its authentic historical buildings and exhibitions.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "105 min",
+      "image": "https://example.com/images/muehlenhof_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Mühlenhof Open-Air Museum",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A fascinating open-air museum showcasing historical buildings and exhibits that represent rural life in Münster and the surrounding region.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.482300,13.397100&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for walking between the historical buildings.",
+          "Bring a water bottle to stay hydrated.",
+          "Check the museum's website for any special exhibits or events."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Solo Paddleboarding on Aasee",
+      "description": "Enjoy a solo paddleboarding experience on the Aasee, a beautiful and calm lake in Münster. Paddle at your own pace and take in the views of the city and nature.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/paddleboarding_aasee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A serene and spacious lake where you can rent a paddleboard and enjoy a peaceful time paddling alone in the calm water of Aasee.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.463000,13.399000&travelmode=walking",
+        "safetyTips": [
+          "Wear a life jacket for safety.",
+          "Use sunscreen and sunglasses to protect from the sun.",
+          "Check weather conditions before heading out on the lake."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Solo Shopping at Prinzipalmarkt",
+      "description": "Take a solo shopping trip to Prinzipalmarkt, Münster's historic shopping street. Explore unique boutiques, local shops, and cafes while enjoying the beautiful architecture.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/prinzipalmarkt_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Prinzipalmarkt",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Prinzipalmarkt is Münster's iconic shopping street, lined with beautiful historic buildings, shops, and cafes. A perfect place to spend a couple of hours on your own.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.515800,13.398700&travelmode=walking",
+        "safetyTips": [
+          "Keep your personal belongings secure while walking through the crowds.",
+          "Stay hydrated as you walk around the city.",
+          "Take breaks in the cafes to enjoy a cool drink."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Solo Tour at the Münster Cathedral",
+      "description": "Explore the stunning Münster Cathedral on your own, appreciating its architectural beauty, artwork, and the tranquility of the space during a peaceful solo tour.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "100 min",
+      "image": "https://example.com/images/munster_cathedral.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Cathedral",
+        "length": "Varies",
+        "lighting": "Indoor lighting",
+        "description": "The Münster Cathedral is a grand Gothic church in the heart of Münster, famous for its beautiful architecture and historical significance. Perfect for a quiet solo visit.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.518800,13.399400&travelmode=walking",
+        "safetyTips": [
+          "Be respectful of the quiet atmosphere and other visitors.",
+          "Wear comfortable shoes, as the cathedral is large and you may need to walk a lot.",
+          "Check the cathedral's opening hours before visiting."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Solo Hike at the Allwetterzoo",
+      "description": "Explore the Allwetterzoo, Münster's zoo that allows visitors to walk through open-air enclosures, observing animals in their natural habitats while enjoying a solo hike through the park.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "110 min",
+      "image": "https://example.com/images/allwetterzoo_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Allwetterzoo Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Münster's Allwetterzoo offers a unique experience of hiking through open-air animal enclosures, where you can enjoy the natural habitats of various species while walking through the park.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.464200,13.402000&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable walking shoes as you will be walking a lot.",
+          "Stay hydrated during the hike.",
+          "Respect the animals and do not disturb them."
+        ]
+      }
+    }
+  ]
+  

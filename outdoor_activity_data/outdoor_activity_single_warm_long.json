@@ -1,1 +1,98 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Paddleboarding at Aasee",
+      "description": "Take a peaceful 90-minute paddleboarding session on Aasee lake. Enjoy the serene water and beautiful surroundings.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/aasee_paddleboarding.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Lake",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "Aasee is a popular spot for water sports. Paddleboarding here offers a calm experience surrounded by nature.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.060000,7.614000&travelmode=walking",
+        "safetyTips": [
+          "Always wear a life vest.",
+          "Ensure you have balance before starting to paddle."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Cycling through Promenade",
+      "description": "Explore Münster's iconic Promenade, cycling around the city center for about 90 minutes while enjoying the urban landscape and parks.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/promenade_cycling.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Promenade",
+        "length": "Approx. 4.5 km loop",
+        "lighting": "Well-lit",
+        "description": "The Promenade encircles Münster's city center, offering a smooth ride with beautiful views of parks and historical landmarks.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.030000,7.614000&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a helmet for safety.",
+          "Check your bike's brakes before riding."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Visit to Münster Castle Gardens",
+      "description": "Take a relaxing stroll through the gardens of Münster Castle, enjoying the beautiful landscaping and peaceful ambiance for 90 minutes.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/schloss_gardens.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Castle Gardens",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "The gardens at Münster Castle are perfect for a tranquil walk surrounded by lush greenery and historical architecture.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.027000,7.616500&travelmode=walking",
+        "safetyTips": [
+          "Watch for slippery areas when it's wet.",
+          "Stay within designated paths."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Outdoor Yoga at Bürgerpark",
+      "description": "Practice yoga outdoors at Bürgerpark for 90 minutes, enjoying the calm environment and fresh air under the sunny skies.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/buergerpark_yoga.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Bürgerpark",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "Bürgerpark offers plenty of green space for yoga. The peaceful setting helps you focus and connect with nature.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.039000,7.613000&travelmode=walking",
+        "safetyTips": [
+          "Bring your own mat for comfort.",
+          "Hydrate well before and after your session."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Walking Tour of the City Centre",
+      "description": "Take a guided 90-minute walking tour around the Münster city center, exploring historical landmarks and vibrant local spots.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/muenster_city_walk.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "City Centre Münster",
+        "length": "Approx. 2 km",
+        "lighting": "Well-lit",
+        "description": "Münster’s city center is home to picturesque squares, medieval streets, and historical buildings. Perfect for discovering the city's past and culture.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.030000,7.618000&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable walking shoes.",
+          "Stay hydrated, especially on warmer days."
+        ]
+      }
+    }
+  ]
+  

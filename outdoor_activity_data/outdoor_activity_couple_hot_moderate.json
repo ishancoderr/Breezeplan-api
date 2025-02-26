@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Paddle Boating at Wersepark",
+      "description": "Enjoy a leisurely paddle boating session on the Werse River, perfect for cooling off on a hot day.",
+      "groupSuitability": "Ideal for two people",
+      "timeRequired": "100 min",
+      "image": "https://example.com/images/paddle_boating_wersepark.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Wersepark Boating Area",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A relaxing paddle boating experience on the Werse River, surrounded by lush greenery.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9561,7.7250&travelmode=driving",
+        "safetyTips": [
+          "Wear a life jacket.",
+          "Avoid boating in strong currents.",
+          "Apply sunscreen to prevent sunburn."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Beach Volleyball at Hafenplatz",
+      "description": "A fun and energetic game of beach volleyball at Münster's popular Hafenplatz.",
+      "groupSuitability": "Best for two people looking for an active outdoor game",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/beach_volleyball_hafenplatz.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Hafenplatz Beach Court",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A vibrant outdoor volleyball court near Münster's harbor area, offering a great summer sports experience.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9588,7.6289&travelmode=walking",
+        "safetyTips": [
+          "Stay hydrated.",
+          "Wear sunglasses to protect your eyes from the sun.",
+          "Use sand-friendly footwear to avoid burns."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Tandem Cycling through Sentruper Höhe",
+      "description": "Explore the beautiful landscape of Sentruper Höhe on a tandem bike, a perfect activity for two.",
+      "groupSuitability": "Great for couples or friends",
+      "timeRequired": "110 min",
+      "image": "https://example.com/images/tandem_cycling_sentruper.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Sentruper Höhe Cycling Trail",
+        "length": "10 km",
+        "lighting": "Natural daylight",
+        "description": "A scenic cycling path through green spaces and quiet lanes of Sentruper Höhe.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9631,7.5958&travelmode=bicycling",
+        "safetyTips": [
+          "Wear helmets for safety.",
+          "Adjust the tandem bike for comfort.",
+          "Carry a water bottle to stay hydrated."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Outdoor Photography Walk at Botanischer Garten",
+      "description": "Capture the beauty of Münster's botanical garden with an outdoor photography walk.",
+      "groupSuitability": "Perfect for two people with an interest in photography",
+      "timeRequired": "95 min",
+      "image": "https://example.com/images/photography_botanical.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Botanischer Garten Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A lush botanical garden with diverse plant species, offering great photography opportunities.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9632,7.6118&travelmode=walking",
+        "safetyTips": [
+          "Use a UV filter to protect your camera lens.",
+          "Wear comfortable walking shoes.",
+          "Avoid midday sun for better lighting conditions."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Outdoor Chess at Promenade Park",
+      "description": "Challenge your partner to a strategic game of chess at Münster's outdoor chess tables.",
+      "groupSuitability": "Great for two strategy lovers",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/chess_promenade.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Promenade Park Chess Area",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A quiet spot in Promenade Park featuring large outdoor chess tables shaded by trees.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9650,7.6255&travelmode=walking",
+        "safetyTips": [
+          "Find a shaded spot to avoid direct sunlight.",
+          "Bring a bottle of water to stay hydrated.",
+          "Use insect repellent if playing in the late afternoon."
+        ]
+      }
+    }
+  ]
+  

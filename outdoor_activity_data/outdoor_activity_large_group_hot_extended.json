@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Day Trip to Allwetterzoo Münster",
+      "description": "Spend a hot day at the Allwetterzoo Münster, exploring animal exhibits and enjoying the open-air park.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "130 min",
+      "image": "https://example.com/images/allwetterzoo.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Allwetterzoo Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A spacious zoo with a wide range of animal species and a wonderful park to stroll through. The zoo has both indoor and outdoor exhibits, ideal for exploring during hot weather.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.479600,13.415400&travelmode=walking",
+        "safetyTips": [
+          "Wear sunscreen and a hat to protect from the sun.",
+          "Stay hydrated and drink plenty of water.",
+          "Watch out for heat exhaustion and take breaks in shaded areas."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Pedal Boat Ride at Aasee",
+      "description": "Enjoy a relaxing pedal boat ride on Aasee, taking in the scenic views and cooling off on the water.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/pedal_boat.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A leisurely pedal boat ride on Aasee Lake, offering a fun way to beat the heat and enjoy Münster’s beautiful landscape from the water.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.517000,13.404900&travelmode=walking",
+        "safetyTips": [
+          "Wear sun protection and a hat.",
+          "Bring a bottle of water to stay hydrated.",
+          "Be mindful of other boats and keep a safe distance."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Outdoor Sports at Sportpark Sentruper Höhe",
+      "description": "Engage in a group sports event at Sportpark Sentruper Höhe, featuring a variety of outdoor courts and fields.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "140 min",
+      "image": "https://example.com/images/sportpark.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Sportpark Sentruper Höhe",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "An expansive sports park with fields for football, tennis, and volleyball, perfect for group activities on a hot day.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.460000,13.409000&travelmode=walking",
+        "safetyTips": [
+          "Wear light clothing and sunscreen.",
+          "Take frequent water breaks to stay hydrated.",
+          "Use proper sports equipment for safety."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Guided Bike Tour of Münster",
+      "description": "Take a scenic bike tour around Münster, visiting landmarks while enjoying the summer weather and cool breezes.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/bike_tour.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster City",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A guided bike tour through Münster, exploring historic landmarks, scenic parks, and the city's modern architecture while cycling along cool paths.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.516500,13.407500&travelmode=bicycling",
+        "safetyTips": [
+          "Wear comfortable clothing and helmets.",
+          "Bring water to stay hydrated throughout the ride.",
+          "Be cautious at intersections and follow traffic rules."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Barbecue Picnic at Schlossgarten",
+      "description": "Host a barbecue picnic in the expansive Schlossgarten park, enjoying the sun while grilling and relaxing with friends.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "150 min",
+      "image": "https://example.com/images/barbecue_picnic.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schlossgarten Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Relax and socialize while enjoying a barbecue picnic in the beautiful Schlossgarten, a lush park perfect for outdoor events.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.516000,13.409100&travelmode=walking",
+        "safetyTips": [
+          "Ensure the barbecue is properly set up and monitored.",
+          "Wear sunscreen and protective clothing.",
+          "Dispose of waste responsibly and leave the area clean."
+        ]
+      }
+    }
+  ]
+  

@@ -1,1 +1,98 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Biking along the Aasee",
+      "description": "Enjoy a scenic 120-minute bike ride along the Aasee lake, taking in the beautiful landscape and peaceful surroundings.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/aasee_bike.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Lake Path",
+        "length": "Approx. 7 km loop",
+        "lighting": "Natural daylight",
+        "description": "Aasee offers a peaceful environment for cycling with lake views and green paths. A relaxing and scenic route.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.060000,7.614000&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a helmet for safety.",
+          "Stay on designated cycling paths."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Walking Tour of Schloss Münster",
+      "description": "Take a guided walking tour around Schloss Münster, exploring the historical architecture and beautiful gardens surrounding the castle.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "130 min",
+      "image": "https://example.com/images/schloss_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schloss Münster",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "Schloss Münster is a historic palace with a stunning garden. A perfect place to wander and soak in Münster’s history.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.026000,7.616000&travelmode=walking",
+        "safetyTips": [
+          "Be cautious of uneven surfaces in the garden.",
+          "Respect any areas that may be restricted."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Visit to Allwetterzoo Münster",
+      "description": "Spend 120-150 minutes exploring the Allwetterzoo Münster, where you can see a variety of animals and enjoy a lovely walk around the zoo.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "150 min",
+      "image": "https://example.com/images/allwetterzoo.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Allwetterzoo Münster",
+        "length": "N/A",
+        "lighting": "Well-lit in indoor areas",
+        "description": "Allwetterzoo offers both indoor and outdoor animal exhibits, making it a perfect place to explore on a warm day.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.027000,7.612000&travelmode=walking",
+        "safetyTips": [
+          "Stay on marked paths to avoid disturbing the animals.",
+          "Be mindful of the weather and stay hydrated."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Exploring the Botanical Garden",
+      "description": "Walk through the Botanical Garden at the University of Münster and discover the diverse plant species while enjoying the pleasant weather.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/botanical_garden.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Botanical Garden of Münster University",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "The Botanical Garden provides a peaceful escape with its lush greenery, exotic plants, and tranquil walking paths.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.032000,7.612500&travelmode=walking",
+        "safetyTips": [
+          "Wear sunscreen and bring water.",
+          "Keep an eye on your belongings in the open areas."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Kayaking on the Aasee",
+      "description": "Rent a kayak and paddle around Aasee for a relaxing and fun 120-minute water adventure, enjoying the calm lake and the view of the city.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/aasee_kayak.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Lake",
+        "length": "N/A",
+        "lighting": "Natural daylight",
+        "description": "Kayaking on Aasee provides a great opportunity to enjoy both the water and the landscape, making it an ideal solo adventure.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.060000,7.614000&travelmode=walking",
+        "safetyTips": [
+          "Wear a life jacket at all times.",
+          "Check the weather before kayaking to ensure safety."
+        ]
+      }
+    }
+  ]
+  

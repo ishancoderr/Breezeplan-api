@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Visit to Münster Zoo and Animal Enclosure",
+      "description": "Take a group trip to Münster Zoo to explore a variety of animals and enjoy the outdoor exhibits.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "110 min",
+      "image": "https://example.com/images/munster_zoo.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Zoo",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A family-friendly zoo featuring a wide range of animal species, including lions, elephants, and penguins.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.455300,13.413200&travelmode=walking",
+        "safetyTips": [
+          "Wear warm clothing as it can be chilly.",
+          "Keep a safe distance from the animals.",
+          "Follow the zoo's guidelines and rules."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Group Ice Skating at Westfalenhallen",
+      "description": "Enjoy an exciting group ice skating session at the Westfalenhallen ice rink.",
+      "groupSuitability": "Suitable for large groups (6-10 people)",
+      "timeRequired": "100 min",
+      "image": "https://example.com/images/ice_skating.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Westfalenhallen Ice Rink",
+        "length": "Indoors",
+        "lighting": "Artificial indoor lighting",
+        "description": "A spacious indoor ice rink for group skating, with rentals available for skates and other equipment.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.493200,13.410500&travelmode=walking",
+        "safetyTips": [
+          "Wear warm clothing and gloves for comfort.",
+          "Use the protective barriers if you're new to ice skating.",
+          "Make sure to warm up before skating to avoid injury."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Münster City Museum Tour",
+      "description": "Take a guided tour through the Münster City Museum, learning about the city’s history and culture.",
+      "groupSuitability": "Suitable for large groups (6-15 people)",
+      "timeRequired": "95 min",
+      "image": "https://example.com/images/city_museum.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster City Museum",
+        "length": "Indoors",
+        "lighting": "Well-lit",
+        "description": "Discover Münster's rich cultural history and artistic heritage in this informative museum.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.516400,13.405400&travelmode=walking",
+        "safetyTips": [
+          "Respect museum rules and do not touch exhibits.",
+          "Wear comfortable shoes for walking.",
+          "Be considerate of other visitors when moving through galleries."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Bowling and Arcade Games at Bowling Arena",
+      "description": "Compete in a friendly bowling tournament and enjoy arcade games at Bowling Arena Münster.",
+      "groupSuitability": "Suitable for large groups (6-12 people)",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/bowling_arena.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Bowling Arena Münster",
+        "length": "Indoors",
+        "lighting": "Artificial indoor lighting",
+        "description": "A fun-filled experience with multiple bowling lanes and a variety of arcade games to enjoy with your group.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.491000,13.407000&travelmode=walking",
+        "safetyTips": [
+          "Wear bowling shoes for optimal performance.",
+          "Ensure all group members take turns fairly.",
+          "Use hand sanitizer after playing arcade games."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Münster Cathedral Tower Climb",
+      "description": "Climb the iconic tower of Münster Cathedral and enjoy panoramic views of the city from above.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "105 min",
+      "image": "https://example.com/images/cathedral_tower.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Cathedral",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A thrilling climb to the top of Münster's Cathedral Tower, offering stunning views over the city and surrounding countryside.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.518600,13.405300&travelmode=walking",
+        "safetyTips": [
+          "Wear warm and sturdy footwear.",
+          "Be mindful of narrow staircases while climbing.",
+          "Stay together as a group during the climb."
+        ]
+      }
+    }
+  ]
+  

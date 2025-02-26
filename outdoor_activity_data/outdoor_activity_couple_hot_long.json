@@ -1,1 +1,102 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Sunset Canoeing at Dortmund-Ems Canal",
+      "description": "Paddle along the Dortmund-Ems Canal and enjoy the warm summer breeze at sunset.",
+      "groupSuitability": "Perfect for two adventure seekers",
+      "timeRequired": "100 min",
+      "image": "https://example.com/images/canoeing_canal.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Dortmund-Ems Canal",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A peaceful canoeing experience along one of Münster’s most scenic waterways.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9656,7.6357&travelmode=driving",
+        "safetyTips": [
+          "Wear a life jacket.",
+          "Bring sunglasses and a hat.",
+          "Stay hydrated."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Lush Green Walk in Hiltruper See",
+      "description": "A refreshing nature walk around the tranquil Hiltruper See, perfect for a hot day.",
+      "groupSuitability": "Best for couples who love nature",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/walking_hiltrupersee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Hiltruper See Walking Trail",
+        "length": "5 km",
+        "lighting": "Natural daylight",
+        "description": "A shaded walking path around the beautiful Hiltruper Lake.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.8871,7.6824&travelmode=walking",
+        "safetyTips": [
+          "Wear light clothing.",
+          "Carry a reusable water bottle.",
+          "Use sunscreen."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Picnic and Relaxation at Wienburg Park",
+      "description": "Enjoy a laid-back afternoon with a picnic and relaxation under the shade of large trees.",
+      "groupSuitability": "Ideal for couples",
+      "timeRequired": "110 min",
+      "image": "https://example.com/images/picnic_wienburg.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Wienburg Park",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A quiet and green park with open meadows and shaded picnic spots.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9805,7.6259&travelmode=walking",
+        "safetyTips": [
+          "Bring plenty of fluids.",
+          "Find a shaded spot to avoid direct sun.",
+          "Keep insect repellent handy."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Outdoor Yoga at Schlossgarten",
+      "description": "A calming yoga session in the lush green surroundings of Schlossgarten Münster.",
+      "groupSuitability": "Best for two people looking for relaxation",
+      "timeRequired": "95 min",
+      "image": "https://example.com/images/yoga_schlossgarten.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schlossgarten Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A beautiful green space near Münster Castle, ideal for peaceful outdoor activities.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9635,7.6139&travelmode=walking",
+        "safetyTips": [
+          "Wear breathable clothing.",
+          "Use a yoga mat for comfort.",
+          "Stay hydrated."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Evening Bike Ride through Loddenheide Park",
+      "description": "An easy cycling route through the peaceful and modern Loddenheide Park.",
+      "groupSuitability": "Great for cycling enthusiasts",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/cycling_loddenheide.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Loddenheide Cycling Trail",
+        "length": "15 km",
+        "lighting": "Partially lit",
+        "description": "A smooth cycling trail through the business park and green spaces of Loddenheide.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=51.9342,7.6648&travelmode=bicycling",
+        "safetyTips": [
+          "Wear a helmet and cycling gloves.",
+          "Carry a bottle of water.",
+          "Avoid riding in peak sun hours."
+        ]
+      }
+    }
+  ]

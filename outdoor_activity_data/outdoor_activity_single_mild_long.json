@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Solo Hike at Coesfelder Wildpark",
+      "description": "Enjoy a solo hike through Coesfelder Wildpark, a peaceful park where you can connect with nature and spot local wildlife. Perfect for those who love a bit of solitude in nature.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/coesfelder_wildpark.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Coesfelder Wildpark",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A beautiful nature park perfect for hiking and wildlife watching. The peaceful environment makes it an ideal spot for a relaxing solo hike.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.007300,7.518400&travelmode=walking",
+        "safetyTips": [
+          "Wear sturdy hiking shoes.",
+          "Bring a jacket, as temperatures can vary.",
+          "Carry water to stay hydrated."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Solo Kayaking on Aasee",
+      "description": "Rent a kayak and enjoy a solo paddle on Aasee, a large lake in the heart of Münster. It's an ideal way to experience the calm water and scenic surroundings.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "110 min",
+      "image": "https://example.com/images/aasee_kayaking.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee Lake",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Aasee is one of Münster's most beloved lakes, perfect for solo kayaking. Paddle along the shores, enjoy the scenery, and unwind in nature.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.465000,7.629500&travelmode=walking",
+        "safetyTips": [
+          "Wear a life jacket at all times.",
+          "Check the weather conditions before heading out.",
+          "Bring sunscreen to protect against UV rays."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Solo Visit to the Schloss Münster",
+      "description": "Explore the impressive Schloss Münster, a historical castle offering beautiful architecture and surrounding gardens. It's a great spot for solo reflection and discovery.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "95 min",
+      "image": "https://example.com/images/schloss_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schloss Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Schloss Münster is a stunning castle that houses a university and historical exhibits. The gardens around the castle are perfect for a solo walk and reflection.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.407500,7.595800&travelmode=walking",
+        "safetyTips": [
+          "Respect the historical buildings and exhibits.",
+          "Wear comfortable shoes for walking on cobblestone paths.",
+          "Check if any exhibits require prior booking."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Solo Walk at the Stadtwald Forest",
+      "description": "Take a peaceful solo walk through the Stadtwald Forest, a serene natural area filled with trees, streams, and paths. A perfect place to clear your mind and enjoy solitude.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "100 min",
+      "image": "https://example.com/images/stadtwald_forest.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Stadtwald Forest",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "The Stadtwald Forest is a quiet forest ideal for a solo walk. Enjoy the sounds of nature as you explore winding trails and shaded areas.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.428600,7.611100&travelmode=walking",
+        "safetyTips": [
+          "Bring a jacket or sweater in case it gets cool.",
+          "Carry a map or GPS to stay on track.",
+          "Be mindful of local wildlife."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Solo Photography Session at the Muenster Cathedral",
+      "description": "Capture the beauty of Münster's Cathedral with a solo photography session. Its intricate architecture and serene atmosphere offer great inspiration for solo photography.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/muenster_cathedral.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Cathedral",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Münster Cathedral is an architectural gem with stunning details that are perfect for photography. Whether you're a seasoned photographer or just love taking pictures, this is a great spot for a solo session.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.963800,7.626500&travelmode=walking",
+        "safetyTips": [
+          "Be respectful of any ongoing services or visitors.",
+          "Ensure you're not disrupting others while photographing.",
+          "Keep your equipment secure and be mindful of your surroundings."
+        ]
+      }
+    }
+  ]
+  

@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Solo Visit to the Münster Cathedral Bell Tower",
+      "description": "Climb the Münster Cathedral Bell Tower for a short but exhilarating solo adventure. Enjoy a panoramic view of the city and the surrounding landscape.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "20 min",
+      "image": "https://example.com/images/munster_cathedral_bell_tower.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Cathedral Bell Tower",
+        "length": "Varies",
+        "lighting": "Indoor lighting and natural daylight from the top",
+        "description": "The bell tower of Münster Cathedral offers breathtaking views of the city. A short, fun, and rewarding solo activity for those with limited time.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.518500,13.398900&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for climbing the stairs.",
+          "Check the weather before heading up to avoid high winds.",
+          "Respect other visitors and be mindful of your time at the top."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Solo Ice Cream Break at Eiscafé Venezia",
+      "description": "Take a quick solo break at Eiscafé Venezia, a popular ice cream café in Münster. Enjoy a refreshing ice cream treat while cooling off in the heat.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "15 min",
+      "image": "https://example.com/images/eiscafe_venezia_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Eiscafé Venezia",
+        "length": "Varies",
+        "lighting": "Indoor and outdoor seating",
+        "description": "Eiscafé Venezia offers delicious ice cream and refreshing drinks, perfect for a quick solo break in Münster, especially on hot days.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.515600,13.397400&travelmode=walking",
+        "safetyTips": [
+          "Enjoy your ice cream while relaxing in a shaded spot.",
+          "Try their seasonal fruit flavors for a refreshing treat.",
+          "Keep your belongings close as it can get busy."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Solo Visit to the Clemensstraße Park",
+      "description": "Take a quick walk through Clemensstraße Park, a peaceful green space in Münster, where you can relax under the shade of trees and enjoy the fresh air.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/clemensstrasse_park_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Clemensstraße Park",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Clemensstraße Park is a perfect place for a short walk or to sit and unwind in the shade during hot days. A quiet spot to clear your mind.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.516000,13.398300&travelmode=walking",
+        "safetyTips": [
+          "Wear light clothing and sunscreen for sun protection.",
+          "Keep hydrated by bringing a water bottle with you.",
+          "Respect the quiet nature of the park."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Solo Visit to the Lambertikirche",
+      "description": "Take a short solo visit to the Lambertikirche, a beautiful church in Münster known for its intricate architecture and serene atmosphere.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "25 min",
+      "image": "https://example.com/images/lambertikirche_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Lambertikirche",
+        "length": "Varies",
+        "lighting": "Indoor lighting",
+        "description": "Lambertikirche is one of Münster's most iconic churches. Its peaceful atmosphere offers a perfect brief visit to appreciate the artwork and architecture.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.519000,13.398200&travelmode=walking",
+        "safetyTips": [
+          "Be respectful of the sacred space and other visitors.",
+          "Take a moment to sit quietly and absorb the surroundings.",
+          "Check the church’s opening hours before visiting."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Solo Quick Visit to the City Museum",
+      "description": "Enjoy a brief visit to the City Museum of Münster, where you can explore the city's rich history and culture in a short, focused tour.",
+      "groupSuitability": "Suitable for individuals",
+      "timeRequired": "30 min",
+      "image": "https://example.com/images/city_museum_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "City Museum",
+        "length": "Varies",
+        "lighting": "Indoor lighting",
+        "description": "The City Museum of Münster offers fascinating exhibits about the city's past, architecture, and culture. It’s a perfect short visit for solo travelers looking to learn more.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.516500,13.397800&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes as there may be a lot of walking.",
+          "Avoid staying too long during peak hours to enjoy a quiet experience.",
+          "Check for any temporary exhibitions during your visit."
+        ]
+      }
+    }
+  ]
+  

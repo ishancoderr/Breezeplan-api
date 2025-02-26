@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Group Bike Ride to Schlosspark",
+      "description": "Take a relaxing group bike ride to Schlosspark, exploring the beautiful parklands and surrounding areas of Münster.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "100 min",
+      "image": "https://example.com/images/group_bike_ride_schlosspark.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schlosspark Münster",
+        "length": "10 km",
+        "lighting": "Partially lit",
+        "description": "A scenic bike route through Schlosspark, leading you through tree-lined paths and peaceful open spaces.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.453000,13.402000&travelmode=bicycling",
+        "safetyTips": [
+          "Wear helmets for safety.",
+          "Check the bikes for functionality before starting.",
+          "Keep a safe distance from other cyclists."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Paddleboarding on Aasee",
+      "description": "Experience the serenity of Aasee on a stand-up paddleboard, perfect for a fun group activity in the summer sun.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/paddleboarding_asee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Rent paddleboards at Aasee and explore the lake's calm waters with your group while enjoying the beautiful scenery.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.515000,13.398500&travelmode=walking",
+        "safetyTips": [
+          "Wear a life vest for safety.",
+          "Be mindful of your balance while paddling.",
+          "Ensure everyone knows how to paddle safely before setting out."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Group Walk and Picnic at Burlo-Vardingholt Forest",
+      "description": "Enjoy a peaceful group walk through Burlo-Vardingholt Forest followed by a relaxing picnic in the forest clearing.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "110 min",
+      "image": "https://example.com/images/walk_picnic_burlo.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Burlo-Vardingholt Forest",
+        "length": "5 km",
+        "lighting": "Natural daylight",
+        "description": "A beautiful walk through the Burlo-Vardingholt Forest with shaded paths, ideal for group activities, and a perfect spot for a picnic afterwards.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.458500,13.400000&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable walking shoes.",
+          "Bring water and snacks for the walk.",
+          "Respect the forest environment and stay on marked trails."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Outdoor Yoga at Schlossgarten",
+      "description": "Unwind with a group yoga session at Schlossgarten, offering a serene environment and scenic views to enhance your practice.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/yoga_schlossgarten.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Schlossgarten",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A peaceful park with plenty of open space, perfect for group yoga sessions surrounded by nature and historical architecture.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.455500,13.405000&travelmode=walking",
+        "safetyTips": [
+          "Bring a yoga mat or towel.",
+          "Wear comfortable clothing.",
+          "Stay mindful of your surroundings during the session."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Historical Walking Tour of Münster",
+      "description": "Take a guided walking tour of Münster’s historic sites, including its medieval architecture and key landmarks, while learning about the city’s rich history.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/historical_walking_tour_muenster.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster City Center",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A guided walking tour of Münster’s city center, where you’ll discover iconic historical buildings, including the Town Hall, St. Paul’s Cathedral, and more.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.455000,13.421000&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for walking.",
+          "Bring a bottle of water to stay hydrated.",
+          "Stay together with the group and follow the guide’s instructions."
+        ]
+      }
+    }
+  ]
+  

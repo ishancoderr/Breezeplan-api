@@ -1,1 +1,103 @@
-{}
+[
+    {
+      "id": 1,
+      "activity": "Guided Bicycle Tour of Münster's Parks",
+      "description": "Join a guided bicycle tour through Münster's lush parks and green spaces, exploring hidden corners and scenic routes with your group.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "100 min",
+      "image": "https://example.com/images/bicycle_park_tour.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Parks (e.g., Schlosspark, Stadtpark)",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A guided bicycle tour through Münster's picturesque parks, including Schlosspark and Stadtpark, offering scenic views and a relaxed atmosphere.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.413000,13.407000&travelmode=bicycling",
+        "safetyTips": [
+          "Ensure your bike is properly tuned and safe to ride.",
+          "Wear a helmet and comfortable clothing.",
+          "Stay hydrated and take breaks if needed."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "activity": "Münster Cathedral and Historical Sites Tour",
+      "description": "Explore Münster's most famous historical landmarks, including the stunning St. Paulus Cathedral, with a knowledgeable guide.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "120 min",
+      "image": "https://example.com/images/cathedral_tour.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "St. Paulus Cathedral",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A tour through Münster's historic center, featuring the magnificent St. Paulus Cathedral and other key historical sites.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.464500,13.408000&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable shoes for walking.",
+          "Stay with the group to ensure everyone gets the full experience.",
+          "Be mindful of your surroundings in busy tourist areas."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "activity": "Nature Walk and Bird Watching at Stadtwald Münster",
+      "description": "Take a guided nature walk through the Stadtwald Münster and enjoy bird watching with your group in the beautiful forest setting.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/nature_walk_stadtwald.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Stadtwald Münster",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A peaceful walk through Stadtwald Münster, offering plenty of opportunities for bird watching and enjoying the natural surroundings.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.467000,13.401000&travelmode=walking",
+        "safetyTips": [
+          "Wear comfortable, sturdy footwear.",
+          "Carry binoculars for the best bird-watching experience.",
+          "Bring a light jacket in case the weather gets chilly."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "activity": "Paddleboarding at Aasee",
+      "description": "Enjoy a paddleboarding adventure on Aasee with your group, perfect for getting some light exercise while taking in the beautiful surroundings.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "110 min",
+      "image": "https://example.com/images/paddleboarding_asee.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Aasee",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "A relaxing paddleboarding session on Aasee lake, offering a chance to enjoy the peaceful waters and scenic views of Münster's parks.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.516500,13.401500&travelmode=walking",
+        "safetyTips": [
+          "Wear a life vest for safety.",
+          "Check the paddleboard equipment before starting.",
+          "Be aware of your surroundings and other water users."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "activity": "Group Photography Walk at Münster's Old Town",
+      "description": "Capture the charm of Münster’s Old Town with your group during a guided photography walk, perfect for photographers of all skill levels.",
+      "groupSuitability": "Suitable for large groups (6+ people)",
+      "timeRequired": "90 min",
+      "image": "https://example.com/images/old_town_photography.jpg",
+      "locationInfo": {
+        "pathNameOrLocationName": "Münster Old Town",
+        "length": "Varies",
+        "lighting": "Natural daylight",
+        "description": "Explore Münster’s picturesque Old Town, known for its cobbled streets and historic buildings, while improving your photography skills.",
+        "redirectUrl": "https://www.google.com/maps/dir/?api=1&destination=52.455000,13.426000&travelmode=walking",
+        "safetyTips": [
+          "Bring a camera or smartphone with enough battery.",
+          "Wear comfortable walking shoes for exploring.",
+          "Stay together as a group to make sure no one gets lost."
+        ]
+      }
+    }
+  ]
+  
